@@ -1,0 +1,241 @@
+1
+00:00:00,033 --> 00:00:03,501
+Há diversas abordagens
+para a DFS e as árvores.
+
+2
+00:00:03,534 --> 00:00:06,534
+Primeiro, falaremos
+de percursos em pré-ordem.
+
+3
+00:00:06,567 --> 00:00:10,634
+Para mim, o "pré" significa
+que tenho que marcar o nó
+
+4
+00:00:10,667 --> 00:00:13,133
+antes de percorrer o resto
+da árvore.
+
+5
+00:00:13,167 --> 00:00:16,534
+Há outros métodos
+em que você marca os nós
+
+6
+00:00:16,567 --> 00:00:18,067
+após marcar os filhos.
+
+7
+00:00:18,100 --> 00:00:20,834
+Então é importante se lembrar
+dessa regra.
+
+8
+00:00:20,868 --> 00:00:24,534
+Começamos na raiz
+e imediatamente a marcamos.
+
+9
+00:00:24,567 --> 00:00:26,968
+Em seguida,
+escolhemos um dos filhos.
+
+10
+00:00:27,000 --> 00:00:30,534
+Por convenção, o da esquerda.
+Marque-o também.
+
+11
+00:00:30,567 --> 00:00:34,801
+Percorremos os nós da esquerda
+até vermos uma folha.
+
+12
+00:00:34,834 --> 00:00:38,334
+Marcamos a folha e,
+daí, voltamos ao pai.
+
+13
+00:00:38,367 --> 00:00:42,067
+Agora podemos percorrer
+até o 2º filho e marcá-lo também.
+
+14
+00:00:42,100 --> 00:00:45,634
+Terminamos esta subárvore,
+então podemos voltar à raiz
+
+15
+00:00:45,667 --> 00:00:47,767
+e olhar para o filho
+da direita.
+
+16
+00:00:47,801 --> 00:00:51,100
+Seguimos os mesmos passos
+até termos visto tudo.
+
+17
+00:00:51,133 --> 00:00:52,501
+Legal, terminamos!
+
+18
+00:00:52,534 --> 00:00:55,467
+Pode parecer intuitivo,
+mas fará mais sentido
+
+19
+00:00:55,501 --> 00:00:58,267
+quando compararmos
+com um outro percurso,
+
+20
+00:00:58,300 --> 00:01:00,133
+como um percurso em ordem.
+
+21
+00:01:00,167 --> 00:01:03,701
+O segredo é que percorremos os nós
+na mesma ordem,
+
+22
+00:01:03,734 --> 00:01:07,901
+já que ainda é uma DFS e temos
+que analisar todos os filhos primeiro.
+
+23
+00:01:07,934 --> 00:01:11,467
+Desta vez, vamos marcar os nós
+em uma ordem diferente.
+
+24
+00:01:11,501 --> 00:01:15,934
+Só marcaremos um nó quando virmos
+seu filho da esquerda e voltarmos.
+
+25
+00:01:15,968 --> 00:01:17,734
+Certo, vamos ver como fica.
+
+26
+00:01:17,767 --> 00:01:19,100
+Começamos pela raiz.
+
+27
+00:01:19,133 --> 00:01:21,567
+Como não vimos o filho
+da esquerda,
+
+28
+00:01:21,601 --> 00:01:25,067
+temos que continuar a percorrer
+até vermos uma folha.
+
+29
+00:01:25,100 --> 00:01:28,400
+Marcamos a folha
+e voltamos para o pai.
+
+30
+00:01:28,934 --> 00:01:33,167
+Como já vimos o filho da esquerda,
+podemos marcá-lo desta vez.
+
+31
+00:01:33,200 --> 00:01:37,167
+Passamos para o nó da direita,
+sem filhos, então o marcamos.
+
+32
+00:01:37,200 --> 00:01:38,667
+Voltamos para a raiz
+
+33
+00:01:38,701 --> 00:01:42,901
+e repetimos o processo
+no lado direito até terminarmos.
+
+34
+00:01:42,934 --> 00:01:44,901
+Por que se chama
+"em ordem"?
+
+35
+00:01:44,934 --> 00:01:47,701
+Bem, nós passamos pelos nós
+em ordem,
+
+36
+00:01:47,734 --> 00:01:50,100
+da esquerda para a direita.
+
+37
+00:01:50,701 --> 00:01:55,501
+Tivemos que subir e descer muito,
+mas, da esquerda para a direita,
+
+38
+00:01:55,534 --> 00:01:57,968
+percorremos tudo em ordem.
+
+39
+00:01:58,000 --> 00:02:00,701
+Por fim,
+temos o percurso pós-ordem.
+
+40
+00:02:00,734 --> 00:02:02,901
+Desta vez,
+não marcaremos um nó
+
+41
+00:02:02,934 --> 00:02:05,901
+até termos visto
+todos os seus descendentes
+
+42
+00:02:05,934 --> 00:02:09,267
+ou visitado seus dois filhos
+e retornado.
+
+43
+00:02:09,300 --> 00:02:12,200
+Etapas semelhantes:
+começamos na raiz,
+
+44
+00:02:12,234 --> 00:02:15,167
+não a marcamos
+e continuamos até uma folha.
+
+45
+00:02:15,200 --> 00:02:18,200
+Marcamos a folha
+e voltamos para o pai.
+
+46
+00:02:18,234 --> 00:02:20,434
+Desta vez,
+não marcamos o pai,
+
+47
+00:02:20,467 --> 00:02:22,767
+apenas vamos
+até o nó da direita.
+
+48
+00:02:22,801 --> 00:02:27,701
+Quando marcarmos o filho da direita,
+poderemos voltar ao pai e marcá-lo.
+
+49
+00:02:27,734 --> 00:02:31,734
+De novo, pularemos o nó raiz
+e percorreremos o lado direito.
+
+50
+00:02:31,767 --> 00:02:35,968
+Quando tudo estiver certo,
+voltaremos à raiz e a marcaremos.

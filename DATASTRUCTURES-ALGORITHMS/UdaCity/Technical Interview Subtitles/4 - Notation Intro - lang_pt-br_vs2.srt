@@ -1,0 +1,246 @@
+1
+00:00:00,377 --> 00:00:02,834
+Já aprendemos muitas coisas
+sobre eficiência.
+
+2
+00:00:02,834 --> 00:00:04,671
+Ao observar
+duas partes de um código
+
+3
+00:00:04,705 --> 00:00:08,809
+podemos dizer
+qual será mais rápida e mais lenta
+
+4
+00:00:08,834 --> 00:00:13,586
+mas como vamos definir
+a mais rápida e a mais lenta
+
+5
+00:00:13,627 --> 00:00:15,249
+e como vamos dizer isso
+
+6
+00:00:15,282 --> 00:00:17,484
+aos nossos colegas de trabalho
+e às pessoas?
+
+7
+00:00:17,502 --> 00:00:21,835
+Podemos descrever a eficiência do código
+através de algo chamado Grande-O.
+
+8
+00:00:21,877 --> 00:00:27,586
+Eeste nome é estranho,
+mas ele descreve bem para que serve.
+
+9
+00:00:28,419 --> 00:00:33,044
+Toda vez que utilizamos esta notação,
+vamos usar o O maiúsculo,
+
+10
+00:00:33,085 --> 00:00:37,461
+parênteses e alguma expressão algébrica
+dentro dos parênteses.
+
+11
+00:00:37,502 --> 00:00:42,544
+A expressão algébrica sempre será
+uma função da variável n
+
+12
+00:00:42,586 --> 00:00:45,002
+como nestes exemplos.
+
+13
+00:00:45,044 --> 00:00:49,127
+Como pode ver, todos contêm
+expressões algébricas com a letra n.
+
+14
+00:00:49,169 --> 00:00:52,127
+A única exceção
+é esta expressão.
+
+15
+00:00:53,294 --> 00:00:55,918
+O número um também conta.
+
+16
+00:00:55,918 --> 00:00:59,293
+É apenas outra forma de expressar
+0n mais um,
+
+17
+00:00:59,326 --> 00:01:02,729
+então,
+é um valor que podemos usar.
+
+18
+00:01:02,753 --> 00:01:06,461
+O que a expressão algébrica
+indica neste caso?
+
+19
+00:01:06,502 --> 00:01:10,960
+O n representa o tamanho
+da entrada da função.
+
+20
+00:01:11,002 --> 00:01:13,340
+Vamos supor que você recebeu
+uma mensagem secreta codificada
+
+21
+00:01:13,373 --> 00:01:14,808
+de um dos seus amigos
+
+22
+00:01:14,842 --> 00:01:18,669
+e a cifra que mostra o significado
+de cada um dos caracteres do código.
+
+23
+00:01:18,711 --> 00:01:22,002
+Você quer decodificar
+as mensagens automaticamente
+
+24
+00:01:22,044 --> 00:01:25,794
+com a cifra que seu amigo deu,
+então, você cria um pseudocódigo
+
+25
+00:01:25,834 --> 00:01:27,918
+para descobrir
+como pode fazer isso.
+
+26
+00:01:28,834 --> 00:01:32,544
+Utilize uma string como entrada
+itere ao longo dela
+
+27
+00:01:32,586 --> 00:01:35,429
+e troque cada caractere
+pelo significado delas na cifra
+
+28
+00:01:35,462 --> 00:01:37,798
+para obter a nova mensagem.
+
+29
+00:01:37,834 --> 00:01:41,960
+O pseudocódigo vai mostrar
+como será o resultado.
+
+30
+00:01:42,002 --> 00:01:44,834
+Certo. Para ter uma ideia
+da eficiência do tempo,
+
+31
+00:01:44,834 --> 00:01:47,627
+nós vamos contar
+o número de linhas.
+
+32
+00:01:47,669 --> 00:01:50,502
+Para criar uma string de saída
+e retornar para a string de saída,
+
+33
+00:01:50,544 --> 00:01:52,179
+cada uma delas
+só precisa acontecer uma vez
+
+34
+00:01:52,212 --> 00:01:54,648
+para que a função funcione.
+
+35
+00:01:54,669 --> 00:01:58,834
+Para simbolizar isto, podemos adicionar
+o número 2 à nossa eficiência.
+
+36
+00:01:58,834 --> 00:02:01,210
+As duas linhas
+dentro do laço de for
+
+37
+00:02:01,252 --> 00:02:03,835
+têm que rodar
+para todo caractere da entrada.
+
+38
+00:02:03,877 --> 00:02:06,834
+Podemos adicionar
+um 2n nestes casos,
+
+39
+00:02:06,834 --> 00:02:09,830
+já que o 2 corresponde ao número
+de caracteres na string de entrada
+
+40
+00:02:09,877 --> 00:02:13,294
+e temos duas linhas que precisam rodar
+para cada um deles.
+
+41
+00:02:13,336 --> 00:02:15,864
+Eu espero que esteja entendendo
+a forma como contamos as linhas
+
+42
+00:02:15,897 --> 00:02:18,967
+e as transformamos em algo
+no Grande O.
+
+43
+00:02:19,009 --> 00:02:21,301
+Vamos ver alguns exemplos.
+
+44
+00:02:21,342 --> 00:02:24,276
+Se nosso string de entrada
+tiver 10 caracteres,
+
+45
+00:02:24,310 --> 00:02:26,945
+o cálculo seria
+mais ou menos assim
+
+46
+00:02:26,966 --> 00:02:29,342
+e o resultado seria 22.
+
+47
+00:02:29,384 --> 00:02:32,967
+Para encontrar a verdadeira eficiência,
+podemos multiplicar por 22
+
+48
+00:02:33,009 --> 00:02:36,967
+o tempo que demora para o computador
+rodar uma linha do código.
+
+49
+00:02:37,801 --> 00:02:42,134
+Se a string de entrada for um milhão,
+multiplicaremos 2 milhões
+
+50
+00:02:42,134 --> 00:02:45,966
+pelo tempo que o computador
+demora para rodar.
+
+51
+00:02:45,966 --> 00:02:48,431
+Pronto.
+Você já aprendeu o básico.

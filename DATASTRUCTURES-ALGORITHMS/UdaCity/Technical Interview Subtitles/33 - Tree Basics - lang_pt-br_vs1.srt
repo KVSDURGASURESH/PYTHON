@@ -1,0 +1,116 @@
+1
+00:00:00,033 --> 00:00:03,670
+As árvores têm muitas propriedades
+que as tornam úteis.
+
+2
+00:00:04,003 --> 00:00:08,301
+Porém, elas são apenas uma extensão
+de uma lista encadeada.
+
+3
+00:00:08,335 --> 00:00:11,301
+Uma lista encadeada
+tem um elemento na frente
+
+4
+00:00:11,335 --> 00:00:14,901
+e um ponteiro "seguinte"
+para outro elemento, e assim vai.
+
+5
+00:00:14,934 --> 00:00:16,835
+Uma árvore é parecida.
+
+6
+00:00:16,869 --> 00:00:19,402
+O 1º elemento chama-se raiz.
+
+7
+00:00:20,001 --> 00:00:24,735
+Em vez de só um elemento seguinte,
+uma árvore pode ter vários.
+
+8
+00:00:24,769 --> 00:00:27,869
+Uma lista encadeada
+é desenhada horizontalmente,
+
+9
+00:00:27,901 --> 00:00:31,201
+mas uma árvore
+é desenhada verticalmente, assim.
+
+10
+00:00:31,235 --> 00:00:35,901
+Como uma lista encadeada,
+cada elemento na árvore contém dados.
+
+11
+00:00:35,934 --> 00:00:41,468
+Os elementos individuais na árvore
+que contêm valores chamam-se nós.
+
+12
+00:00:41,502 --> 00:00:45,402
+Vamos adicionar mais restrições
+no que chamamos de árvore.
+
+13
+00:00:45,435 --> 00:00:49,301
+Em 1º lugar, uma árvore deve ser
+totalmente conectada.
+
+14
+00:00:49,335 --> 00:00:51,602
+Ou seja,
+se você começar da raiz,
+
+15
+00:00:51,635 --> 00:00:55,268
+deve haver um jeito
+de alcançar cada nó na árvore.
+
+16
+00:00:55,301 --> 00:00:58,502
+Aqui está um exemplo
+de nós desconectados.
+
+17
+00:00:58,535 --> 00:01:01,133
+Então, com certeza,
+não é uma árvore.
+
+18
+00:01:01,536 --> 00:01:05,334
+Em 2º lugar,
+não deve haver ciclos na árvore.
+
+19
+00:01:05,367 --> 00:01:10,368
+Um ciclo ocorre quando há um jeito
+de encontrar o mesmo nó duas vezes.
+
+20
+00:01:10,402 --> 00:01:14,468
+Por exemplo, nesta árvore,
+há uma conexão de volta à raiz.
+
+21
+00:01:15,168 --> 00:01:18,268
+Se eu começar na raiz,
+então voltarei para ela.
+
+22
+00:01:18,301 --> 00:01:20,335
+O mesmo ocorre aqui.
+
+23
+00:01:20,368 --> 00:01:24,101
+Se você ignorar as setas,
+ainda poderá andar em círculos.
+
+24
+00:01:24,135 --> 00:01:27,099
+Isso conta como um ciclo,
+então cuidado.

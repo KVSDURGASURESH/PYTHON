@@ -1,0 +1,185 @@
+1
+00:00:00,569 --> 00:00:03,801
+Imagine uma fila de pessoas
+esperando comer
+
+2
+00:00:03,834 --> 00:00:07,267
+as melhores panquecas
+de chocolate que existem.
+
+3
+00:00:07,300 --> 00:00:10,367
+A pessoa que está
+há mais tempo na fila
+
+4
+00:00:10,400 --> 00:00:12,934
+pega as panquecas dela
+e sai primeiro.
+
+5
+00:00:12,968 --> 00:00:16,200
+Dá para entrar deste lado,
+mas só quem está aqui
+
+6
+00:00:16,234 --> 00:00:18,400
+pega as panquecas
+e vai embora.
+
+7
+00:00:18,434 --> 00:00:23,369
+É uma estrutura "1º a entrar,
+1º a sair" ou uma fila.
+
+8
+00:00:23,402 --> 00:00:26,501
+Assim, uma fila é o oposto
+de uma pilha.
+
+9
+00:00:26,534 --> 00:00:30,501
+Numa pilha, o elemento
+mais recente sai primeiro,
+
+10
+00:00:30,534 --> 00:00:33,567
+mas aqui o elemento mais antigo
+sai primeiro.
+
+11
+00:00:33,601 --> 00:00:37,000
+Fora isso, as filas
+são bem parecidas com as pilhas.
+
+12
+00:00:37,033 --> 00:00:40,167
+O 1º elemento numa fila
+ou o mais antigo
+
+13
+00:00:40,200 --> 00:00:41,968
+chama-se "cabeça".
+
+14
+00:00:42,000 --> 00:00:45,434
+O último elemento na fila
+ou o mais recente
+
+15
+00:00:45,467 --> 00:00:47,167
+chama-se "cauda".
+
+16
+00:00:47,200 --> 00:00:51,601
+Quando adicionamos um elemento
+à cauda, isso se chama "enfileirar".
+
+17
+00:00:51,634 --> 00:00:55,400
+Quando removemos um elemento da cabeça,
+isso se chama "desenfileirar".
+
+18
+00:00:55,434 --> 00:00:57,934
+Também há uma operação
+chamada "peek",
+
+19
+00:00:57,968 --> 00:01:01,400
+em que você vê o elemento do topo,
+mas não o remove.
+
+20
+00:01:01,434 --> 00:01:05,132
+Você pode implementar a fila
+com uma lista encadeada,
+
+21
+00:01:05,167 --> 00:01:08,334
+salvando referências
+para a cabeça e a cauda,
+
+22
+00:01:08,367 --> 00:01:11,334
+para que possa examiná-las
+em tempo constante.
+
+23
+00:01:11,367 --> 00:01:15,300
+Há dois tipos especiais de filas
+que são muito comuns.
+
+24
+00:01:15,334 --> 00:01:18,000
+Um deque ou uma fila
+duplamente terminada
+
+25
+00:01:18,033 --> 00:01:19,801
+funciona de ambos os lados.
+
+26
+00:01:19,834 --> 00:01:23,167
+Você "enfileira" ou "desenfileira"
+dos dois extremos.
+
+27
+00:01:23,200 --> 00:01:28,801
+Um deque é uma versão generalizada
+das pilhas e das filas.
+
+28
+00:01:28,834 --> 00:01:33,033
+Como ele pode representar ambas,
+você pode usá-lo como uma pilha
+
+29
+00:01:33,067 --> 00:01:35,934
+e inserir ou remover elementos
+da mesma ponta
+
+30
+00:01:35,968 --> 00:01:40,968
+ou como uma fila, inserindo elementos
+em uma ponta e removendo da outra.
+
+31
+00:01:41,000 --> 00:01:44,000
+Vamos analisar
+uma fila de prioridades agora.
+
+32
+00:01:44,033 --> 00:01:48,200
+Nela, cada elemento ganha
+uma prioridade numérica
+
+33
+00:01:48,234 --> 00:01:49,934
+ao ser inserido na fila.
+
+34
+00:01:49,968 --> 00:01:54,400
+Ao "desenfileirar", você remove
+o elemento com a maior prioridade.
+
+35
+00:01:54,434 --> 00:01:57,000
+Ela não é
+como uma fila normal,
+
+36
+00:01:57,033 --> 00:01:59,801
+o elemento mais antigo
+não sai primeiro.
+
+37
+00:01:59,834 --> 00:02:02,601
+Porém,
+se tiverem a mesma prioridade,
+
+38
+00:02:02,634 --> 00:02:06,034
+o elemento mais antigo
+é "desenfileirado" primeiro.

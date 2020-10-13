@@ -1,0 +1,229 @@
+1
+00:00:00,501 --> 00:00:04,801
+A ordenação por flutuação
+é uma abordagem ingênua,
+
+2
+00:00:04,834 --> 00:00:06,367
+como já expliquei antes.
+
+3
+00:00:06,400 --> 00:00:09,634
+Você irá comparar os elementos
+lado a lado no arranjo,
+
+4
+00:00:09,667 --> 00:00:11,868
+trocando-os
+quando necessário.
+
+5
+00:00:12,367 --> 00:00:15,334
+Vou ilustrar isso
+com um exemplo rápido.
+
+6
+00:00:15,367 --> 00:00:19,400
+Vamos começar do início
+e comparar os 1ºs dois elementos.
+
+7
+00:00:19,434 --> 00:00:23,200
+Se o 1º elemento for maior que o 2º,
+vamos trocá-los.
+
+8
+00:00:23,934 --> 00:00:25,501
+Ótimo, fizemos uma troca,
+
+9
+00:00:25,534 --> 00:00:29,033
+agora podemos ir
+para os próximos dois elementos.
+
+10
+00:00:29,067 --> 00:00:31,234
+Também precisamos
+de uma troca.
+
+11
+00:00:31,267 --> 00:00:34,801
+Certo, podemos ir
+para os dois próximos.
+
+12
+00:00:34,834 --> 00:00:38,234
+De novo, nosso 1º elemento
+é maior que o 2º,
+
+13
+00:00:38,267 --> 00:00:39,934
+então vamos trocá-los.
+
+14
+00:00:39,968 --> 00:00:43,334
+Agora podemos comparar
+os últimos dois elementos.
+
+15
+00:00:43,367 --> 00:00:48,267
+Novamente, o 1º é maior que o 2º,
+então precisamos trocá-los.
+
+16
+00:00:48,868 --> 00:00:50,868
+Certo,
+terminamos essa rodada.
+
+17
+00:00:50,868 --> 00:00:53,367
+Agora que percorremos o arranjo
+uma vez,
+
+18
+00:00:53,400 --> 00:00:56,167
+contaremos as comparações
+que fizemos.
+
+19
+00:00:56,200 --> 00:01:00,133
+Fizemos 4 comparações
+para 5 elementos.
+
+20
+00:01:00,167 --> 00:01:04,233
+Acho que é seguro dizer
+que demoramos n-1,
+
+21
+00:01:04,266 --> 00:01:06,634
+já que o arranjo
+tinha 5 elementos.
+
+22
+00:01:06,667 --> 00:01:10,200
+Com nossas comparações n-1,
+o que mudou?
+
+23
+00:01:10,234 --> 00:01:14,133
+O arranjo não está ordenado,
+mas parece um pouco melhor.
+
+24
+00:01:14,167 --> 00:01:18,400
+O maior elemento, 8,
+foi para o fim, onde pertence.
+
+25
+00:01:18,434 --> 00:01:21,434
+Por isso que o nome
+é ordenação por flutuação.
+
+26
+00:01:21,467 --> 00:01:26,467
+A cada iteração,
+o maior elemento flutua até o topo.
+
+27
+00:01:26,501 --> 00:01:29,234
+Com essa lógica,
+na próxima iteração,
+
+28
+00:01:29,267 --> 00:01:32,334
+o número 7 deve flutuar
+até logo abaixo do 8.
+
+29
+00:01:32,367 --> 00:01:34,033
+Vamos repetir o processo.
+
+30
+00:01:34,067 --> 00:01:37,901
+De novo, vamos começar
+de baixo e ir subindo.
+
+31
+00:01:37,934 --> 00:01:41,300
+Parece que temos que trocar
+na nossa 1ª etapa.
+
+32
+00:01:41,334 --> 00:01:42,901
+Vamos para a 2ª etapa.
+
+33
+00:01:42,934 --> 00:01:46,367
+Parece que é a 1ª vez
+que não temos que invertê-los.
+
+34
+00:01:46,400 --> 00:01:51,300
+O 1º elemento é menor que o 2º,
+não temos que fazer nada, genial.
+
+35
+00:01:51,334 --> 00:01:53,701
+Mas temos que inverter o 7
+com o 0.
+
+36
+00:01:53,734 --> 00:01:56,601
+E os últimos estão em ordem,
+nada a fazer.
+
+37
+00:01:56,634 --> 00:02:00,534
+Fizemos 4 comparações,
+o que ainda é n-1.
+
+38
+00:02:00,567 --> 00:02:03,300
+Teremos que fazer
+mais duas rodadas,
+
+39
+00:02:03,334 --> 00:02:05,267
+mas não quero
+entediar você.
+
+40
+00:02:05,300 --> 00:02:08,701
+Vou mostrar
+como a próxima iteração ficará.
+
+41
+00:02:08,734 --> 00:02:11,467
+Fiz outra iteração,
+mas quase nada mudou.
+
+42
+00:02:11,501 --> 00:02:14,968
+Só tive que inverter o 3
+com o 0 para ficar assim.
+
+43
+00:02:15,000 --> 00:02:19,234
+O maior elemento da esquerda, 3,
+flutuou para onde pertence,
+
+44
+00:02:19,267 --> 00:02:21,133
+mas temos trabalho
+a fazer.
+
+45
+00:02:21,167 --> 00:02:25,100
+Perceba que fiz 4 comparações,
+então o n-1 continua.
+
+46
+00:02:25,133 --> 00:02:28,701
+Só temos mais uma iteração.
+Vou mostrar como vai ficar.
+
+47
+00:02:28,734 --> 00:02:32,767
+Desta vez, só invertemos o 0
+com o 1 e terminamos.

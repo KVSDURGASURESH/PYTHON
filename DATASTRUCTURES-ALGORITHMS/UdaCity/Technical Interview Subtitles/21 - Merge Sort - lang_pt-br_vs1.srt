@@ -1,0 +1,330 @@
+1
+00:00:00,834 --> 00:00:05,334
+Outro algoritmo de ordenação
+popular é a ordenação por mistura.
+
+2
+00:00:05,367 --> 00:00:09,901
+A ideia geral é que você divida
+um arranjo enorme tanto quanto possível
+
+3
+00:00:09,934 --> 00:00:12,300
+e, aos poucos, o reconstrua
+
+4
+00:00:12,334 --> 00:00:16,234
+fazendo comparações e ordenando
+pelo caminho.
+
+5
+00:00:16,267 --> 00:00:20,601
+A noção geral de dividir um arranjo,
+ordenar todas as suas partes
+
+6
+00:00:20,634 --> 00:00:24,634
+e reconstrui-lo de novo
+chama-se Divisão e Conquista.
+
+7
+00:00:24,667 --> 00:00:28,634
+Esta é a base de vários algoritmos
+de ordenação eficientes.
+
+8
+00:00:29,567 --> 00:00:33,167
+Vamos entender a ordenação
+por mistura com um exemplo.
+
+9
+00:00:33,200 --> 00:00:34,968
+Primeiro, dividimos o arranjo
+
+10
+00:00:35,634 --> 00:00:38,567
+em vários arranjos
+de um só elemento.
+
+11
+00:00:39,234 --> 00:00:41,934
+Agora, precisamos reconstrui-lo
+de novo.
+
+12
+00:00:42,801 --> 00:00:47,434
+Você pode estar se perguntando
+a respeito da posição deste elemento.
+
+13
+00:00:47,467 --> 00:00:51,934
+Não se preocupe com isso.
+Depende da implementação.
+
+14
+00:00:52,567 --> 00:00:57,901
+Porém, esta etapa deve ter apenas
+arranjos de dois ou um elemento.
+
+15
+00:00:58,701 --> 00:01:02,567
+Primeiro, comparamos estes dois
+para ver qual é o menor.
+
+16
+00:01:02,601 --> 00:01:05,767
+Como 1 é menor,
+vai 1º em nosso novo arranjo,
+
+17
+00:01:05,801 --> 00:01:08,367
+e, como 3 é maior,
+vai no 2º lugar.
+
+18
+00:01:09,200 --> 00:01:12,801
+Agora faremos o mesmo
+no 2º par de arranjos,
+
+19
+00:01:12,834 --> 00:01:15,434
+Novamente, 7 é maior que 0.
+
+20
+00:01:15,467 --> 00:01:19,901
+Assim, no nosso novo arranjo,
+0 vai 1º, e depois o 7.
+
+21
+00:01:21,033 --> 00:01:25,467
+Agora, pela última vez,
+iremos comparar 10 e 2
+
+22
+00:01:25,501 --> 00:01:28,234
+e colocá-los em ordem
+em um novo arranjo.
+
+23
+00:01:29,067 --> 00:01:30,901
+Ótimo!
+Isso foi bem fácil.
+
+24
+00:01:30,934 --> 00:01:35,033
+Por último, queremos registrar
+o número de comparações
+
+25
+00:01:35,067 --> 00:01:39,000
+para quando fizermos
+o cálculo da eficiência.
+
+26
+00:01:39,033 --> 00:01:42,400
+Ao todo, nesta etapa,
+fizemos 3 comparações,
+
+27
+00:01:42,434 --> 00:01:44,300
+que estão em verde.
+
+28
+00:01:44,334 --> 00:01:46,033
+Estamos ficando sem espaço,
+
+29
+00:01:46,067 --> 00:01:50,334
+então vou limpar tudo,
+exceto isto, que vai para cima.
+
+30
+00:01:51,834 --> 00:01:54,334
+Vamos combinar
+os dois arranjos iniciais
+
+31
+00:01:54,367 --> 00:01:59,067
+e os dois finais para criar um arranjo
+de 3 e outro de 4 elementos.
+
+32
+00:01:59,801 --> 00:02:03,167
+Essas comparações
+são um pouco mais complicadas.
+
+33
+00:02:03,200 --> 00:02:07,868
+Aqui, iremos comparar um arranjo
+de um elemento com outro de dois.
+
+34
+00:02:07,901 --> 00:02:11,032
+Sabemos que o arranjo da direita
+já está ordenado,
+
+35
+00:02:11,067 --> 00:02:15,200
+então o 1º elemento do novo arranjo
+virá daqui
+
+36
+00:02:15,234 --> 00:02:17,634
+ou do 1º elemento
+deste arranjo.
+
+37
+00:02:18,400 --> 00:02:22,167
+Parece que 1 é menor,
+então ele será nosso 1º elemento.
+
+38
+00:02:22,200 --> 00:02:25,667
+Agora podemos comparar
+o próximo elemento deste arranjo
+
+39
+00:02:25,701 --> 00:02:26,901
+com este aqui.
+
+40
+00:02:27,834 --> 00:02:31,701
+Já que 3 é menor que 8,
+o colocaremos nesse quadrado.
+
+41
+00:02:32,901 --> 00:02:36,868
+Agora que terminamos este arranjo,
+podemos pegar o que sobrou
+
+42
+00:02:36,901 --> 00:02:38,734
+e adicionar aqui.
+
+43
+00:02:39,901 --> 00:02:42,400
+Ótimo,
+vamos reconstruir este arranjo.
+
+44
+00:02:43,601 --> 00:02:49,300
+Vamos comparar os 1ºs dois elementos
+desses arranjos, 0 e 2.
+
+45
+00:02:49,968 --> 00:02:54,534
+Já que 0 é menor que 2,
+será o 1º elemento do novo arranjo.
+
+46
+00:02:55,501 --> 00:02:58,901
+Certo. Agora iremos pegar
+o elemento seguinte,
+
+47
+00:02:58,934 --> 00:03:01,467
+o 7, e compará-lo com o 2.
+
+48
+00:03:02,601 --> 00:03:06,200
+2 é menor que 7,
+então colocaremos 2 no novo arranjo.
+
+49
+00:03:06,234 --> 00:03:09,033
+Repetimos de novo,
+comparando o 7 com o 10,
+
+50
+00:03:09,067 --> 00:03:11,834
+e preenchemos o arranjo
+de acordo.
+
+51
+00:03:12,868 --> 00:03:15,767
+Quantas comparações fizemos
+nesta etapa?
+
+52
+00:03:15,801 --> 00:03:18,934
+Bem, se contarmos
+todas as comparações roxas,
+
+53
+00:03:18,968 --> 00:03:20,334
+ficamos com 5.
+
+54
+00:03:20,934 --> 00:03:22,467
+Certo, estamos quase lá.
+
+55
+00:03:22,501 --> 00:03:24,234
+Só temos mais uma rodada
+
+56
+00:03:24,267 --> 00:03:27,000
+para termos
+um arranjo todo ordenado.
+
+57
+00:03:27,033 --> 00:03:29,968
+Faremos a mesma coisa
+da rodada passada.
+
+58
+00:03:30,667 --> 00:03:34,901
+Iremos comparar os 1ºs dois elementos
+dos dois arranjos que temos,
+
+59
+00:03:34,934 --> 00:03:37,868
+ou seja, 1 e 0.
+
+60
+00:03:37,868 --> 00:03:40,868
+Já que 0 é menor,
+ele vai para este arranjo,
+
+61
+00:03:40,901 --> 00:03:43,234
+e o riscamos
+do arranjo antigo.
+
+62
+00:03:44,167 --> 00:03:49,367
+A seguir, iremos comparar 1 com 2,
+e um é menor,
+
+63
+00:03:49,400 --> 00:03:51,801
+então um
+irá preencher a vaga.
+
+64
+00:03:52,701 --> 00:03:55,667
+De novo, iremos comparar,
+dessa vez 2 com 3.
+
+65
+00:03:56,834 --> 00:03:58,601
+E 3 com 7.
+
+66
+00:04:00,701 --> 00:04:02,968
+E 8 com 7.
+
+67
+00:04:04,734 --> 00:04:08,534
+E, finalmente, terminamos.
+Temos um arranjo recém-ordenado.
+
+68
+00:04:09,267 --> 00:04:12,934
+Precisamos registrar o número
+de comparações desta etapa.
+
+69
+00:04:12,968 --> 00:04:16,166
+Então escreverei 6 comparações
+na lateral.

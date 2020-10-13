@@ -1,0 +1,232 @@
+1
+00:00:02,234 --> 00:00:05,968
+Certo, estou dando uma olhada
+para ver se cometi erros.
+
+2
+00:00:06,601 --> 00:00:10,234
+Parece que esqueci as chaves
+na hora de desenfileirar.
+
+3
+00:00:10,267 --> 00:00:12,267
+Agora está correto.
+
+4
+00:00:12,300 --> 00:00:15,834
+Então vou examinar os casos de teste
+de que falei antes.
+
+5
+00:00:15,868 --> 00:00:18,200
+Vou colocá-los
+neste quadrado aqui.
+
+6
+00:00:18,234 --> 00:00:19,868
+Tínhamos o nulo,
+
+7
+00:00:21,367 --> 00:00:23,701
+os colchetes vazios.
+
+8
+00:00:23,734 --> 00:00:27,834
+Então passamos por isso,
+e retorna 0 na hora, então funciona.
+
+9
+00:00:27,868 --> 00:00:31,367
+E quando temos um caso de teste
+que funciona?
+
+10
+00:00:31,400 --> 00:00:34,033
+Passa por boa parte
+deste código aqui.
+
+11
+00:00:38,667 --> 00:00:40,234
+Certo.
+
+12
+00:00:40,267 --> 00:00:43,767
+Então eu passo por ele,
+e este é 0.
+
+13
+00:00:43,801 --> 00:00:45,968
+Estou checando
+o comprimento.
+
+14
+00:00:46,000 --> 00:00:51,167
+Então este seria definido...
+como 3.
+
+15
+00:00:51,200 --> 00:00:53,133
+E este, como 2.
+
+16
+00:00:53,167 --> 00:00:56,667
+Estou checando
+cada elemento.
+
+17
+00:00:56,701 --> 00:01:00,834
+Então encontrei meu 1º um.
+
+18
+00:01:00,868 --> 00:01:06,400
+Estou incrementando a contagem de ilhas,
+então isto será igual a 1.
+
+19
+00:01:06,434 --> 00:01:11,400
+E tenho meu método FindPartsOfIsland,
+criei a fila,
+
+20
+00:01:12,234 --> 00:01:17,701
+anexei os valores
+e tenho a busca em largura aqui.
+
+21
+00:01:17,734 --> 00:01:20,501
+E, para esta instância,
+
+22
+00:01:20,534 --> 00:01:25,133
+não há 1 à direita
+ou embaixo.
+
+23
+00:01:25,167 --> 00:01:29,133
+Então não precisarei fazer isto,
+e aí passo para o próximo.
+
+24
+00:01:29,167 --> 00:01:32,133
+Definido como 0,
+então só percorremos o laço.
+
+25
+00:01:32,167 --> 00:01:35,100
+1, certo, vou incrementar
+a contagem de novo.
+
+26
+00:01:35,133 --> 00:01:36,901
+Agora será 2.
+
+27
+00:01:37,601 --> 00:01:39,000
+E...
+
+28
+00:01:39,767 --> 00:01:42,767
+então passo por isso,
+depois pelo FindPartsOfIsland,
+
+29
+00:01:42,801 --> 00:01:46,300
+e agora há números 1 aqui,
+então vou adicioná-los.
+
+30
+00:01:46,868 --> 00:01:48,534
+Aí os adiciono ali.
+
+31
+00:01:49,400 --> 00:01:52,467
+E parece que está tudo bem,
+então...
+
+32
+00:01:53,834 --> 00:01:56,834
+Este 1, na verdade,
+fica definido como 2 aqui.
+
+33
+00:01:56,868 --> 00:01:58,100
+E este também.
+
+34
+00:01:58,133 --> 00:02:01,300
+Agora vou adicioná-los à fila
+para analisá-los.
+
+35
+00:02:01,334 --> 00:02:06,467
+E não vamos anexar nada adiante,
+só vou anexá-los à fila.
+
+36
+00:02:06,501 --> 00:02:10,067
+Então estou olhando ali,
+não há nada mais,
+
+37
+00:02:10,100 --> 00:02:12,834
+então só vou definir isso
+como 2,
+
+38
+00:02:12,868 --> 00:02:17,067
+e... provavelmente vou visitar
+cada elemento no array.
+
+39
+00:02:17,100 --> 00:02:21,167
+Não há mais 1,
+então termina aí.
+
+40
+00:02:21,901 --> 00:02:27,033
+Mas parece que esqueci
+de retornar o número de ilhas aqui.
+
+41
+00:02:33,267 --> 00:02:34,667
+Parece que funciona.
+
+42
+00:02:36,901 --> 00:02:39,100
+Parece
+que todo o código funciona.
+
+43
+00:02:39,133 --> 00:02:42,934
+Esse rapaz não só é bonito,
+como é inteligente.
+
+44
+00:02:42,968 --> 00:02:48,734
+Esse processo costuma ser ignorado,
+mas é muito importante na entrevista.
+
+45
+00:02:48,767 --> 00:02:52,434
+Isso não só mostra
+que o candidato checa seu código,
+
+46
+00:02:52,467 --> 00:02:57,734
+como pode até ajudá-lo a achar erros
+da 1ª codificação da solução.
+
+47
+00:02:58,300 --> 00:03:01,067
+É fácil se esquecer
+de um ponto e vírgula,
+
+48
+00:03:01,100 --> 00:03:04,234
+se o código usado
+for uma linguagem como Java,
+
+49
+00:03:04,267 --> 00:03:06,133
+ou de retornar
+um resultado.

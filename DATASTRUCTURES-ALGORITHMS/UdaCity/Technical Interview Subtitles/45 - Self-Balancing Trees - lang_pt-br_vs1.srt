@@ -1,0 +1,129 @@
+1
+00:00:00,000 --> 00:00:04,934
+No mundo das árvores, uma balanceada
+condensa os nós em poucos níveis,
+
+2
+00:00:04,968 --> 00:00:09,267
+enquanto que uma desbalanceada
+espalha os nós por muitos níveis.
+
+3
+00:00:09,300 --> 00:00:13,400
+O tipo mais extremo de desbalanceada
+é como uma lista encadeada,
+
+4
+00:00:13,434 --> 00:00:16,167
+em que cada nó
+só tem um filho.
+
+5
+00:00:16,200 --> 00:00:19,100
+Assim,
+uma árvore autobalanceada
+
+6
+00:00:19,133 --> 00:00:22,968
+é aquela que tenta minimizar
+o número de níveis que utiliza.
+
+7
+00:00:23,000 --> 00:00:27,901
+Ela executa algoritmos na inserção
+e na exclusão para se balancear,
+
+8
+00:00:27,934 --> 00:00:31,234
+e os nós podem ter
+algumas propriedades adicionais.
+
+9
+00:00:31,267 --> 00:00:34,167
+O exemplo mais comum
+é a árvore rubro-negra,
+
+10
+00:00:34,200 --> 00:00:36,834
+uma extensão
+da árvore de busca binária.
+
+11
+00:00:36,868 --> 00:00:42,267
+Como é vergonhosamente comum
+na Computação, o nome é bem direto.
+
+12
+00:00:42,300 --> 00:00:46,534
+Neste tipo de árvore, atribui-se
+uma propriedade de cor aos nós,
+
+13
+00:00:46,567 --> 00:00:49,501
+em que os valores devem
+ser vermelhos ou pretos.
+
+14
+00:00:49,534 --> 00:00:53,701
+O uso da cor vermelha ou preta
+é só uma convenção.
+
+15
+00:00:53,734 --> 00:00:58,300
+Só é preciso distinguir
+entre dois tipos de nós diferentes.
+
+16
+00:00:58,334 --> 00:01:03,400
+A 2ª propriedade desta árvore
+é a existência de nós folha nulos.
+
+17
+00:01:03,434 --> 00:01:08,567
+Nós que não têm, alternativamente,
+duas folhas, terão filhos nulos.
+
+18
+00:01:08,601 --> 00:01:12,801
+Como você pode ver,
+os nós folha nulos estão em preto.
+
+19
+00:01:12,834 --> 00:01:16,601
+Se um nó é vermelho,
+seus dois filhos devem ser pretos.
+
+20
+00:01:17,234 --> 00:01:21,968
+Há uma regra extra opcional:
+o nó raiz deve ser preto.
+
+21
+00:01:22,000 --> 00:01:25,567
+Por último, a regra
+que torna essas árvores úteis:
+
+22
+00:01:26,100 --> 00:01:29,567
+todo caminho de um nó
+até seus descendentes nulos
+
+23
+00:01:29,601 --> 00:01:33,067
+deve conter o mesmo número
+de nós negros.
+
+24
+00:01:33,100 --> 00:01:36,834
+Veremos essas regras em ação
+quando falarmos de inserção.
+
+25
+00:01:36,868 --> 00:01:40,400
+por ora, saiba que elas,
+e, em especial, a última,
+
+26
+00:01:40,434 --> 00:01:44,200
+garantem que a árvore
+nunca fique muito desbalanceada.

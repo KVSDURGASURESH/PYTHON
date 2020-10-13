@@ -1,0 +1,53 @@
+1
+00:00:00,734 --> 00:00:03,400
+Então eu tenho
+uma matriz...
+
+2
+00:00:04,701 --> 00:00:07,534
+que contém apenas
+zeros e uns.
+
+3
+00:00:10,033 --> 00:00:11,801
+E o que vou retornar...
+
+4
+00:00:13,200 --> 00:00:17,634
+é um número inteiro que representa
+o número de ilhas na matriz.
+
+5
+00:00:19,434 --> 00:00:22,734
+-É, perfeito. Está bem claro.
+-Certo. Obrigado.
+
+6
+00:00:22,767 --> 00:00:26,501
+Essa foi uma parte pequena,
+mas importante, da entrevista.
+
+7
+00:00:26,534 --> 00:00:28,601
+Pode dizer
+o que o rapaz fez?
+
+8
+00:00:28,634 --> 00:00:33,234
+Parece que ele confirmou a assinatura
+do algoritmo que iria escrever.
+
+9
+00:00:33,267 --> 00:00:38,300
+Isso é importante, pois dá uma noção
+do que o problema é e o resultado será.
+
+10
+00:00:38,334 --> 00:00:42,300
+Essa informação será bem útil
+na próxima etapa.
+
+11
+00:00:42,334 --> 00:00:47,000
+De certa forma, ele também confirmou
+a pergunta de novo para garantir.

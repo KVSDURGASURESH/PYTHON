@@ -1,0 +1,160 @@
+1
+00:00:00,000 --> 00:00:02,133
+O problema da mochila
+
+2
+00:00:02,167 --> 00:00:05,968
+é outro exercício mental famoso
+na Ciência da Computação.
+
+3
+00:00:06,000 --> 00:00:10,767
+Aqui, temos uma mochila teórica
+com capacidade de peso limitada
+
+4
+00:00:10,801 --> 00:00:13,634
+e mais itens
+do que ela pode aguentar.
+
+5
+00:00:13,667 --> 00:00:17,634
+Cada item tem um peso
+e um valor.
+
+6
+00:00:17,667 --> 00:00:23,067
+A pergunta é: como posso otimizar
+o valor total dos itens na mochila
+
+7
+00:00:23,100 --> 00:00:24,801
+dada a restrição de peso?
+
+8
+00:00:24,834 --> 00:00:28,067
+Vamos nos concentrar
+no problema da mochila 0-1,
+
+9
+00:00:28,100 --> 00:00:30,634
+em que você
+só tem um objeto de cada
+
+10
+00:00:30,667 --> 00:00:33,834
+e deve pegar
+ou deixar um objeto inteiro.
+
+11
+00:00:34,434 --> 00:00:38,701
+Em outras variações, você pode
+pegar uma fração de um objeto.
+
+12
+00:00:38,734 --> 00:00:42,200
+Quando soube deste problema,
+meu 1º impulso
+
+13
+00:00:42,234 --> 00:00:45,667
+foi colocar os objetos
+de maior valor primeiro.
+
+14
+00:00:46,234 --> 00:00:51,100
+Mas e se dois elementos de maior valor
+atingissem o peso limite,
+
+15
+00:00:51,133 --> 00:00:56,901
+mas os outros elementos juntos
+coubessem e tivessem um valor maior?
+
+16
+00:00:56,934 --> 00:01:00,133
+Não há muitas mochilas
+na Ciência da Computação,
+
+17
+00:01:00,167 --> 00:01:04,334
+mas este problema descreve
+um problema de otimização comum.
+
+18
+00:01:04,367 --> 00:01:09,033
+Antes de elaborar a melhor solução,
+ainda mais se você estiver empacado,
+
+19
+00:01:09,067 --> 00:01:12,868
+pode ser útil pensar
+numa solução lenta, mas direta.
+
+20
+00:01:12,901 --> 00:01:16,501
+Aqui, poderíamos tentar
+todas as combinações de objetos
+
+21
+00:01:16,534 --> 00:01:18,467
+e escolher a melhor,
+
+22
+00:01:19,067 --> 00:01:21,968
+o que é chamado
+de solução "força bruta".
+
+23
+00:01:22,000 --> 00:01:26,634
+O tempo de execução desta solução
+está na ordem de 2 elevado a n,
+
+24
+00:01:26,667 --> 00:01:29,501
+onde n é o número
+de objetos.
+
+25
+00:01:29,534 --> 00:01:33,234
+Existem
+2 elevado a n combinações.
+
+26
+00:01:33,267 --> 00:01:36,033
+Há uma razão matemática precisa
+para isso,
+
+27
+00:01:36,067 --> 00:01:41,067
+mas é possível pensar numa combinação
+como sendo uma string de comprimento n,
+
+28
+00:01:41,100 --> 00:01:46,267
+onde cada posição tem 1, se estiver
+na mochila, ou 0, se estiver fora.
+
+29
+00:01:46,300 --> 00:01:49,367
+Ou seja, é um algoritmo
+de tempo exponencial,
+
+30
+00:01:49,400 --> 00:01:51,601
+já que n é um expoente.
+
+31
+00:01:52,200 --> 00:01:55,434
+Seria melhor um algoritmo
+de tempo polinomial,
+
+32
+00:01:55,467 --> 00:02:00,534
+em que n é multiplicado por algo
+ou tem uma constante como expoente,
+
+33
+00:02:01,067 --> 00:02:04,334
+o que seria bem mais rápido
+para números grandes.

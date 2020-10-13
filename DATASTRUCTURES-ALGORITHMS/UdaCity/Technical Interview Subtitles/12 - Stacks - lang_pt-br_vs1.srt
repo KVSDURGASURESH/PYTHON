@@ -1,0 +1,71 @@
+1
+00:00:00,067 --> 00:00:02,567
+Sempre que ouço falar
+em pilhas,
+
+2
+00:00:02,601 --> 00:00:07,434
+penso numa pilha de panquecas.
+Com gotas de chocolate, claro.
+
+3
+00:00:07,467 --> 00:00:10,334
+Ou será que sempre penso
+em panquecas?
+
+4
+00:00:10,367 --> 00:00:11,645
+Não tenho certeza.
+
+5
+00:00:11,679 --> 00:00:14,648
+Pilhas também são
+estruturas de dados baseadas em lista,
+
+6
+00:00:14,667 --> 00:00:18,336
+então são diferentes de arrays
+e listas encadeadas.
+
+7
+00:00:18,385 --> 00:00:20,701
+A ideia central
+é que uma pilha
+
+8
+00:00:20,734 --> 00:00:23,290
+é como uma pilha de objetos
+na vida real.
+
+9
+00:00:23,335 --> 00:00:27,268
+Você coloca elementos em cima
+e pode facilmente remover
+
+10
+00:00:27,302 --> 00:00:29,569
+ou ver o elemento do topo.
+
+11
+00:00:29,602 --> 00:00:33,602
+Embora a panqueca do fundo
+pareça ter mais chocolate,
+
+12
+00:00:33,635 --> 00:00:35,402
+não é fácil alcançá-la.
+
+13
+00:00:35,435 --> 00:00:39,135
+Preciso passar por todas
+antes de chegar nela.
+
+14
+00:00:39,168 --> 00:00:43,068
+Também sei que foi a 1ª coisa
+que coloquei na pilha,
+
+15
+00:00:43,102 --> 00:00:46,235
+quando achei
+que teria chocolate de sobra.

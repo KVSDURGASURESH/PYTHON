@@ -1,0 +1,91 @@
+1
+00:00:00,033 --> 00:00:01,067
+E, finalmente,
+
+2
+00:00:01,100 --> 00:00:04,801
+chegamos à interseção
+de dois tópicos muito importantes,
+
+3
+00:00:04,834 --> 00:00:06,701
+mapas e hashing.
+
+4
+00:00:06,734 --> 00:00:11,000
+Mapas hash são o lugar principal
+onde as funções hash aparecem.
+
+5
+00:00:11,033 --> 00:00:14,133
+No exemplo anterior,
+usamos uma função hash
+
+6
+00:00:14,167 --> 00:00:16,601
+para achar
+onde armazenar chaves.
+
+7
+00:00:16,634 --> 00:00:19,667
+Porém,
+mapas têm chaves e valores.
+
+8
+00:00:19,701 --> 00:00:23,400
+Pode-se usar as chaves como entradas
+para uma função hash
+
+9
+00:00:23,434 --> 00:00:25,192
+e armazenar o par chave-valor
+
+10
+00:00:25,225 --> 00:00:28,467
+no balde do valor hash
+produzido pela função.
+
+11
+00:00:28,501 --> 00:00:31,100
+Já que as chaves num mapa
+são únicas,
+
+12
+00:00:31,133 --> 00:00:33,067
+pois pertencem
+a um conjunto,
+
+13
+00:00:33,100 --> 00:00:37,234
+pode-se usar uma função hash
+para dar um balde único para cada.
+
+14
+00:00:37,267 --> 00:00:41,033
+Também pode-se criar uma função hash
+que permita colisões.
+
+15
+00:00:41,067 --> 00:00:46,400
+Em entrevistas, pedem tabelas hash
+para ver se você entende de hashing
+
+16
+00:00:46,434 --> 00:00:50,567
+e se você sabe os lados bons e ruins
+da criação de funções hash.
+
+17
+00:00:50,601 --> 00:00:54,601
+Porém, mapas hash são úteis
+de se integrar em algoritmos.
+
+18
+00:00:54,634 --> 00:00:58,033
+Buscas em tempo constante
+podem acelerar seu código.
+
+19
+00:00:58,067 --> 00:01:02,901
+Lembre-se disso
+e sempre reflita antes se funcionará.

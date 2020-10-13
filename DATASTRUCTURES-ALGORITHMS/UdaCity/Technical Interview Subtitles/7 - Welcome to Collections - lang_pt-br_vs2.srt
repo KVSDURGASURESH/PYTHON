@@ -1,0 +1,116 @@
+1
+00:00:00,036 --> 00:00:02,035
+Agora vamos falar
+sobre coleções.
+
+2
+00:00:02,068 --> 00:00:05,469
+Praticamente não há necessidade
+de uma definição formal.
+
+3
+00:00:05,502 --> 00:00:10,202
+Uma coleção, segundo o próprio nome,
+é apenas um grupo de coisas.
+
+4
+00:00:10,235 --> 00:00:12,702
+Você pode ter
+uma coleção de livros,
+
+5
+00:00:12,736 --> 00:00:15,535
+uma coleção
+de funcionários da Udacity
+
+6
+00:00:15,568 --> 00:00:19,202
+ou uma coleção de objetos
+em forma de animais
+
+7
+00:00:19,235 --> 00:00:22,032
+com quem eu converso quando estou
+com dúvidas nos projetos de programação
+
+8
+00:00:22,055 --> 00:00:23,302
+e os instrutores
+não estão por perto.
+
+9
+00:00:23,335 --> 00:00:25,868
+Vamos fazer
+algumas observações.
+
+10
+00:00:25,901 --> 00:00:28,268
+As coleções
+não têm uma ordem certa.
+
+11
+00:00:28,302 --> 00:00:32,402
+Você pode misturar os objetos
+e não fará muita diferença.
+
+12
+00:00:32,435 --> 00:00:35,035
+Nós também
+não podemos dizer:
+
+13
+00:00:35,068 --> 00:00:37,771
+"me dê o terceiro elemento
+desta coleção"
+
+14
+00:00:37,802 --> 00:00:39,935
+pois não há uma ordem.
+
+15
+00:00:39,967 --> 00:00:44,034
+As coleções também não precisam
+ter o mesmo tipo de objetos.
+
+16
+00:00:44,067 --> 00:00:46,967
+Tudo no escritório
+pode ser considerado
+
+17
+00:00:47,000 --> 00:00:49,367
+parte da coleção de coisas
+encontradas na Udacity.
+
+18
+00:00:49,401 --> 00:00:53,768
+Mesmo tendo livros, pessoas
+e coisas em formato de animais.
+
+19
+00:00:53,801 --> 00:00:56,634
+A coleção por si só
+não é algo que podemos usar
+
+20
+00:00:56,668 --> 00:00:58,134
+na linguagem de programação.
+
+21
+00:00:58,167 --> 00:01:03,067
+Porém, há muitas estruturas de dados
+que são extensões de coleções.
+
+22
+00:01:03,100 --> 00:01:05,699
+Eles apenas adicionam
+mais papéis
+
+23
+00:01:05,732 --> 00:01:08,100
+àqueles que já fazem parte
+das coleções.
+
+24
+00:01:08,134 --> 00:01:10,598
+Vamos ver alguns deles.

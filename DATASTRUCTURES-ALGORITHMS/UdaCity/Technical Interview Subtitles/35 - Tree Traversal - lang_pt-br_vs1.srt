@@ -1,0 +1,152 @@
+1
+00:00:00,033 --> 00:00:04,234
+Quando vimos estruturas em lista,
+o percurso era bem claro.
+
+2
+00:00:04,267 --> 00:00:09,568
+Só tínhamos que percorrer a lista
+para saber que vimos cada elemento.
+
+3
+00:00:09,602 --> 00:00:14,001
+As árvores não são lineares,
+não há um jeito claro de percorrer.
+
+4
+00:00:14,034 --> 00:00:18,535
+Se começarmos na raiz,
+vamos para a esquerda ou direita?
+
+5
+00:00:18,568 --> 00:00:23,101
+Devemos percorrer totalmente
+uma subárvore ou seção da árvore,
+
+6
+00:00:23,135 --> 00:00:26,235
+incluindo um pai
+e todos os seus descendentes,
+
+7
+00:00:26,268 --> 00:00:29,535
+ou percorrer tudo
+do mesmo nível primeiro?
+
+8
+00:00:29,568 --> 00:00:32,301
+Percorrer uma árvore
+é mais complicado,
+
+9
+00:00:32,335 --> 00:00:34,001
+mas igualmente importante.
+
+10
+00:00:34,034 --> 00:00:36,101
+Só se busca
+ou ordena elementos
+
+11
+00:00:36,135 --> 00:00:39,901
+quando há a certeza
+de que é possível visitá-los todos.
+
+12
+00:00:39,934 --> 00:00:43,101
+Há duas abordagens abrangentes
+para o percurso.
+
+13
+00:00:43,135 --> 00:00:47,402
+Uma é chamada de busca
+por profundidade ou DFS.
+
+14
+00:00:47,435 --> 00:00:52,502
+Na DFS, a filosofia é que,
+se há nós filhos para explorar,
+
+15
+00:00:52,535 --> 00:00:55,001
+explorá-los é a prioridade.
+
+16
+00:00:55,034 --> 00:00:58,268
+Veremos o que isso significa
+em breve.
+
+17
+00:00:58,301 --> 00:01:02,402
+A alternativa chama-se
+busca em largura ou BFS.
+
+18
+00:01:02,435 --> 00:01:07,301
+Na BFS, a prioridade é visitar
+todos os nós do mesmo nível
+
+19
+00:01:07,335 --> 00:01:09,668
+antes de visitar
+os nós filhos.
+
+20
+00:01:09,702 --> 00:01:13,168
+A BFS e a DFS
+têm definições um pouco vagas,
+
+21
+00:01:13,201 --> 00:01:15,168
+já que podemos aplicar
+seus princípios,
+
+22
+00:01:15,201 --> 00:01:18,468
+mas percorrer a árvore
+de várias maneiras.
+
+23
+00:01:18,502 --> 00:01:22,068
+Para árvores, um percurso
+de nível-ordem é uma BFS
+
+24
+00:01:22,101 --> 00:01:25,101
+com um algoritmo mais exato
+para implementar.
+
+25
+00:01:25,135 --> 00:01:28,766
+Um percurso de nível-ordem
+é exatamente o que parece.
+
+26
+00:01:29,102 --> 00:01:33,034
+Comece na raiz, depois visite
+seus filhos no 2º nível,
+
+27
+00:01:33,068 --> 00:01:35,835
+depois visite os filhos deles
+no 3º nível
+
+28
+00:01:35,869 --> 00:01:38,535
+até que tenha visitado
+todas as folhas.
+
+29
+00:01:38,568 --> 00:01:42,402
+Por convenção, começamos
+à esquerda e vamos para a direita.
+
+30
+00:01:42,435 --> 00:01:44,901
+Este percurso é,
+com certeza, uma BFS.
+
+31
+00:01:44,934 --> 00:01:48,901
+Visitamos os nós do mesmo nível
+antes de visitar os filhos.

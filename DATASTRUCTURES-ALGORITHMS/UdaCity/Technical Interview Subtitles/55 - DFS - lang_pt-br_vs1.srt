@@ -1,0 +1,193 @@
+1
+00:00:00,000 --> 00:00:03,634
+Nos grafos,
+a busca em profundidade ou DFS
+
+2
+00:00:03,667 --> 00:00:08,132
+opera sob os mesmos princípios
+que a DFS em árvores.
+
+3
+00:00:08,167 --> 00:00:13,801
+Lembre-se de que buscas e percursos
+de grafos são quase a mesma coisa.
+
+4
+00:00:13,834 --> 00:00:16,534
+Em um percurso,
+você vê cada elemento.
+
+5
+00:00:16,567 --> 00:00:21,701
+Numa busca, você para de percorrer
+quando acha o elemento que quer.
+
+6
+00:00:21,734 --> 00:00:24,534
+Diferentemente da árvore,
+não há raízes em grafos,
+
+7
+00:00:24,567 --> 00:00:27,300
+então não há um lugar
+por onde começar.
+
+8
+00:00:27,334 --> 00:00:29,434
+Pode-se começar
+por qualquer nó.
+
+9
+00:00:29,467 --> 00:00:32,934
+Primeiro, marque o nó selecionado
+como "visto".
+
+10
+00:00:32,968 --> 00:00:36,033
+Uma implementação comum da DFS
+usa uma pilha.
+
+11
+00:00:36,067 --> 00:00:39,934
+Assim podemos armazenar o nó
+que acabamos de ver na pilha.
+
+12
+00:00:39,968 --> 00:00:44,934
+Depois, escolha uma aresta,
+siga-a e marque o nó como "visto".
+
+13
+00:00:45,434 --> 00:00:47,467
+Aí, adicione-o à pilha.
+
+14
+00:00:47,501 --> 00:00:51,000
+Desde que haja mais arestas
+e mais nós não vistos,
+
+15
+00:00:51,033 --> 00:00:53,701
+você continuará
+repetindo essas etapas.
+
+16
+00:00:53,734 --> 00:00:56,601
+Quando chegar
+em um nó já visto,
+
+17
+00:00:56,634 --> 00:01:00,567
+volte para o nó anterior
+e tente outra aresta.
+
+18
+00:01:00,601 --> 00:01:05,266
+Se ficar sem arestas com nós novos,
+desempilhe o nó atual
+
+19
+00:01:05,300 --> 00:01:10,033
+e volte para o nó anterior,
+que é o próximo na pilha.
+
+20
+00:01:10,067 --> 00:01:13,868
+Continue fazendo isso
+até ter desempilhado tudo
+
+21
+00:01:13,901 --> 00:01:17,234
+ou achado o nó
+que você estava procurando.
+
+22
+00:01:17,267 --> 00:01:19,868
+Há outra implementação comum
+da DFS
+
+23
+00:01:19,901 --> 00:01:22,267
+que usa a recursividade,
+sem pilhas.
+
+24
+00:01:22,300 --> 00:01:25,701
+Como pode imaginar,
+basta repetir o mesmo processo
+
+25
+00:01:25,734 --> 00:01:28,300
+de escolher uma aresta
+e marcar um nó
+
+26
+00:01:28,334 --> 00:01:31,267
+até ficar sem nós novos
+para explorar.
+
+27
+00:01:31,300 --> 00:01:36,067
+Isso vira o caso base, e você volta
+para o último nível de recursividade,
+
+28
+00:01:36,100 --> 00:01:39,067
+que, por acaso,
+é o nó anterior na busca.
+
+29
+00:01:39,767 --> 00:01:45,267
+Neste algoritmo, visitamos claramente
+cada aresta e vértice uma vez.
+
+30
+00:01:45,300 --> 00:01:48,534
+Aí, o tempo de execução
+costuma ser escrito assim,
+
+31
+00:01:48,567 --> 00:01:52,400
+que é o número de arestas
+mais o número de vértices.
+
+32
+00:01:53,067 --> 00:01:57,000
+Veja que visitamos cada aresta
+duas vezes.
+
+33
+00:01:57,033 --> 00:02:00,334
+Uma para explorar
+e outra para voltar por ela.
+
+34
+00:02:00,868 --> 00:02:03,567
+Tecnicamente,
+o tempo de execução é 2|E|,
+
+35
+00:02:03,601 --> 00:02:06,801
+mas a versão aproximada
+continua a mesma.
+
+36
+00:02:06,834 --> 00:02:11,567
+O próprio número de arestas
+resume bem o tempo de execução,
+
+37
+00:02:11,601 --> 00:02:15,567
+mas o |V| refere-se ao tempo usado
+para procurar um vértice.
+
+38
+00:02:15,601 --> 00:02:19,634
+O tempo exato varia dependendo
+da estrutura que você escolher,
+
+39
+00:02:19,667 --> 00:02:23,801
+então baseie-o na sua implementação
+quando solicitado.

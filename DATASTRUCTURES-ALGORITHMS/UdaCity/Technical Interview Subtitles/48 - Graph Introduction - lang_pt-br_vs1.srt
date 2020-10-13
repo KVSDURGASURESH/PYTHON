@@ -1,0 +1,66 @@
+1
+00:00:00,000 --> 00:00:03,801
+Sou responsável por um projeto
+que me deixou perplexa.
+
+2
+00:00:03,834 --> 00:00:07,334
+Você se importa
+se eu pensar em voz alta, Winston?
+
+3
+00:00:08,267 --> 00:00:09,434
+Obrigada.
+
+4
+00:00:09,467 --> 00:00:11,701
+Tenho muitos dados
+sobre websites
+
+5
+00:00:11,734 --> 00:00:16,434
+e quero poder pesquisar neles
+quais têm links uns para os outros.
+
+6
+00:00:16,467 --> 00:00:18,100
+Mas tem um problema.
+
+7
+00:00:18,133 --> 00:00:21,467
+Não tenho uma visão clara
+de como eles são
+
+8
+00:00:21,501 --> 00:00:26,267
+e não sei que tipo de dados é melhor
+para modelar conexões entre eles.
+
+9
+00:00:28,067 --> 00:00:31,133
+Acha que eu devo usar um grafo?
+O que é isso?
+
+10
+00:00:33,133 --> 00:00:35,400
+Entendi.
+
+11
+00:00:35,434 --> 00:00:37,801
+Isso foi
+muita baboseira técnica,
+
+12
+00:00:37,834 --> 00:00:40,467
+mas entendi
+que é uma estrutura de dados
+
+13
+00:00:40,501 --> 00:00:43,601
+criada para mostrar as relações
+entre objetos.
+
+14
+00:00:43,634 --> 00:00:46,667
+Que ótimo!
+Estou doida para aprender mais.

@@ -1,0 +1,58 @@
+1
+00:00:00,000 --> 00:00:04,400
+O problema do caixeiro-viajante ou TSP,
+como é chamado,
+
+2
+00:00:04,434 --> 00:00:07,534
+é um dos problemas mais famosos
+na Computação.
+
+3
+00:00:07,567 --> 00:00:10,834
+Imagine um grafo
+onde todos os nós sejam cidades
+
+4
+00:00:10,868 --> 00:00:13,601
+e as arestas,
+as estradas entre elas.
+
+5
+00:00:13,634 --> 00:00:16,467
+O TSP pergunta:
+qual o caminho mais rápido
+
+6
+00:00:16,501 --> 00:00:20,968
+para nosso caixeiro viajar
+entre cada cidade e voltar?
+
+7
+00:00:21,534 --> 00:00:25,000
+No fundo,
+esse é um problema de otimização.
+
+8
+00:00:25,033 --> 00:00:29,334
+Quando você se livra da analogia
+e, imagino, do chapéu,
+
+9
+00:00:29,367 --> 00:00:33,467
+o que sobra é um grafo complicado
+e a busca por uma rota ideal.
+
+10
+00:00:33,501 --> 00:00:36,601
+O TSP é usado em tudo,
+desde microchips
+
+11
+00:00:36,634 --> 00:00:38,734
+até o sequenciamento
+de DNA.
+
+12
+00:00:38,767 --> 00:00:41,100
+Vamos ver como ele é feito.

@@ -1,0 +1,578 @@
+1
+00:00:00,000 --> 00:00:04,667
+A recursividade é um dos assuntos
+mais confusos em Ciência da Computação.
+
+2
+00:00:04,701 --> 00:00:08,100
+Se você não entender alguma coisa,
+estude os exemplos
+
+3
+00:00:08,132 --> 00:00:11,634
+e tente achar outros exemplos
+até que você fixe.
+
+4
+00:00:12,534 --> 00:00:16,133
+A ideia é criar uma função
+que chame a si mesma.
+
+5
+00:00:17,167 --> 00:00:20,767
+Aqui está um exemplo bem básico
+em pseudocódigo.
+
+6
+00:00:21,534 --> 00:00:24,167
+O código não faz nada
+de interessante,
+
+7
+00:00:24,200 --> 00:00:28,300
+mas mostra as partes principais
+de uma função recursiva.
+
+8
+00:00:28,334 --> 00:00:33,100
+Em 1º lugar, uma função recursiva
+precisa chamar a si mesma.
+
+9
+00:00:33,133 --> 00:00:36,567
+Em 2º lugar,
+ela precisa de um caso base.
+
+10
+00:00:36,601 --> 00:00:38,501
+Uma função recursiva
+
+11
+00:00:38,534 --> 00:00:42,033
+parece um laço enquanto
+em alguns aspectos.
+
+12
+00:00:42,067 --> 00:00:44,934
+Você passa por códigos
+sem parar
+
+13
+00:00:44,968 --> 00:00:47,567
+até alcançar uma condição
+de saída.
+
+14
+00:00:48,167 --> 00:00:51,901
+Em funções recursivas,
+o caso base é a condição de saída.
+
+15
+00:00:51,934 --> 00:00:54,767
+Ele avisa
+quando você precisa parar.
+
+16
+00:00:54,801 --> 00:00:56,834
+Sem um bom caso base assim,
+
+17
+00:00:56,868 --> 00:01:00,400
+você pode ficar preso
+na recursividade infinita.
+
+18
+00:01:00,434 --> 00:01:06,400
+Quer dizer que seu código chama
+a si próprio e executa sem parar.
+
+19
+00:01:07,167 --> 00:01:09,634
+Mas,
+como você nunca o manda parar,
+
+20
+00:01:09,667 --> 00:01:11,801
+ele avança infinitamente.
+
+21
+00:01:12,667 --> 00:01:15,133
+Em 3º lugar,
+uma função recursiva
+
+22
+00:01:15,167 --> 00:01:18,701
+precisa alterar o parâmetro
+de entrada a certa altura.
+
+23
+00:01:18,734 --> 00:01:20,701
+Se você nunca o alterar
+
+24
+00:01:20,734 --> 00:01:24,634
+ou criar uma condição para mudança
+sempre que você iterar,
+
+25
+00:01:24,667 --> 00:01:27,100
+você nunca saberá
+quando parar.
+
+26
+00:01:27,133 --> 00:01:31,100
+Aí você ficará mal de novo
+com a recursividade infinita.
+
+27
+00:01:32,467 --> 00:01:36,634
+Agora vamos analisar um exemplo.
+Vamos começar com este código,
+
+28
+00:01:36,667 --> 00:01:41,300
+e, neste lado, escreverei
+as linhas principais que executarmos.
+
+29
+00:01:41,801 --> 00:01:45,968
+Vamos chamar a função
+com o valor de entrada 2.
+
+30
+00:01:46,734 --> 00:01:49,534
+Vamos começar
+com esta estrutura "se".
+
+31
+00:01:49,567 --> 00:01:53,067
+Já que o valor de entrada é 2,
+e isso é maior que 0,
+
+32
+00:01:53,100 --> 00:01:55,501
+vamos
+para a estrutura "senão".
+
+33
+00:01:55,534 --> 00:01:57,334
+Vamos analisar isto
+
+34
+00:01:57,367 --> 00:02:00,968
+antes de atribuirmos algo
+para a variável de saída.
+
+35
+00:02:01,000 --> 00:02:05,200
+Certo. Então é "entrada - 1",
+ou seja, 2 - 1.
+
+36
+00:02:05,234 --> 00:02:07,400
+Vamos chamar esta função
+de novo,
+
+37
+00:02:07,434 --> 00:02:10,868
+mas com o valor de entrada 1,
+não 2.
+
+38
+00:02:11,968 --> 00:02:14,300
+Agora vem a parte confusa.
+
+39
+00:02:14,334 --> 00:02:17,067
+Seu computador sabe
+que você não terminou
+
+40
+00:02:17,100 --> 00:02:19,934
+a chamada inicial
+com o valor de entrada 2.
+
+41
+00:02:19,968 --> 00:02:22,968
+Você pulou para esta parte
+sem terminar.
+
+42
+00:02:23,000 --> 00:02:26,000
+Em sua memória temporária,
+ele vai se lembrar.
+
+43
+00:02:26,033 --> 00:02:29,701
+Porém,
+ele copia todo este código inicial,
+
+44
+00:02:29,734 --> 00:02:33,801
+e você tem que fazê-lo de novo,
+mas com o valor de entrada 1.
+
+45
+00:02:33,834 --> 00:02:38,400
+Abri um parágrafo para sinalizar
+que não terminamos a chamada inicial,
+
+46
+00:02:38,434 --> 00:02:41,801
+mas que vamos fazer uma chamada
+dentro dela agora.
+
+47
+00:02:41,834 --> 00:02:44,067
+Certo,
+vamos fazer isso de novo.
+
+48
+00:02:44,100 --> 00:02:48,367
+Desta vez, o valor de entrada é 1,
+o que ainda é maior que 0,
+
+49
+00:02:48,400 --> 00:02:51,267
+então podemos passar
+para o bloco "senão".
+
+50
+00:02:51,934 --> 00:02:53,868
+O mesmo acontece
+pela 2ª vez.
+
+51
+00:02:53,901 --> 00:02:56,100
+Antes da atribuição
+da saída,
+
+52
+00:02:56,133 --> 00:02:58,968
+temos que fazer
+esta instrução recursiva.
+
+53
+00:02:59,501 --> 00:03:03,801
+Desta vez, o valor de entrada é 1,
+então 1 - 1 é 0.
+
+54
+00:03:03,834 --> 00:03:06,868
+Temos que chamar
+este bloco recursivo de novo,
+
+55
+00:03:06,901 --> 00:03:09,467
+mas com o valor 0
+em vez de 1 ou 2.
+
+56
+00:03:10,133 --> 00:03:13,601
+Abri um parágrafo para indicar
+que não nos esquecemos
+
+57
+00:03:13,634 --> 00:03:17,334
+de que não resolvemos isto
+nem retornamos nada,
+
+58
+00:03:17,367 --> 00:03:21,234
+mas temos que seguir em frente
+e executar de novo.
+
+59
+00:03:21,267 --> 00:03:22,934
+Está bem, vamos lá de novo.
+
+60
+00:03:22,968 --> 00:03:25,901
+Desta vez,
+temos algo interessante.
+
+61
+00:03:25,934 --> 00:03:27,834
+O valor de entrada é 0,
+
+62
+00:03:27,868 --> 00:03:30,701
+então não iremos
+para o bloco "senão".
+
+63
+00:03:30,734 --> 00:03:32,601
+Só ficaremos aqui
+em cima.
+
+64
+00:03:32,634 --> 00:03:37,367
+O retorno é 0,
+então... ele aparece aqui.
+
+65
+00:03:38,767 --> 00:03:41,801
+Agora que retornamos algo
+de uma das nossas chamadas,
+
+66
+00:03:41,834 --> 00:03:45,167
+podemos nos esquecer
+desta recursiva com entrada 0
+
+67
+00:03:45,200 --> 00:03:49,501
+e voltar para a de entrada 1
+que vimos há um minuto.
+
+68
+00:03:50,334 --> 00:03:53,400
+Certo, voltamos a ter um valor
+de entrada 1.
+
+69
+00:03:53,434 --> 00:03:57,767
+O valor desta instrução é 0,
+como indiquei aqui.
+
+70
+00:03:58,634 --> 00:04:03,234
+Lembre-se: chamamos
+o bloco recursivo e retornamos 0.
+
+71
+00:04:03,267 --> 00:04:06,667
+Então agora dizemos
+que isso tudo vale 0
+
+72
+00:04:06,701 --> 00:04:09,234
+e podemos atribuir o valor 0
+à saída.
+
+73
+00:04:09,901 --> 00:04:12,567
+Ótimo!
+Aquela chamada de entrada 1
+
+74
+00:04:12,601 --> 00:04:16,733
+tem um valor de retorno,
+aqui, que é... 0.
+
+75
+00:04:17,733 --> 00:04:21,267
+Agora podemos nos esquecer
+deste bloco recursivo
+
+76
+00:04:21,300 --> 00:04:25,601
+e voltar para a chamada original,
+em que o valor de entrada era 2.
+
+77
+00:04:25,634 --> 00:04:27,968
+Certo,
+de volta à chamada original.
+
+78
+00:04:28,634 --> 00:04:33,267
+Esta chamada, que era recursiva
+e tinha entrada 1,
+
+79
+00:04:33,300 --> 00:04:35,400
+tem o valor 0.
+
+80
+00:04:35,434 --> 00:04:39,200
+Então agora podemos dizer
+que 0 é igual à saída.
+
+81
+00:04:40,234 --> 00:04:42,601
+De novo,
+podemos retornar 0,
+
+82
+00:04:42,634 --> 00:04:46,133
+e agora até mesmo
+nossa chamada inicial terminou.
+
+83
+00:04:46,167 --> 00:04:49,234
+Ótimo, então o retorno
+da chamada inicial é 0.
+
+84
+00:04:49,267 --> 00:04:53,300
+A recursividade pode ser confusa,
+pois, mesmo com um método,
+
+85
+00:04:53,334 --> 00:04:56,968
+não se sabe
+quantas vezes ele será chamado.
+
+86
+00:04:57,000 --> 00:05:00,000
+Quando tento entender
+uma função recursiva,
+
+87
+00:05:00,033 --> 00:05:03,934
+costumo fazer uma tabela
+ou uma lista de passos como esta
+
+88
+00:05:03,968 --> 00:05:08,701
+para registrar meus valores toda vez
+que eu chegar no bloco recursivo.
+
+89
+00:05:09,634 --> 00:05:13,734
+Era como se meu computador
+se desviasse do assunto.
+
+90
+00:05:13,767 --> 00:05:17,701
+Eu começava com uma função,
+e aí eu chamava outra coisa,
+
+91
+00:05:17,734 --> 00:05:20,634
+e fazia outra coisa,
+e outra, e outra.
+
+92
+00:05:20,667 --> 00:05:25,067
+No fim, eu voltava para aquilo
+de que estava falando no início.
+
+93
+00:05:25,100 --> 00:05:28,701
+Lembre-se, seu código vai
+percorrer as linhas em ordem.
+
+94
+00:05:28,734 --> 00:05:31,601
+Nunca atribuirá
+um número à saída
+
+95
+00:05:31,634 --> 00:05:33,534
+até chegar
+ao bloco recursivo
+
+96
+00:05:33,567 --> 00:05:36,033
+quantas vezes
+for necessário.
+
+97
+00:05:36,067 --> 00:05:39,734
+Tome muito cuidado
+ao escrever um código recursivo.
+
+98
+00:05:39,767 --> 00:05:44,767
+Se seu caso base não fizer sentido,
+pode haver recursividade infinita.
+
+99
+00:05:44,801 --> 00:05:47,400
+Vamos mudar este caso base
+um pouco.
+
+100
+00:05:48,400 --> 00:05:51,067
+Livrei-me do sinal
+de "menor ou igual a"
+
+101
+00:05:51,100 --> 00:05:53,067
+e o substituí
+por "igual a".
+
+102
+00:05:54,033 --> 00:05:58,434
+Este código irá funcionar bem
+se o valor de entrada for 2,
+
+103
+00:05:58,467 --> 00:06:01,000
+ou 1, ou 4,
+ou até mesmo 1 milhão.
+
+104
+00:06:01,033 --> 00:06:04,634
+Mas, se o valor de entrada
+for menor que 0,
+
+105
+00:06:04,667 --> 00:06:06,667
+o código
+nunca irá retornar.
+
+106
+00:06:07,701 --> 00:06:10,701
+Se começar com -2,
+você pulará o bloco "se"
+
+107
+00:06:10,734 --> 00:06:12,834
+e ficará subtraindo 1.
+
+108
+00:06:13,534 --> 00:06:16,601
+Na próxima vez,
+sua entrada será -3.
+
+109
+00:06:16,634 --> 00:06:18,801
+Aí você irá subtrair 1, -4.
+
+110
+00:06:18,834 --> 00:06:21,701
+Irá subtrair 1, -5,
+e assim em diante.
+
+111
+00:06:22,334 --> 00:06:27,234
+Usando o "menor ou igual a",
+se meu número inicial for -2,
+
+112
+00:06:27,267 --> 00:06:32,701
+ou -50, ou -1 milhão, irei parar
+assim que chegar no caso base.
+
+113
+00:06:32,734 --> 00:06:35,200
+Pense nos diversos valores
+de entrada
+
+114
+00:06:35,234 --> 00:06:37,968
+que sua instrução recursiva
+poderia ter.
+
+115
+00:06:38,000 --> 00:06:41,868
+Por fim, se não souber
+o que o bloco recursivo está fazendo,
+
+116
+00:06:41,901 --> 00:06:45,067
+use instruções print
+onde for necessário.
+
+117
+00:06:45,100 --> 00:06:48,734
+Os valores intermediários
+dão uma noção exata
+
+118
+00:06:48,767 --> 00:06:51,968
+do que seu código faz
+a cada etapa.

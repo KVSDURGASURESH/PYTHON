@@ -1,0 +1,195 @@
+1
+00:00:00,294 --> 00:00:02,836
+Olá. Sejam bem-vindos ao curso
+de algoritmos e estrutura de dados
+
+2
+00:00:02,870 --> 00:00:04,171
+para entrevistas técnicas.
+
+3
+00:00:04,210 --> 00:00:07,711
+Meu nome é Brin.
+Serei sua guia e mentora neste curso.
+
+4
+00:00:07,753 --> 00:00:12,002
+Estou aqui para ensiná-los a criar
+soluções eficientes para problemas
+
+5
+00:00:12,044 --> 00:00:14,834
+utilizando algoritmos
+e estrutura de dados.
+
+6
+00:00:14,868 --> 00:00:17,017
+Esta é uma habilidade necessária
+para conseguir um emprego
+
+7
+00:00:17,050 --> 00:00:19,353
+e para permanecer nele.
+
+8
+00:00:19,377 --> 00:00:22,544
+Algoritmo é uma palavra chique
+para algo bem simples:
+
+9
+00:00:22,586 --> 00:00:24,753
+um programa
+que soluciona problemas.
+
+10
+00:00:24,794 --> 00:00:29,429
+No início deste curso, algoritmos
+parecem um pouco com mágica.
+
+11
+00:00:31,753 --> 00:00:34,377
+Você vê o início da mágica
+
+12
+00:00:35,834 --> 00:00:38,544
+e você vê
+o resultado da mágica.
+
+13
+00:00:38,586 --> 00:00:41,918
+Mas tudo que acontece
+no processo é bem místico.
+
+14
+00:00:42,834 --> 00:00:45,834
+Meu objetivo é ensiná-lo
+as etapas da mágica,
+
+15
+00:00:45,867 --> 00:00:49,377
+e explicar quais são os recursos
+necessários para que ela aconteça.
+
+16
+00:00:49,419 --> 00:00:50,834
+Nesta analogia,
+
+17
+00:00:50,867 --> 00:00:53,320
+os recursos costumam ser
+as estruturas dos dados
+
+18
+00:00:53,353 --> 00:00:56,802
+ou um problema padrão.
+
+19
+00:00:56,834 --> 00:00:59,059
+Depois de fornecer
+todas as ferramentas necessárias,
+
+20
+00:00:59,092 --> 00:01:01,395
+vamos praticar um pouco
+para ter certeza que está pronto
+
+21
+00:01:01,428 --> 00:01:03,909
+para fazer as mágicas
+e as entrevistas técnicas.
+
+22
+00:01:03,918 --> 00:01:08,068
+Não pretendo falar
+sobre cada detalhe
+
+23
+00:01:08,102 --> 00:01:10,003
+como as leis da física
+
+24
+00:01:10,035 --> 00:01:13,294
+ou os componentes de cada ferramenta
+a nível molecular.
+
+25
+00:01:13,336 --> 00:01:16,710
+Você poderá utilizar algoritmos
+para solucionar problemas no trabalho
+
+26
+00:01:16,743 --> 00:01:17,978
+ou em uma entrevista,
+
+27
+00:01:18,002 --> 00:01:21,083
+mas não aprenderá a usá-los
+como se fosse um matemático.
+
+28
+00:01:21,877 --> 00:01:23,517
+Em uma entrevista técnica real,
+
+29
+00:01:23,550 --> 00:01:27,154
+você só precisa mostrar
+que consegue fazer a mágica
+
+30
+00:01:27,187 --> 00:01:30,098
+e que entende
+os conceitos por trás dela.
+
+31
+00:01:30,502 --> 00:01:33,560
+Também não pretendo explicar
+cada um dos conceitos
+
+32
+00:01:33,594 --> 00:01:35,596
+que aparecem
+em uma entrevista.
+
+33
+00:01:35,627 --> 00:01:39,834
+Criei este curso para explicar
+tópicos que aparecem com frequência.
+
+34
+00:01:39,868 --> 00:01:44,966
+Use este curso como ponto de partida
+e continue estudando sozinho.
+
+35
+00:01:44,999 --> 00:01:49,476
+Também não espero
+que você tenha conhecimento prévio
+
+36
+00:01:49,510 --> 00:01:51,578
+de algoritmos
+e estrutura de dados.
+
+37
+00:01:51,627 --> 00:01:53,716
+Espero apenas que tenham
+vontade de aprender.
+
+38
+00:01:54,169 --> 00:01:56,877
+Você deve ter familiaridade
+com a linguagem de programação
+
+39
+00:01:56,918 --> 00:01:59,584
+e ter utilizado alguns códigos
+
+40
+00:01:59,617 --> 00:02:03,624
+para entender na prática
+os problemas dos vídeos.
+
+41
+00:02:03,660 --> 00:02:08,461
+Eu vou explicar
+exatamente o que isso significa.

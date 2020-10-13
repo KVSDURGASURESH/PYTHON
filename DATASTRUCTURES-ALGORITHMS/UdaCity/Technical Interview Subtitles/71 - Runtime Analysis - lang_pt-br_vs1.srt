@@ -1,0 +1,56 @@
+1
+00:00:00,501 --> 00:00:01,501
+Certo.
+
+2
+00:00:01,534 --> 00:00:07,501
+Então, sempre vejo um elemento
+desta matriz pelo menos uma vez.
+
+3
+00:00:07,534 --> 00:00:11,000
+Então acho que o tempo de execução
+será n vezes m,
+
+4
+00:00:11,033 --> 00:00:15,033
+em que n é o número de fileiras,
+e m, o de colunas.
+
+5
+00:00:15,667 --> 00:00:17,534
+É, parece uma boa análise.
+
+6
+00:00:17,567 --> 00:00:20,033
+Essa pareceu
+ser a solução mais ideal,
+
+7
+00:00:20,067 --> 00:00:24,200
+-então vou começar a codificar agora.
+-Genial, vamos lá.
+
+8
+00:00:24,234 --> 00:00:27,501
+O entrevistado analisou as etapas
+do seu algoritmo
+
+9
+00:00:27,534 --> 00:00:29,767
+e calculou
+o tempo de execução O.
+
+10
+00:00:29,801 --> 00:00:31,000
+Exatamente.
+
+11
+00:00:31,033 --> 00:00:35,634
+É uma etapa importante, pois pode-se
+perceber que a solução não é ideal
+
+12
+00:00:35,667 --> 00:00:40,300
+na análise do tempo de execução.
+Mas, neste caso, ela era ideal.

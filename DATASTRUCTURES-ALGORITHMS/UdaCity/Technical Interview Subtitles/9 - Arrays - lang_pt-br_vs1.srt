@@ -1,0 +1,247 @@
+1
+00:00:00,250 --> 00:00:03,876
+Arranjos são as implementações
+de listas mais comuns.
+
+2
+00:00:03,918 --> 00:00:05,672
+Em muitas linguagens
+de programação,
+
+3
+00:00:05,718 --> 00:00:07,341
+a habilidade
+de criar um arranjo
+
+4
+00:00:07,374 --> 00:00:09,676
+é considerada
+um dos atributos principais.
+
+5
+00:00:09,709 --> 00:00:11,709
+Você pode já ter visto
+ou ouvido falar deles,
+
+6
+00:00:11,751 --> 00:00:15,751
+mas é importante possuir uma definição
+mais formal do que é um arranjo
+
+7
+00:00:15,792 --> 00:00:18,959
+para podermos compará-los
+a outras estruturas de dados depois.
+
+8
+00:00:18,999 --> 00:00:22,918
+Como mencionado, um arranjo é uma lista
+com algumas regras adicionais,
+
+9
+00:00:22,959 --> 00:00:26,167
+então, já sabemos que alguns itens
+se encontram em ordem.
+
+10
+00:00:26,209 --> 00:00:31,292
+Em algumas linguagens só podemos
+ter objetos do mesmo tipo em um arranjo.
+
+11
+00:00:31,334 --> 00:00:34,999
+Em outras linguagens, seu arranjo
+pode possuir tipos diferentes,
+
+12
+00:00:34,999 --> 00:00:37,999
+então, não podemos usar isso
+como regra para definir arranjos.
+
+13
+00:00:38,000 --> 00:00:40,626
+Também seria legal dizer
+que os arranjos possuem
+
+14
+00:00:40,667 --> 00:00:43,584
+um tamanho fixo
+que você determina ao criá-los.
+
+15
+00:00:43,626 --> 00:00:46,834
+Novamente, isto só é verdade
+em algumas linguagens de programação,
+
+16
+00:00:46,876 --> 00:00:49,459
+então, precisamos evitar
+colocar isto em nossa definição.
+
+17
+00:00:49,501 --> 00:00:52,553
+Definir as coisas que linguagens
+diferentes chamam de arranjos
+
+18
+00:00:52,586 --> 00:00:54,021
+é bem difícil.
+
+19
+00:00:54,042 --> 00:00:58,584
+Há um grande atributo
+que diferencia os arranjos das listas.
+
+20
+00:00:58,626 --> 00:01:01,999
+Cada arranjo possui uma localização
+chamada de index.
+
+21
+00:01:01,999 --> 00:01:06,042
+Um index é apenas um número associado
+ao local do arranjo.
+
+22
+00:01:06,083 --> 00:01:10,167
+Faz sentido numerar
+estes espaços de 1 a 5,
+
+23
+00:01:10,209 --> 00:01:12,209
+mas é claro
+que seria muito fácil assim.
+
+24
+00:01:12,250 --> 00:01:15,000
+Normalmente,
+um index começa no zero,
+
+25
+00:01:15,042 --> 00:01:16,910
+então, em vez de se referir
+a estes espaços
+
+26
+00:01:16,944 --> 00:01:20,681
+como de 1 a 5,
+normalmente usamos de 0 a 4.
+
+27
+00:01:20,709 --> 00:01:25,999
+Ter índices pode tornar os arranjos
+uma ótima ou péssima escolha
+
+28
+00:01:25,999 --> 00:01:27,417
+dependendo do código
+que estiver usando.
+
+29
+00:01:27,459 --> 00:01:31,959
+Se você precisa acessar uma localização
+do meio com frequência,
+
+30
+00:01:31,999 --> 00:01:33,999
+utilizar o arranjo
+pode ser uma ótima escolha.
+
+31
+00:01:33,999 --> 00:01:37,000
+Você precisa apenas ter
+noção do tamanho do arranjo.
+
+32
+00:01:37,042 --> 00:01:42,792
+Calcule o elemento do meio e verifique
+o objeto do espaço com o index.
+
+33
+00:01:42,834 --> 00:01:46,542
+Inserir ou deletar informações
+podem ser bem complicadas nos arranjos.
+
+34
+00:01:46,584 --> 00:01:49,292
+Inserir ao final
+costuma ser fácil,
+
+35
+00:01:49,334 --> 00:01:51,612
+mas pode ser difícil
+se o arranjo possui um tamanho fixo
+
+36
+00:01:51,645 --> 00:01:53,377
+e se você
+já o tiver preenchido.
+
+37
+00:01:53,398 --> 00:01:57,417
+Inserção é difícil se quiser colocar
+um elemento no meio do arranjo.
+
+38
+00:01:57,459 --> 00:02:01,417
+Se quiser fazer uma inserção normal
+você precisa movimentar tudo
+
+39
+00:02:01,459 --> 00:02:04,224
+depois do elemento inserido
+a espaços diferentes
+
+40
+00:02:04,258 --> 00:02:05,959
+com um index diferente.
+
+41
+00:02:05,999 --> 00:02:10,334
+A operação não é eficiente
+já que você precisa mover
+
+42
+00:02:10,375 --> 00:02:14,542
+todos os elementos atrás
+daquele que está inserindo no arranjo.
+
+43
+00:02:14,584 --> 00:02:19,626
+No pior exemplo, esta operação
+usa tempo linear ou um Grande O do n.
+
+44
+00:02:19,667 --> 00:02:22,167
+A eliminação causa
+um problema parecido.
+
+45
+00:02:22,209 --> 00:02:25,250
+Ao deletar um elemento
+você terá um espaço vazio.
+
+46
+00:02:25,292 --> 00:02:29,417
+Você não poderá olhar para o index
+e dizer que este é o quarto elemento
+
+47
+00:02:29,459 --> 00:02:31,459
+pois há um espaço vazio
+antes dele.
+
+48
+00:02:31,501 --> 00:02:36,792
+Tudo isso pode mudar dependendo da forma
+que uma linguagem implementa um arranjo,
+
+49
+00:02:36,834 --> 00:02:38,825
+mas é importante
+pensar nisso
+
+50
+00:02:38,859 --> 00:02:41,061
+ao falarmos de arranjos
+de maneira abstrata.

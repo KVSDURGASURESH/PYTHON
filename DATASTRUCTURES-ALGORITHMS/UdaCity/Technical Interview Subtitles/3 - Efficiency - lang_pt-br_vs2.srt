@@ -1,0 +1,231 @@
+1
+00:00:00,294 --> 00:00:03,136
+A eficiência deve ser
+o conceito mais importante
+
+2
+00:00:03,170 --> 00:00:04,505
+que você vai aprender
+neste curso.
+
+3
+00:00:04,544 --> 00:00:07,794
+Então, não mude de vídeo
+até que tenha compreendido isto.
+
+4
+00:00:07,834 --> 00:00:10,461
+A eficiência, também conhecida
+como complexidade,
+
+5
+00:00:10,502 --> 00:00:12,679
+mostra se você está usando
+com sucesso
+
+6
+00:00:12,713 --> 00:00:15,111
+os recursos do seu computador
+para concluir um trabalho.
+
+7
+00:00:15,164 --> 00:00:19,098
+Temos sempre que pensar
+em tempo e espaço.
+
+8
+00:00:19,105 --> 00:00:20,954
+Quanto tempo seu código demora
+para rodar
+
+9
+00:00:20,988 --> 00:00:23,779
+e quanto espaço em disco
+ele precisa para isso?
+
+10
+00:00:23,834 --> 00:00:26,934
+Eficiência pode ser comparada
+a cortar o cabelo.
+
+11
+00:00:26,976 --> 00:00:30,377
+Em geral, seu cabelo será cortado
+todo de uma vez
+
+12
+00:00:30,419 --> 00:00:34,419
+ou você vai comparar mechas que cortou
+a outras mechas que vai cortar
+
+13
+00:00:34,461 --> 00:00:36,711
+para cortar mais ou menos
+do mesmo tamanho.
+
+14
+00:00:36,753 --> 00:00:40,834
+Porém, você pode cortar
+uma mecha por vez
+
+15
+00:00:40,834 --> 00:00:44,085
+e medi-las com uma régua
+ou uma fita métrica
+
+16
+00:00:44,127 --> 00:00:48,960
+para ter certeza que todas as mechas
+serão exatamente iguais.
+
+17
+00:00:49,702 --> 00:00:51,586
+Mas isso seria ridículo.
+
+18
+00:00:51,586 --> 00:00:55,122
+Tomaria muito tempo
+e não faz diferença
+
+19
+00:00:55,155 --> 00:00:57,958
+se as mechas não estão exatamente
+do mesmo tamanho.
+
+20
+00:00:58,002 --> 00:01:02,252
+Se você puder gastar menos tempo
+para fazer um bom trabalho, está ótimo.
+
+21
+00:01:02,918 --> 00:01:06,502
+Em geral, os tradeoffs de eficiência
+dos algoritmos são parecidos.
+
+22
+00:01:06,544 --> 00:01:10,237
+Pode utilizar
+uma abordagem lenta e metódica,
+
+23
+00:01:10,270 --> 00:01:12,172
+mas quase sempre
+há um método mais rápido
+
+24
+00:01:12,210 --> 00:01:15,377
+que terá o mesmo resultado
+com menos repetição.
+
+25
+00:01:15,419 --> 00:01:18,834
+A eficiência depende muito
+da sua criatividade
+
+26
+00:01:18,834 --> 00:01:22,127
+e da habilidade de fazer o máximo
+com o mínimo de recursos,
+
+27
+00:01:22,169 --> 00:01:24,544
+mas há muitas dicas
+e truques
+
+28
+00:01:24,586 --> 00:01:27,294
+que esperam que você saiba
+ao fazer uma entrevista técnica.
+
+29
+00:01:28,711 --> 00:01:32,544
+O entrevistador espera que você conheça
+algumas estruturas de dados
+
+30
+00:01:32,586 --> 00:01:35,210
+e tenha eficiência de fazer
+coisas básicas com eles,
+
+31
+00:01:35,252 --> 00:01:39,753
+assim como tenha conhecimento
+de alguns algoritmos conhecidos.
+
+32
+00:01:39,794 --> 00:01:43,604
+Neste caso, um algoritmo
+é apenas uma série de etapas
+
+33
+00:01:43,637 --> 00:01:45,439
+para solucionar um problema.
+
+34
+00:01:45,461 --> 00:01:48,294
+Um dos melhores momentos
+da minha carreira como programadora
+
+35
+00:01:48,336 --> 00:01:51,669
+foi a primeira vez que utilizei
+um algoritmo pra melhorar meu código.
+
+36
+00:01:51,711 --> 00:01:54,214
+Eu fiz uma função
+que levou horas
+
+37
+00:01:54,248 --> 00:01:56,750
+para funcionar
+em um conjunto de dados gigantesco.
+
+38
+00:01:56,794 --> 00:01:59,720
+Mas depois que utilizei o algoritmo,
+levou apenas alguns segundos.
+
+39
+00:01:59,753 --> 00:02:03,294
+Criar códigos eficientes
+pode trazer outro tradeoff
+
+40
+00:02:03,336 --> 00:02:06,627
+entre a eficiência do tempo
+e a eficiência do espaço.
+
+41
+00:02:06,669 --> 00:02:09,627
+E se o código funcionasse
+em apenas uma fração do tempo
+
+42
+00:02:09,669 --> 00:02:12,627
+ao armazenar valores temporários
+em uma estrutura de dados nova?
+
+43
+00:02:13,456 --> 00:02:14,501
+Para decidir isso,
+
+44
+00:02:14,535 --> 00:02:17,994
+você precisa pesar se o tempo
+da pessoa que utiliza o código
+
+45
+00:02:18,038 --> 00:02:21,085
+ou a quantidade de memória
+é mais importante.
+
+46
+00:02:22,002 --> 00:02:24,711
+Ao fim deste curso,
+você terá a maioria das ferramentas
+
+47
+00:02:24,753 --> 00:02:27,314
+e o conhecimento necessários
+para fazer um código eficiente.

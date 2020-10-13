@@ -1,0 +1,118 @@
+1
+00:00:00,501 --> 00:00:03,734
+Agora que você entende
+de algoritmos e estruturas,
+
+2
+00:00:03,767 --> 00:00:06,300
+é hora de pensar
+sobre a entrevista.
+
+3
+00:00:06,334 --> 00:00:10,567
+Para esta lição, um convidado especial
+veio nos ajudar com isso.
+
+4
+00:00:10,601 --> 00:00:11,834
+Bem-vindo, Horatio!
+
+5
+00:00:12,534 --> 00:00:16,501
+Oi, sou o Horatio, um instrutor
+de Android aqui, na Udacity.
+
+6
+00:00:16,534 --> 00:00:20,834
+Recentemente estive na mesma situação
+em que você está agora.
+
+7
+00:00:20,868 --> 00:00:24,234
+Nunca estudei estruturas
+e algoritmos na faculdade.
+
+8
+00:00:24,267 --> 00:00:26,834
+Mas acabei de me formar
+na Udacity
+
+9
+00:00:26,868 --> 00:00:29,501
+e me preparei
+para entrevistas técnicas.
+
+10
+00:00:29,534 --> 00:00:34,467
+Aprender estruturas e algoritmos
+me deixou mais confiante nelas.
+
+11
+00:00:34,501 --> 00:00:40,467
+Mas logo vi que o processo de responder
+à pergunta também é importante.
+
+12
+00:00:40,501 --> 00:00:44,033
+Com certeza. Quando um entrevistador
+faz uma pergunta,
+
+13
+00:00:44,067 --> 00:00:48,667
+sua capacidade de responder
+é só uma pequena parte da avaliação.
+
+14
+00:00:48,701 --> 00:00:53,701
+Além disso, eles analisam como você
+resolve problemas e se comunica.
+
+15
+00:00:53,734 --> 00:00:57,734
+Nesta aula,
+analisaremos entrevistas por etapas
+
+16
+00:00:57,767 --> 00:01:01,434
+para que você entenda
+onde o entrevistado errou ou não.
+
+17
+00:01:01,467 --> 00:01:05,734
+Você poderá aplicar as habilidades dele
+e evitar seus erros.
+
+18
+00:01:05,767 --> 00:01:10,300
+Há 7 passos para uma entrevista
+de algoritmos de sucesso,
+
+19
+00:01:10,334 --> 00:01:13,567
+os quais iremos detalhar
+ao longo da aula.
+
+20
+00:01:13,601 --> 00:01:16,567
+Os passos são:
+"Esclarecendo a Pergunta",
+
+21
+00:01:16,601 --> 00:01:18,701
+"Produção de Entradas
+e Saídas",
+
+22
+00:01:18,734 --> 00:01:21,834
+"Produção de Casos de Teste",
+"Brainstorming",
+
+23
+00:01:21,868 --> 00:01:26,167
+"Análise de Tempo de Execução",
+"Codificação" e "Depuração".
+
+24
+00:01:26,200 --> 00:01:28,968
+Então vamos começar
+com nossa entrevista!

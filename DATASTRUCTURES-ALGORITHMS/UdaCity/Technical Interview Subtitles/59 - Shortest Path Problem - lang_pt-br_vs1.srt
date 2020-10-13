@@ -1,0 +1,78 @@
+1
+00:00:00,000 --> 00:00:04,501
+Com sorte, você já se acostumou
+com nomes diretos na Computação.
+
+2
+00:00:04,534 --> 00:00:09,000
+Se sim, talvez consiga adivinhar
+que o problema do caminho mais curto
+
+3
+00:00:09,033 --> 00:00:12,567
+trata-se de achar o menor caminho
+em um grafo.
+
+4
+00:00:12,601 --> 00:00:14,934
+Já falamos
+de arestas valoradas,
+
+5
+00:00:14,968 --> 00:00:19,067
+em que as arestas num grafo
+têm um valor numérico.
+
+6
+00:00:19,100 --> 00:00:23,968
+O menor caminho é aquele em que a soma
+das arestas é a mínima possível.
+
+7
+00:00:24,601 --> 00:00:26,234
+Num grafo não valorado,
+
+8
+00:00:26,267 --> 00:00:30,434
+o menor caminho seria aquele
+com o menor número de arestas.
+
+9
+00:00:30,467 --> 00:00:33,601
+A natureza da solução
+deste problema muda muito
+
+10
+00:00:33,634 --> 00:00:35,767
+dependendo
+do tipo de grafo.
+
+11
+00:00:35,801 --> 00:00:40,367
+A solução para o problema do caminho
+mais curto num grafo não valorado
+
+12
+00:00:40,400 --> 00:00:43,000
+é apenas
+uma busca em largura.
+
+13
+00:00:43,634 --> 00:00:48,734
+Com uma BFS, você parte de um nó
+e visita os nós mais próximos primeiro,
+
+14
+00:00:48,767 --> 00:00:53,767
+movendo-se aos poucos para nós
+mais distantes até achar o que quer.
+
+15
+00:00:53,801 --> 00:00:57,133
+Quando não há valores,
+você só quer achar o caminho
+
+16
+00:00:57,167 --> 00:00:59,534
+com o menor número
+de arestas.

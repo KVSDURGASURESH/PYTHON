@@ -1,0 +1,66 @@
+1
+00:00:00,460 --> 00:00:02,600
+Literally every time
+I hear about stacks,
+
+2
+00:00:02,600 --> 00:00:07,470
+I can only think about a stack of
+pancakes, chocolate chip, of course.
+
+3
+00:00:07,470 --> 00:00:10,680
+Or maybe I'm just always
+thinking about pancakes?
+
+4
+00:00:10,680 --> 00:00:12,350
+Not actually sure.
+
+5
+00:00:12,350 --> 00:00:14,820
+Stacks are also list-based
+data structures, so
+
+6
+00:00:14,820 --> 00:00:18,500
+they have a bit of a different
+flair than arrays and linked lists.
+
+7
+00:00:18,500 --> 00:00:23,470
+The main idea is a stack is like
+a stack of objects in real life.
+
+8
+00:00:23,470 --> 00:00:27,599
+You keep putting elements on top and
+you have easy access to remove or
+
+9
+00:00:27,600 --> 00:00:28,590
+look at the top element.
+
+10
+00:00:29,730 --> 00:00:33,840
+Even if the pancake on the bottom looks
+like it has the most chocolate chips
+
+11
+00:00:33,840 --> 00:00:35,630
+I can't get to it easily.
+
+12
+00:00:35,630 --> 00:00:39,390
+I need to make my way through
+everything above it to reach it.
+
+13
+00:00:39,390 --> 00:00:43,230
+I also know that it was the earliest
+thing put on the stack,
+
+14
+00:00:43,230 --> 00:00:45,400
+back when I thought I would
+have chocolate chips to spare.

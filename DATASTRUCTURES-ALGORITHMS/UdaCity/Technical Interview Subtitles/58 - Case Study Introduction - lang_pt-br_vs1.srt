@@ -1,0 +1,54 @@
+1
+00:00:00,000 --> 00:00:02,767
+Parabéns!
+Você aprendeu várias ferramentas
+
+2
+00:00:02,801 --> 00:00:05,300
+para resolver problemas
+de Computação.
+
+3
+00:00:05,334 --> 00:00:09,534
+Agora vamos penetrar em alguns
+dos problemas mais conhecidos
+
+4
+00:00:09,567 --> 00:00:12,634
+e ver
+como podemos resolvê-los.
+
+5
+00:00:12,667 --> 00:00:16,033
+No caminho, veremos algoritmos
+e conceitos famosos
+
+6
+00:00:16,067 --> 00:00:18,901
+que aparecem muito
+em entrevistas técnicas.
+
+7
+00:00:18,934 --> 00:00:21,067
+Talvez não peçam
+especificamente
+
+8
+00:00:21,100 --> 00:00:23,701
+que você resolva
+um desses problemas.
+
+9
+00:00:23,734 --> 00:00:28,667
+Mas é comum apresentarem
+um problema que se reduz a um deles.
+
+10
+00:00:28,701 --> 00:00:32,334
+Entenda claramente
+a raiz do problema
+
+11
+00:00:32,366 --> 00:00:37,501
+e fique atento a ocorrências assim
+mascaradas de outra coisa.

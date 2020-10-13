@@ -1,0 +1,266 @@
+1
+00:00:00,501 --> 00:00:02,769
+Já que a quantidade de etapas
+varia muito
+
+2
+00:00:02,803 --> 00:00:05,038
+dependendo
+das implementações específicas,
+
+3
+00:00:05,077 --> 00:00:10,410
+nós aproximamos os valores
+de eficiência no Grande O.
+
+4
+00:00:11,118 --> 00:00:13,993
+Já que a eficiência
+do pseudocódigo
+
+5
+00:00:14,035 --> 00:00:16,910
+pode ser qualquer uma
+dessas expressões ou outras,
+
+6
+00:00:16,951 --> 00:00:23,077
+podemos dizer que a eficiência
+será aproximadamente O(n).
+
+7
+00:00:23,118 --> 00:00:24,691
+Se estiver criando um código
+para produção,
+
+8
+00:00:24,725 --> 00:00:29,363
+você deve tentar minimizar
+o número de computações.
+
+9
+00:00:29,410 --> 00:00:31,031
+Porém, em uma entrevista,
+
+10
+00:00:31,064 --> 00:00:34,067
+o entrevistador
+não quer ver você fazendo isso,
+
+11
+00:00:34,202 --> 00:00:39,215
+ele só quer que você pense em eficiência
+e consiga calculá-la se for preciso.
+
+12
+00:00:39,867 --> 00:00:42,327
+Ao aproximarmos o valor,
+estamos dizendo
+
+13
+00:00:43,035 --> 00:00:48,410
+que algumas computações devem ocorrer
+para cada caractere na entrada.
+
+14
+00:00:49,077 --> 00:00:51,585
+Há mais coisas que devem
+ser levadas em consideração
+
+15
+00:00:51,618 --> 00:00:53,820
+quando usamos o Grande O.
+
+16
+00:00:53,867 --> 00:00:55,022
+Se você percebeu,
+
+17
+00:00:55,055 --> 00:00:57,824
+eu disse que são necessárias
+pelo menos 26 computações
+
+18
+00:00:57,867 --> 00:01:00,410
+para usarmos
+todas as letras do alfabeto.
+
+19
+00:01:00,452 --> 00:01:03,297
+Na verdade, é improvável
+que você consiga verificar
+
+20
+00:01:03,330 --> 00:01:06,033
+todas as 26 letras
+todas as vezes.
+
+21
+00:01:06,077 --> 00:01:07,734
+Quando falamos
+sobre eficiência
+
+22
+00:01:07,768 --> 00:01:11,138
+geralmente pensamos
+no pior exemplo possível
+
+23
+00:01:11,160 --> 00:01:14,744
+em que teríamos que computar
+todas as 26 letras a cada vez.
+
+24
+00:01:14,786 --> 00:01:16,777
+Focamos no pior exemplo
+
+25
+00:01:16,810 --> 00:01:20,848
+porque nos dá o limite máximo
+de tempo necessário para o código.
+
+26
+00:01:20,867 --> 00:01:24,751
+Podemos estudar eficiência
+usando exemplos medianos
+
+27
+00:01:24,785 --> 00:01:26,386
+e até bons exemplos.
+
+28
+00:01:26,410 --> 00:01:29,660
+Já que estamos falando
+das letras do alfabeto,
+
+29
+00:01:29,660 --> 00:01:33,910
+o pior caso seria se usássemos
+todas as 26 letras.
+
+30
+00:01:33,951 --> 00:01:38,868
+No melhor exemplo, nós encontraríamos
+o que procuramos na 1ª tentativa
+
+31
+00:01:38,910 --> 00:01:43,327
+e no mediano tentaríamos
+mais ou menos umas 13 vezes.
+
+32
+00:01:43,369 --> 00:01:45,494
+Em um mundo perfeito,
+
+33
+00:01:45,535 --> 00:01:50,744
+iteraremos uma lista de letras
+em média 13 vezes.
+
+34
+00:01:50,786 --> 00:01:53,827
+Às vezes um pouco mais
+e às vezes um pouco menos,
+
+35
+00:01:53,867 --> 00:01:56,160
+mas é justo dizer
+que será em média 13 vezes.
+
+36
+00:01:56,202 --> 00:01:59,867
+Se vamos tentar calcular
+a eficiência do exemplo mediano,
+
+37
+00:01:59,867 --> 00:02:01,855
+vai ser desta forma
+
+38
+00:02:01,889 --> 00:02:05,392
+e a expressão encontrada
+será 16n mais 2.
+
+39
+00:02:05,410 --> 00:02:09,077
+Agora vamos voltar
+a falar sobre aproximação.
+
+40
+00:02:09,866 --> 00:02:14,285
+Ao considerarmos o exemplo mediano,
+o pior e o melhor,
+
+41
+00:02:14,327 --> 00:02:17,535
+o resultado também será O(n).
+
+42
+00:02:17,577 --> 00:02:20,040
+Em uma entrevista
+você pode se sentir tentado
+
+43
+00:02:20,073 --> 00:02:26,693
+a combinar o exemplo mediano com o pior
+e o melhor e dar uma resposta dessas.
+
+44
+00:02:26,702 --> 00:02:30,702
+Porém, o melhor exemplo,
+o pior e o mediano
+
+45
+00:02:30,744 --> 00:02:33,327
+podem nem sempre estar próximos
+a esta expressão.
+
+46
+00:02:33,369 --> 00:02:35,722
+Você deve sempre especificar
+ao entrevistador
+
+47
+00:02:35,756 --> 00:02:38,091
+de qual exemplo
+está falando.
+
+48
+00:02:38,118 --> 00:02:40,369
+Falamos muito
+sobre a eficiência do tempo,
+
+49
+00:02:40,410 --> 00:02:44,786
+mas você pode usar a mesma notação
+para falar sobre a eficiência do espaço.
+
+50
+00:02:45,369 --> 00:02:48,993
+Por exemplo, supondo que você precise
+copiar a string de entrada
+
+51
+00:02:49,035 --> 00:02:51,285
+3 vezes no seu código
+por algum motivo.
+
+52
+00:02:51,327 --> 00:02:54,867
+Então, a eficiência do espaço
+seria esta.
+
+53
+00:02:54,867 --> 00:02:58,786
+A eficiência do espaço não é perguntada
+com tanta frequência nas entrevistas,
+
+54
+00:02:58,827 --> 00:03:00,867
+mas é algo que deve ser levado
+em consideração
+
+55
+00:03:00,868 --> 00:03:03,183
+porque pode aparecer
+uma vez ou outra.

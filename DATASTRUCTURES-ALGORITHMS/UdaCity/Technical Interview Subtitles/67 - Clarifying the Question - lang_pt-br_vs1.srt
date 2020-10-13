@@ -1,0 +1,119 @@
+1
+00:00:00,901 --> 00:00:02,767
+Obrigada
+por ter vindo hoje.
+
+2
+00:00:02,801 --> 00:00:04,734
+Obrigado, é um prazer.
+
+3
+00:00:04,767 --> 00:00:06,000
+Vamos começar.
+
+4
+00:00:06,033 --> 00:00:10,334
+Dada uma matriz 2D m
+de somente zeros e uns,
+
+5
+00:00:10,367 --> 00:00:12,767
+conte o número de ilhas
+na matriz.
+
+6
+00:00:12,801 --> 00:00:17,100
+Aqui, uma ilha é um grupo de números 1
+ou o número 1 sozinho.
+
+7
+00:00:17,133 --> 00:00:20,601
+Certo,
+então temos uma matriz 2D.
+
+8
+00:00:21,734 --> 00:00:23,033
+A aparência dela...
+
+9
+00:00:24,033 --> 00:00:25,767
+é mais ou menos assim.
+
+10
+00:00:33,234 --> 00:00:36,868
+Então o que vamos fazer
+é achar o número de ilhas,
+
+11
+00:00:36,901 --> 00:00:39,767
+que são grupos
+de números 1 conectados.
+
+12
+00:00:39,801 --> 00:00:44,067
+Mas, se eles se conectarem
+diagonalmente, isso forma uma ilha?
+
+13
+00:00:44,100 --> 00:00:48,767
+Não, eles precisam estar conectados
+na horizontal ou na vertical apenas.
+
+14
+00:00:48,801 --> 00:00:53,667
+Certo. Então o que temos que fazer
+é achar o número de ilhas nesta matriz,
+
+15
+00:00:53,701 --> 00:00:57,300
+e ilhas são números 1 ligados
+na horizontal e vertical.
+
+16
+00:00:57,334 --> 00:00:59,100
+-Exatamente.
+-Legal.
+
+17
+00:00:59,934 --> 00:01:04,601
+Beleza. Como nosso entrevistado se saiu
+na 1ª parte da entrevista?
+
+18
+00:01:04,634 --> 00:01:06,534
+Acho que ele não foi mal.
+
+19
+00:01:06,567 --> 00:01:10,300
+Ele esclareceu a pergunta
+para resolver o problema certo.
+
+20
+00:01:10,334 --> 00:01:15,434
+Certo. Essa é uma pergunta bem popular,
+então há variações diferentes.
+
+21
+00:01:15,467 --> 00:01:18,834
+Certifique-se de estar resolvendo
+a variação certa.
+
+22
+00:01:18,868 --> 00:01:23,300
+Alguns podem considerar números 1
+conectados na diagonal como ilhas.
+
+23
+00:01:23,334 --> 00:01:28,200
+Em geral, o esclarecimento é crucial
+para um bom desenvolvedor de software.
+
+24
+00:01:28,234 --> 00:01:32,467
+É preciso provar que você
+não irá tomar atitudes impulsivas
+
+25
+00:01:32,501 --> 00:01:37,567
+e talvez perder tempo num código
+que não resolverá o problema inicial.

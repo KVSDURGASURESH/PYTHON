@@ -1,0 +1,141 @@
+1
+00:00:01,200 --> 00:00:03,760
+Now that you understand algorithms and
+data structures,
+
+2
+00:00:03,760 --> 00:00:06,340
+it's time to think about
+the actual interview.
+
+3
+00:00:06,340 --> 00:00:07,400
+For this lesson,
+
+4
+00:00:07,400 --> 00:00:10,610
+we're joined by a very special
+guest to help us to do just that.
+
+5
+00:00:10,610 --> 00:00:11,350
+Welcome, Horatio.
+
+6
+00:00:12,540 --> 00:00:16,599
+&gt;&gt; Hello, I'm Horatio, and
+I'm an Android coach here at Udacity.
+
+7
+00:00:16,600 --> 00:00:17,420
+Not too long ago,
+
+8
+00:00:17,420 --> 00:00:21,200
+I was in a similar situation to
+the one you may be in right now.
+
+9
+00:00:21,200 --> 00:00:24,270
+I never took a class in college about
+data structures and algorithms.
+
+10
+00:00:24,270 --> 00:00:27,740
+But I just graduated from
+a UDacity Nanodegree, was preparing for
+
+11
+00:00:27,740 --> 00:00:29,509
+technical interviews.
+
+12
+00:00:29,510 --> 00:00:30,790
+Learning about data structures and
+
+13
+00:00:30,790 --> 00:00:34,490
+algorithms made me feel more
+confident about technical interviews.
+
+14
+00:00:34,490 --> 00:00:38,340
+But I soon realized what is also very
+important is the actual process for
+
+15
+00:00:38,340 --> 00:00:40,957
+answering an algorithm
+question in an interview.
+
+16
+00:00:40,957 --> 00:00:42,000
+&gt;&gt; Definitely.
+
+17
+00:00:42,000 --> 00:00:46,900
+When an interviewer asks you a question,
+your ability to get the right answer is
+
+18
+00:00:46,900 --> 00:00:48,544
+just a small part of
+what they're evaluating.
+
+19
+00:00:48,544 --> 00:00:51,669
+They also want to see your
+approach to solving problems and
+
+20
+00:00:51,669 --> 00:00:53,275
+your communication skills.
+
+21
+00:00:53,275 --> 00:00:55,510
+&gt;&gt; In this lesson,
+you'll be shown interviews, and
+
+22
+00:00:55,511 --> 00:00:58,787
+then we'll break them down at each step
+to help you understand exactly what
+
+23
+00:00:58,787 --> 00:01:01,480
+the interviewee is doing right and
+wrong.
+
+24
+00:01:01,480 --> 00:01:04,340
+Then you will be able to implement
+the interviewees' skills while avoiding
+
+25
+00:01:04,340 --> 00:01:05,760
+their mistakes.
+
+26
+00:01:05,760 --> 00:01:10,330
+&gt;&gt; The path to a successful algorithm's
+interview involves a seven-step process,
+
+27
+00:01:10,330 --> 00:01:13,600
+which we'll go over in further
+detail throughout the lesson.
+
+28
+00:01:13,600 --> 00:01:18,705
+&gt;&gt; The steps are Clarifying the
+Question, Generating Inputs and Outputs,
+
+29
+00:01:18,705 --> 00:01:24,890
+Generating Test Cases, Brainstorming,
+Runtime Analysis, Coding, and Debugging.
+
+30
+00:01:26,200 --> 00:01:27,980
+So let's get right into
+it with our interview.

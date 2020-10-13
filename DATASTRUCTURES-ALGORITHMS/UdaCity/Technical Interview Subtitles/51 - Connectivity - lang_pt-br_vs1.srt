@@ -1,0 +1,103 @@
+1
+00:00:00,000 --> 00:00:03,834
+Outra propriedade importante
+dos grafos é a conectividade.
+
+2
+00:00:03,868 --> 00:00:08,534
+Ela tem um sentido especial no estudo
+dos grafos, a Teoria dos Grafos.
+
+3
+00:00:08,567 --> 00:00:12,667
+Mas 1º vamos definir
+o que é um grafo conectado.
+
+4
+00:00:12,701 --> 00:00:15,501
+Um grafo desconectado
+tem um vértice
+
+5
+00:00:15,534 --> 00:00:18,601
+que os outros vértices
+não alcançam.
+
+6
+00:00:18,634 --> 00:00:23,200
+Ele pode ter um vértice na lateral,
+sem arestas.
+
+7
+00:00:23,901 --> 00:00:27,601
+Também pode ter
+dois componentes conectados,
+
+8
+00:00:27,634 --> 00:00:31,968
+que são em si grafos conectados,
+mas sem conexões entre si.
+
+9
+00:00:32,567 --> 00:00:36,367
+Assim, um grafo conectado
+não tem vértices desconectados.
+
+10
+00:00:36,400 --> 00:00:40,200
+Também há uma medida
+para representar o grafo na íntegra
+
+11
+00:00:40,234 --> 00:00:41,834
+chamada conectividade.
+
+12
+00:00:42,601 --> 00:00:47,267
+Digamos que estes dois grafos
+representam dois grupos de amigos.
+
+13
+00:00:47,901 --> 00:00:52,934
+Analisando, o da direita parece
+ser um grupo bem mais forte.
+
+14
+00:00:52,968 --> 00:00:57,267
+No geral, há menos pessoas,
+mas mais conexões entre elas.
+
+15
+00:00:57,300 --> 00:01:00,567
+No grupo à esquerda,
+se eu removesse uma conexão,
+
+16
+00:01:00,601 --> 00:01:03,033
+o grupo todo
+poderia ser destruído.
+
+17
+00:01:03,067 --> 00:01:05,634
+Esse é o princípio
+da conectividade,
+
+18
+00:01:05,667 --> 00:01:09,367
+que mede o número mínimo
+de elementos a serem removidos
+
+19
+00:01:09,400 --> 00:01:11,701
+para um grafo
+se tornar desconectado.
+
+20
+00:01:11,734 --> 00:01:14,033
+Dependendo da informação
+no grafo,
+
+21
+00:01:14,067 --> 00:01:19,400
+às vezes a conectividade é usada
+para dizer qual o grafo mais forte.

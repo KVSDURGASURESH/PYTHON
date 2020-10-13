@@ -1,0 +1,137 @@
+1
+00:00:00,000 --> 00:00:03,834
+Quero falar agora
+da implementação de um heap.
+
+2
+00:00:03,868 --> 00:00:06,167
+Embora representados
+como árvores,
+
+3
+00:00:06,200 --> 00:00:09,267
+heaps costumam ser armazenados
+como arrays.
+
+4
+00:00:09,300 --> 00:00:11,167
+Como isso é possível?
+
+5
+00:00:11,200 --> 00:00:15,234
+Bem, como sabemos quantos filhos
+cada pai tem (dois)
+
+6
+00:00:15,267 --> 00:00:17,767
+e, assim, o número de nós
+de cada nível,
+
+7
+00:00:17,801 --> 00:00:21,901
+podemos calcular
+onde o próximo nó cairá no array
+
+8
+00:00:21,934 --> 00:00:23,734
+e aí percorrer a árvore.
+
+9
+00:00:23,767 --> 00:00:26,834
+Vamos converter
+este array ordenado em árvore.
+
+10
+00:00:26,868 --> 00:00:31,200
+Sabemos que o 1º elemento
+será a raiz, pois é o maior.
+
+11
+00:00:31,234 --> 00:00:35,133
+Os próximos dois elementos
+serão os filhos da raiz.
+
+12
+00:00:35,167 --> 00:00:38,534
+Por convenção, inseri
+da esquerda para a direita.
+
+13
+00:00:38,567 --> 00:00:42,367
+Mas isso não importa,
+desde que esteja no 2º nível.
+
+14
+00:00:42,400 --> 00:00:46,300
+Cada nível da árvore é o dobro
+do nível anterior,
+
+15
+00:00:46,334 --> 00:00:49,100
+então o próximo nível
+tem 4 elementos.
+
+16
+00:00:49,133 --> 00:00:53,801
+Podemos controlar o tamanho
+de cada nível em uma variável
+
+17
+00:00:53,834 --> 00:00:56,868
+e dobrá-la
+a cada novo nível.
+
+18
+00:00:56,901 --> 00:01:00,801
+E o que sobrar completará
+o lado esquerdo do último nível.
+
+19
+00:01:00,834 --> 00:01:02,901
+Você terminou!
+Uma nota rápida:
+
+20
+00:01:02,934 --> 00:01:06,033
+nem todo array pode
+ser representado por heaps.
+
+21
+00:01:06,067 --> 00:01:09,334
+Este pôde, pois foi ordenado
+em ordem decrescente.
+
+22
+00:01:09,367 --> 00:01:13,467
+Os números precisam estar
+numa ordem adequada para heaps.
+
+23
+00:01:13,501 --> 00:01:16,934
+Armazenar seus dados num array
+pode poupar espaço.
+
+24
+00:01:16,968 --> 00:01:22,300
+Se usarmos, só teremos que armazenar
+o valor e índice do nó no array.
+
+25
+00:01:22,334 --> 00:01:25,934
+Porém, se criássemos um objeto nó
+para a árvore,
+
+26
+00:01:25,968 --> 00:01:29,400
+ele precisaria de ponteiros
+para os pais e filhos,
+
+27
+00:01:29,434 --> 00:01:33,601
+então armazenaríamos valores
+e ponteiros para cada elemento.
+
+28
+00:01:33,634 --> 00:01:37,367
+Como o array não tem ponteiros,
+ele economiza espaço.

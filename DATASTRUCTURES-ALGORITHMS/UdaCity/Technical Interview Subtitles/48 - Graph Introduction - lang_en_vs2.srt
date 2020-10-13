@@ -1,0 +1,74 @@
+1
+00:00:00,480 --> 00:00:03,850
+This new project that I'm in
+charge of really has me stumped.
+
+2
+00:00:03,850 --> 00:00:06,350
+Do you mind if I think out loud for
+a bit Winston?
+
+3
+00:00:08,260 --> 00:00:09,730
+Thanks.
+
+4
+00:00:09,730 --> 00:00:13,800
+I have a ton of data about websites and
+I want to be able to search through them
+
+5
+00:00:13,800 --> 00:00:18,120
+by which pages have links to each other,
+there's an issue though.
+
+6
+00:00:18,120 --> 00:00:21,489
+I can't get a clear mental picture
+of what they would look like and
+
+7
+00:00:21,489 --> 00:00:25,726
+I don't know which data type is best for
+modeling connections between web pages.
+
+8
+00:00:25,726 --> 00:00:28,820
+[BLANK_AUDIO]
+
+9
+00:00:28,820 --> 00:00:29,342
+Do you think I should use a graph?
+
+10
+00:00:29,342 --> 00:00:30,221
+What's that?
+
+11
+00:00:30,221 --> 00:00:33,146
+[BLANK_AUDIO]
+
+12
+00:00:33,146 --> 00:00:35,440
+Right.
+
+13
+00:00:35,440 --> 00:00:37,890
+That's a lot of technical mumbo jumbo.
+
+14
+00:00:37,890 --> 00:00:42,000
+But I gather a graph is a data structure
+designed to show relationships
+
+15
+00:00:42,000 --> 00:00:43,840
+between objects.
+
+16
+00:00:43,840 --> 00:00:44,870
+Sounds great.
+
+17
+00:00:44,870 --> 00:00:45,710
+I can't wait to learn more.

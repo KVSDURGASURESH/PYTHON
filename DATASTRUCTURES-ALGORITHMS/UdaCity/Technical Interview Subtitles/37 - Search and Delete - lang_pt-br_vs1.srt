@@ -1,0 +1,121 @@
+1
+00:00:00,033 --> 00:00:05,367
+Árvores binárias são aquelas
+cujos pais têm, no máximo, dois filhos.
+
+2
+00:00:05,400 --> 00:00:10,000
+Ou seja, os nós podem ter
+0, 1 ou 2 filhos.
+
+3
+00:00:10,033 --> 00:00:12,934
+Os filhos podem até ser nulos,
+mas tudo bem.
+
+4
+00:00:12,968 --> 00:00:16,033
+Vamos ver como é uma busca
+numa árvore binária.
+
+5
+00:00:16,067 --> 00:00:20,434
+Podemos usar qualquer dos algoritmos
+de percurso para percorrê-la.
+
+6
+00:00:20,467 --> 00:00:23,167
+Como não há uma ordem real
+dos elementos,
+
+7
+00:00:23,200 --> 00:00:26,033
+precisarei analisar cada elemento
+na árvore
+
+8
+00:00:26,067 --> 00:00:28,734
+se o valor que eu procurar
+não existir.
+
+9
+00:00:28,767 --> 00:00:32,934
+Não há truques legais aqui,
+então terá que ser uma busca linear.
+
+10
+00:00:32,968 --> 00:00:36,000
+Uma operação de exclusão começa
+com uma busca,
+
+11
+00:00:36,033 --> 00:00:38,267
+pois primeiro
+é preciso achar o nó.
+
+12
+00:00:38,300 --> 00:00:41,701
+Se você for excluir uma folha,
+apenas a delete.
+
+13
+00:00:41,734 --> 00:00:46,133
+Mas, se deletar um nó interno,
+você ficará com uma lacuna.
+
+14
+00:00:46,167 --> 00:00:50,501
+Se o nó que você excluir
+só tiver um filho, delete o nó,
+
+15
+00:00:50,534 --> 00:00:54,767
+mova o filho
+e anexe ao pai do nó excluído.
+
+16
+00:00:54,801 --> 00:00:59,200
+Se você quiser se livrar de um nó
+com dois filhos, há umas opções.
+
+17
+00:00:59,234 --> 00:01:02,634
+Você pode promover o filho
+como fez antes.
+
+18
+00:01:02,667 --> 00:01:05,099
+Claro, nem sempre é fácil.
+
+19
+00:01:05,132 --> 00:01:08,834
+E se os dois filhos
+tiverem filhos?
+
+20
+00:01:08,868 --> 00:01:09,968
+No pior caso,
+
+21
+00:01:10,000 --> 00:01:13,834
+você terá que percorrer
+as subárvores até achar uma folha.
+
+22
+00:01:13,868 --> 00:01:16,400
+Como não há exigências
+para ordem aqui,
+
+23
+00:01:16,434 --> 00:01:20,067
+você pode colocar a folha
+onde o nó excluído estava.
+
+24
+00:01:20,100 --> 00:01:25,033
+Como houve uma busca e trabalho
+de movimentação de elementos,
+
+25
+00:01:25,067 --> 00:01:26,301
+o tempo é linear.

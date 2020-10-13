@@ -1,0 +1,265 @@
+1
+00:00:00,000 --> 00:00:04,534
+A eficiência da ordenação rápida
+é bem complicada.
+
+2
+00:00:04,567 --> 00:00:08,767
+Em 1º lugar, o pior caso.
+Como ele seria?
+
+3
+00:00:08,801 --> 00:00:10,367
+A mágica deste algoritmo
+
+4
+00:00:10,400 --> 00:00:13,400
+é diminuir o número
+de comparações necessárias
+
+5
+00:00:13,434 --> 00:00:16,367
+ao cortar o arranjo pela metade
+quase sempre.
+
+6
+00:00:16,400 --> 00:00:20,534
+O pior caso seria
+se não pudéssemos fazer isso
+
+7
+00:00:20,567 --> 00:00:23,601
+e precisássemos fazer
+todas as comparações.
+
+8
+00:00:23,634 --> 00:00:25,734
+Você fará
+todas as comparações
+
+9
+00:00:25,767 --> 00:00:29,033
+se os pivôs já estiverem
+no lugar certo.
+
+10
+00:00:29,067 --> 00:00:31,767
+Como 13 já é
+o maior elemento,
+
+11
+00:00:31,801 --> 00:00:35,067
+teremos que compará-lo
+com todos de primeira
+
+12
+00:00:35,100 --> 00:00:37,467
+e ver que ele não precisa
+se mover.
+
+13
+00:00:37,501 --> 00:00:40,334
+São muitas comparações
+de uma vez.
+
+14
+00:00:40,367 --> 00:00:44,567
+O problema real é quando
+o valor seguinte também é o maior.
+
+15
+00:00:44,601 --> 00:00:47,334
+Novamente, comparamos
+com todos os menores,
+
+16
+00:00:47,367 --> 00:00:49,167
+não poupamos etapas.
+
+17
+00:00:49,200 --> 00:00:52,868
+O nº de comparações parece
+com a ordenação por flutuação.
+
+18
+00:00:52,901 --> 00:00:55,934
+Lembra-se que nela
+comparávamos cada elemento
+
+19
+00:00:55,968 --> 00:00:59,834
+com o elemento ao lado
+constantemente?
+
+20
+00:00:59,868 --> 00:01:02,701
+No fim, não tocávamos
+nos elementos finais,
+
+21
+00:01:02,734 --> 00:01:04,667
+pois estavam
+no lugar certo.
+
+22
+00:01:04,700 --> 00:01:07,834
+O pior caso de ordenação rápida
+é o mesmo,
+
+23
+00:01:07,868 --> 00:01:13,334
+ou seja, o pior caso
+de ordenação rápida é O(n²).
+
+24
+00:01:13,367 --> 00:01:17,501
+Para algo chamado ordenação rápida,
+é uma péssima eficiência.
+
+25
+00:01:17,534 --> 00:01:20,834
+Porém, a ordenação rápida é útil
+por duas razões.
+
+26
+00:01:20,868 --> 00:01:24,033
+1º: as complexidades
+de caso médio e melhor caso
+
+27
+00:01:24,067 --> 00:01:26,200
+são, na verdade, nlog(n).
+
+28
+00:01:26,701 --> 00:01:29,400
+Em um bom caso,
+o pivô andará até o meio,
+
+29
+00:01:29,434 --> 00:01:32,634
+e sempre cortaremos o arranjo
+ao meio.
+
+30
+00:01:32,667 --> 00:01:36,534
+Com o pivô no meio,
+podemos analisar as outras metades
+
+31
+00:01:36,567 --> 00:01:39,067
+e mover seus pivôs
+para o meio também.
+
+32
+00:01:39,100 --> 00:01:43,200
+Como estes pivôs estão ordenados,
+tudo está ordenado,
+
+33
+00:01:43,234 --> 00:01:45,200
+então terminamos
+bem depressa.
+
+34
+00:01:45,234 --> 00:01:48,300
+Como sempre cortamos o arranjo
+pela metade,
+
+35
+00:01:48,334 --> 00:01:50,634
+parecerá uma ordenação
+por mistura.
+
+36
+00:01:50,667 --> 00:01:53,934
+Por isso
+a eficiência é nlog(n).
+
+37
+00:01:53,968 --> 00:01:57,000
+O caso médio se parecerá
+com isto.
+
+38
+00:01:57,033 --> 00:02:01,501
+Escolhemos um número aleatório,
+movemos até o meio e assim vai.
+
+39
+00:02:01,534 --> 00:02:05,200
+Porém, se tivermos arranjos
+quase ordenados,
+
+40
+00:02:05,234 --> 00:02:07,067
+não usaremos
+este algoritmo,
+
+41
+00:02:07,100 --> 00:02:10,133
+já que isso sempre será
+o pior caso.
+
+42
+00:02:10,167 --> 00:02:13,367
+A 2ª questão é que você pode
+otimizar o algoritmo
+
+43
+00:02:13,400 --> 00:02:15,400
+para executá-lo
+mais depressa.
+
+44
+00:02:15,434 --> 00:02:18,300
+Por exemplo,
+quando você divide seu arranjo,
+
+45
+00:02:18,334 --> 00:02:22,601
+você pode configurar seu programa
+para executar as metades juntas.
+
+46
+00:02:22,634 --> 00:02:26,901
+Ele usará a mesma capacidade,
+mas gastará menos tempo.
+
+47
+00:02:26,934 --> 00:02:30,000
+E, em vez de o último elemento
+ser o pivô,
+
+48
+00:02:30,033 --> 00:02:34,000
+analise os últimos elementos
+e selecione o do meio como pivô.
+
+49
+00:02:34,033 --> 00:02:38,567
+Isso lhe dará uma noção melhor
+do que está no meio do arranjo.
+
+50
+00:02:38,601 --> 00:02:42,000
+Assim, você terá grandes chances
+de movê-lo no meio,
+
+51
+00:02:42,033 --> 00:02:44,400
+o que é o melhor caso.
+
+52
+00:02:44,434 --> 00:02:46,968
+Além disso,
+esta versão é in-place,
+
+53
+00:02:47,000 --> 00:02:49,667
+então não usamos
+espaços adicionais.
+
+54
+00:02:49,701 --> 00:02:52,501
+A complexidade de espaço
+é constante.

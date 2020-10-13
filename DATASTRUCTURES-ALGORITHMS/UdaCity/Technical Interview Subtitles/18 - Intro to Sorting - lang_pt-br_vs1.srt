@@ -1,0 +1,182 @@
+1
+00:00:00,000 --> 00:00:02,901
+Vamos falar
+de algoritmos de ordenação.
+
+2
+00:00:02,934 --> 00:00:05,834
+Em um algoritmo de busca,
+você tem uma lista
+
+3
+00:00:05,868 --> 00:00:08,167
+e você verifica
+cada elemento.
+
+4
+00:00:08,701 --> 00:00:10,968
+Mas,
+em um algoritmo de ordenação,
+
+5
+00:00:11,000 --> 00:00:13,734
+você muda a ordem
+dos elementos no arranjo.
+
+6
+00:00:14,234 --> 00:00:17,534
+Digamos que você queira
+ordená-los por altura.
+
+7
+00:00:17,567 --> 00:00:19,968
+1º, você tem que tomar
+umas decisões.
+
+8
+00:00:20,000 --> 00:00:24,033
+Coloco o elemento mais baixo
+aqui ou aqui?
+
+9
+00:00:24,067 --> 00:00:26,667
+E que algoritmo devo usar
+para ordenar?
+
+10
+00:00:27,367 --> 00:00:30,400
+Você poderia comparar
+os elementos entre si
+
+11
+00:00:30,434 --> 00:00:32,133
+até ter tudo em ordem.
+
+12
+00:00:32,834 --> 00:00:36,000
+Essa é a abordagem ingênua,
+já que não há truques
+
+13
+00:00:36,033 --> 00:00:38,601
+ou algoritmos legais
+envolvidos.
+
+14
+00:00:38,634 --> 00:00:42,100
+Ela costuma ser a 1ª coisa
+em que a sua mente pensa
+
+15
+00:00:42,133 --> 00:00:44,400
+quando você vê
+um problema novo.
+
+16
+00:00:44,434 --> 00:00:49,100
+Ela faz você pensar que,
+se fizer assim, tudo ficará bem,
+
+17
+00:00:49,133 --> 00:00:52,701
+mas deve ter um jeito
+mais inteligente de fazer isso.
+
+18
+00:00:52,734 --> 00:00:55,234
+A ordenação
+é um tópico meio estranho.
+
+19
+00:00:55,267 --> 00:00:57,868
+É raro um problema
+não ser resolvido
+
+20
+00:00:57,901 --> 00:01:01,501
+com um dos algoritmos clássicos
+que mostrarei.
+
+21
+00:01:01,534 --> 00:01:04,801
+Em relação às entrevistas,
+é importante entender
+
+22
+00:01:04,834 --> 00:01:08,200
+como os algoritmos de ordenação
+funcionam e decorá-los
+
+23
+00:01:08,234 --> 00:01:12,367
+para resolver problemas
+de complexidade bem depressa.
+
+24
+00:01:12,400 --> 00:01:17,968
+Por fim, cheque se você refletiu
+se seu algoritmo é in-place ou não.
+
+25
+00:01:18,000 --> 00:01:21,033
+Um algoritmo in-place
+reorganiza os elementos
+
+26
+00:01:21,067 --> 00:01:23,434
+na estrutura de dados
+que eles estão
+
+27
+00:01:23,467 --> 00:01:27,400
+sem precisar copiar tudo
+para uma nova estrutura.
+
+28
+00:01:27,434 --> 00:01:29,934
+Eles têm baixa complexidade
+de espaço,
+
+29
+00:01:29,968 --> 00:01:33,367
+pois não é necessário recriar
+a estrutura de dados.
+
+30
+00:01:33,400 --> 00:01:35,300
+É comum
+ter a troca clássica
+
+31
+00:01:35,334 --> 00:01:39,033
+em que você ou usa menos espaço
+ou usa menos tempo.
+
+32
+00:01:39,067 --> 00:01:41,968
+Não é importante para arranjos
+com 10 números,
+
+33
+00:01:42,000 --> 00:01:44,868
+mas, se tiver milhões ou bilhões
+de pontos de dados,
+
+34
+00:01:44,901 --> 00:01:46,801
+faz uma tremenda diferença.
+
+35
+00:01:46,834 --> 00:01:49,634
+Não é ruim mencionar isso
+numa entrevista.
+
+36
+00:01:49,667 --> 00:01:53,801
+Escolha um em detrimento do outro,
+mas diga o motivo.
+
+37
+00:01:53,834 --> 00:01:57,968
+Quanto mais razões você der,
+mais inteligente vai parecer.

@@ -1,0 +1,497 @@
+1
+00:00:01,367 --> 00:00:04,834
+Vou chamar minha função principal
+de islandCounter.
+
+2
+00:00:04,868 --> 00:00:06,667
+Vou analisar a matriz aqui.
+
+3
+00:00:06,701 --> 00:00:11,901
+Primeiro,
+quero cuidar... do nulo.
+
+4
+00:00:13,434 --> 00:00:15,367
+Então, se minha matriz...
+
+5
+00:00:17,834 --> 00:00:20,501
+for igual a nulo ou...
+
+6
+00:00:22,234 --> 00:00:25,634
+se ela for igual
+à matriz vazia.
+
+7
+00:00:34,133 --> 00:00:36,634
+Neste caso,
+vou retornar 0 de cara.
+
+8
+00:00:40,801 --> 00:00:42,934
+Agora,
+se este não é o caso,
+
+9
+00:00:42,968 --> 00:00:46,834
+vou inicializar
+minha variável das ilhas para 0,
+
+10
+00:00:46,868 --> 00:00:48,701
+que é o número de ilhas.
+
+11
+00:00:49,434 --> 00:00:53,834
+E vou querer repetir dois laços "for"
+para reiterar sucessivamente.
+
+12
+00:00:53,868 --> 00:00:58,667
+Então quero saber o número de linhas
+e colunas.
+
+13
+00:01:16,701 --> 00:01:19,767
+Na verdade,
+será vice-versa aqui.
+
+14
+00:01:21,100 --> 00:01:23,834
+Certo,
+vou escrever meu laço "for".
+
+15
+00:01:47,968 --> 00:01:53,467
+Ao chegar aqui, vou querer checar
+se o elemento é igual a 1.
+
+16
+00:02:05,601 --> 00:02:09,701
+E, se for, irei incrementar
+minha contagem de ilhas.
+
+17
+00:02:16,467 --> 00:02:21,033
+Agora, preciso fazer a busca em largura
+de que falei antes.
+
+18
+00:02:21,067 --> 00:02:24,501
+Então um método auxiliar
+fará isso.
+
+19
+00:02:32,901 --> 00:02:35,334
+Vou chamá-lo
+de FindPartsOfIsland.
+
+20
+00:02:45,634 --> 00:02:48,100
+Então vou defini-lo
+aqui embaixo.
+
+21
+00:03:09,167 --> 00:03:13,501
+Primeiro, quero inicializar uma fila.
+Certo.
+
+22
+00:03:16,701 --> 00:03:18,701
+Por que escolheu uma fila?
+
+23
+00:03:19,200 --> 00:03:21,567
+Já que esta é
+uma busca em largura,
+
+24
+00:03:22,067 --> 00:03:27,934
+quero poder usar uma fila
+para obter o 1º elemento na...
+
+25
+00:03:27,968 --> 00:03:32,267
+Ao adicionar um elemento à fila,
+quero pegar o 1º adicionado.
+
+26
+00:03:32,300 --> 00:03:34,834
+Sim, faz muito sentido.
+
+27
+00:03:35,467 --> 00:03:38,734
+E, na verdade,
+preciso importar este método aqui,
+
+28
+00:03:38,767 --> 00:03:41,167
+e isso é do framework
+de coleções.
+
+29
+00:03:42,901 --> 00:03:44,200
+Boa ideia.
+
+30
+00:03:55,834 --> 00:04:01,634
+E, primeiro,
+vou anexar meus...
+
+31
+00:04:02,167 --> 00:04:05,133
+índices aqui
+para saber as localizações.
+
+32
+00:04:05,167 --> 00:04:07,567
+Vou anexar isso
+à minha fila.
+
+33
+00:04:18,399 --> 00:04:21,934
+E agora...
+vou fazer a busca em largura aqui,
+
+34
+00:04:21,968 --> 00:04:27,100
+então, enquanto estiver vazia, vamos...
+continuar procurando outras coisas.
+
+35
+00:04:29,734 --> 00:04:31,501
+Enquanto o comprimento
+da fila...
+
+36
+00:04:32,267 --> 00:04:34,667
+Enquanto o comprimento
+da fila...
+
+37
+00:04:36,868 --> 00:04:38,801
+não for igual a 0.
+
+38
+00:04:45,234 --> 00:04:50,334
+Quero agora olhar os elementos
+ao redor.
+
+39
+00:04:50,367 --> 00:04:54,167
+Então, você disse antes
+que eu precisava checar
+
+40
+00:04:54,200 --> 00:04:56,367
+se eles
+realmente estavam ali.
+
+41
+00:04:56,400 --> 00:04:59,934
+Então vou escrever um método auxiliar
+para isso também.
+
+42
+00:05:01,801 --> 00:05:05,968
+Certo, agora que estou checando
+se isto está vazio,
+
+43
+00:05:06,000 --> 00:05:08,067
+farei algo
+com este elemento.
+
+44
+00:05:08,100 --> 00:05:12,934
+Parece que estou ficando sem espaço,
+então vou desenhar uma setinha aqui.
+
+45
+00:05:13,734 --> 00:05:19,701
+E vou cortar esta seção aqui
+que vou usar para terminar o método.
+
+46
+00:05:20,534 --> 00:05:24,100
+O que quero fazer
+é poder...
+
+47
+00:05:24,634 --> 00:05:27,567
+tirar este elemento da...
+
+48
+00:05:27,601 --> 00:05:29,601
+Vou subir mais um pouco.
+
+49
+00:05:32,601 --> 00:05:35,467
+Então vou remover este elemento
+da fila.
+
+50
+00:05:38,601 --> 00:05:40,968
+E quero poder acessar
+estas duas variáveis,
+
+51
+00:05:41,000 --> 00:05:44,434
+então vou transformá-las
+em uma nova.
+
+52
+00:05:54,367 --> 00:05:56,467
+Certo.
+Agora que estou aqui,
+
+53
+00:05:56,501 --> 00:06:00,501
+quero checar
+se este elemento é igual a 1.
+
+54
+00:06:10,100 --> 00:06:14,434
+E, se for, quero transformá-lo em dois,
+como disse antes.
+
+55
+00:06:21,567 --> 00:06:25,601
+Vou usar um método auxiliar aqui
+para checar
+
+56
+00:06:25,634 --> 00:06:29,767
+se esses elementos perto dele
+estão realmente perto.
+
+57
+00:06:29,801 --> 00:06:34,033
+Se estiverem,
+irei adicioná-los à fila.
+
+58
+00:06:34,067 --> 00:06:36,167
+Então, vou chamá-lo de...
+
+59
+00:06:38,734 --> 00:06:40,200
+Mais espaço aqui.
+
+60
+00:06:40,234 --> 00:06:44,133
+Este método será chamado
+de "append...
+
+61
+00:06:48,667 --> 00:06:49,734
+If".
+
+62
+00:06:50,467 --> 00:06:51,968
+Vou atribuir a fila.
+
+63
+00:06:52,467 --> 00:06:54,767
+E também preciso...
+
+64
+00:06:57,334 --> 00:07:01,334
+da... linha, da coluna,
+
+65
+00:07:01,367 --> 00:07:03,801
+e essas duas coordenadas
+aqui.
+
+66
+00:07:05,267 --> 00:07:09,501
+Certo.
+Quero checar aqui se...
+
+67
+00:07:10,968 --> 00:07:13,367
+o valor de x
+
+68
+00:07:14,000 --> 00:07:18,467
+é maior ou igual a 0.
+
+69
+00:07:18,501 --> 00:07:21,200
+Ou... Não.
+Quero dizer "e".
+
+70
+00:07:24,133 --> 00:07:30,067
+E menor
+que o número de colunas,
+
+71
+00:07:30,567 --> 00:07:34,267
+e... se y
+
+72
+00:07:34,801 --> 00:07:37,133
+é maior ou igual a 0,
+
+73
+00:07:37,167 --> 00:07:40,934
+e... se y
+
+74
+00:07:42,567 --> 00:07:45,400
+é menor
+que o número de linhas.
+
+75
+00:07:46,234 --> 00:07:49,100
+Se todas essas condições
+forem verdadeiras,
+
+76
+00:07:49,133 --> 00:07:54,367
+vou querer anexar isto
+à fila.
+
+77
+00:07:57,801 --> 00:08:02,501
+Os dois pontos estão ali,
+então vou anexar isto aqui.
+
+78
+00:08:03,367 --> 00:08:07,200
+Para ter certeza
+de que estou anexando corretamente,
+
+79
+00:08:07,234 --> 00:08:09,300
+vou acessar o 1º elemento.
+
+80
+00:08:09,868 --> 00:08:10,901
+Bem aqui.
+
+81
+00:08:10,934 --> 00:08:13,534
+Meu método auxiliar
+vai funcionar assim.
+
+82
+00:08:13,567 --> 00:08:17,033
+Depois de fazer tudo isso ali,
+o método...
+
+83
+00:08:17,067 --> 00:08:18,868
+Estou sem espaço aqui.
+
+84
+00:08:18,901 --> 00:08:24,667
+Tudo isso significa que estou chamando
+o método para os elementos ao redor.
+
+85
+00:08:24,701 --> 00:08:28,234
+Então vou escrever
+"append...
+
+86
+00:08:31,234 --> 00:08:32,234
+If".
+
+87
+00:08:32,868 --> 00:08:36,667
+E preciso atribuir a fila,
+as linhas, as colunas,
+
+88
+00:08:36,701 --> 00:08:40,200
+e vou fazer x mais 1 e y.
+
+89
+00:08:42,467 --> 00:08:45,601
+Então serão os elementos
+à direita dele.
+
+90
+00:08:48,667 --> 00:08:52,868
+E aí...
+este será o elemento abaixo dele.
+
+91
+00:09:01,934 --> 00:09:03,100
+À esquerda.
+
+92
+00:09:19,801 --> 00:09:23,200
+E acima.
+Acho que é isso.
+
+93
+00:09:24,934 --> 00:09:28,334
+-Bem, isso foi bem tranquilo.
+-Foi, sim.
+
+94
+00:09:28,367 --> 00:09:32,100
+Depois de todas as etapas necessárias
+antes de codificar,
+
+95
+00:09:32,133 --> 00:09:34,234
+fica muito mais fácil
+fazer isso
+
+96
+00:09:34,267 --> 00:09:37,601
+do que se ele tivesse começado
+a codificar de cara.
+
+97
+00:09:37,634 --> 00:09:42,467
+Ele também deixou o entrevistador saber
+o que ele estava fazendo.
+
+98
+00:09:42,501 --> 00:09:45,767
+Mas ele não leu todo o código
+enquanto o escrevia.
+
+99
+00:09:45,801 --> 00:09:49,200
+É comum os entrevistados
+lerem o código todo,
+
+100
+00:09:49,234 --> 00:09:53,968
+o que pode ser irritante e não cria
+um entendimento com o entrevistador.
+
+101
+00:09:54,000 --> 00:09:59,868
+Pois é. Ele se concentrou em explicar
+o objetivo do código enquanto escrevia.
+
+102
+00:09:59,901 --> 00:10:02,334
+Falando,
+você dá ao entrevistador
+
+103
+00:10:02,367 --> 00:10:05,467
+a chance de ajudar
+se a lógica estiver errada.
+
+104
+00:10:05,501 --> 00:10:10,367
+Você também prova que está refletindo
+sobre o código.
+
+105
+00:10:10,400 --> 00:10:14,434
+Se você só escrevê-lo,
+parecerá que você decorou a resposta.

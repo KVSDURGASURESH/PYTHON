@@ -1,0 +1,181 @@
+1
+00:00:00,235 --> 00:00:03,268
+Vou repetir que aqueles
+eram apenas os conceitos básicos.
+
+2
+00:00:03,302 --> 00:00:06,736
+Agora nós vamos estudar
+as várias complicações possíveis.
+
+3
+00:00:06,769 --> 00:00:10,736
+Primeiramente, no exemplo anterior,
+temos que pensar no laço de for.
+
+4
+00:00:10,769 --> 00:00:13,702
+O laço de for
+conta como alguma coisa?
+
+5
+00:00:13,736 --> 00:00:18,135
+Para que o laço funcione,
+você precisa computar todas as vezes
+
+6
+00:00:18,168 --> 00:00:20,534
+para chegar
+ao próximo caractere na string.
+
+7
+00:00:21,001 --> 00:00:24,769
+Já que isto precisa acontecer uma vez
+a cada caractere de entrada,
+
+8
+00:00:24,802 --> 00:00:28,028
+podemos somar um
+ao valor antes de n
+
+9
+00:00:28,061 --> 00:00:31,298
+e a expressão será 3n + 2.
+
+10
+00:00:31,335 --> 00:00:35,635
+Na verdade, é muito difícil prever
+quantas computações
+
+11
+00:00:35,669 --> 00:00:38,435
+este pseudocódigo
+vai utilizar.
+
+12
+00:00:38,468 --> 00:00:41,602
+Por exemplo, uma linguagem
+de nível inferior como a C
+
+13
+00:00:41,635 --> 00:00:45,569
+daria mais erros durante o processo
+e precisaria de mais linhas no código
+
+14
+00:00:45,602 --> 00:00:48,535
+mas teria menos processos
+em andamento em segundo plano.
+
+15
+00:00:48,569 --> 00:00:52,402
+Talvez a versão Python
+tenha o mesmo número de linhas de código,
+
+16
+00:00:52,435 --> 00:00:57,502
+mas teria mais processos em segundo plano
+pois é uma linguagem de nível alto.
+
+17
+00:00:57,535 --> 00:01:00,402
+Por exemplo,
+vamos observar esta linha.
+
+18
+00:01:00,435 --> 00:01:03,435
+Esta linha pode utilizar
+várias computações
+
+19
+00:01:03,469 --> 00:01:07,134
+dependendo da estrutura dos dados
+que a cifra está usando.
+
+20
+00:01:07,736 --> 00:01:09,736
+Se tivermos armazenado
+os dados em uma lista,
+
+21
+00:01:09,769 --> 00:01:12,739
+precisamos conferir cada caractere
+em comparação aos nossos caracteres
+
+22
+00:01:12,773 --> 00:01:14,503
+para solucionar o código.
+
+23
+00:01:14,535 --> 00:01:16,810
+O resultado poderia ser
+de 26 computações
+
+24
+00:01:16,844 --> 00:01:20,047
+para cada caractere
+na string de entrada.
+
+25
+00:01:20,068 --> 00:01:25,901
+O cálculo de eficiência
+provavelmente será assim.
+
+26
+00:01:25,935 --> 00:01:29,901
+Vamos voltar aos exemplos
+de strings de entrada.
+
+27
+00:01:29,935 --> 00:01:33,427
+Se começarmos com uma string
+de entrada de 10 caracteres,
+
+28
+00:01:33,460 --> 00:01:36,769
+teremos 292 computações.
+
+29
+00:01:36,802 --> 00:01:40,068
+Se começarmos com 1 milhão
+de caracteres na string de entrada,
+
+30
+00:01:40,102 --> 00:01:43,802
+teremos que passar
+por 29 milhões de etapas.
+
+31
+00:01:43,836 --> 00:01:46,373
+Devido a escolha
+de estrutura de dados,
+
+32
+00:01:46,406 --> 00:01:49,309
+faremos mais computações
+do que o necessário
+
+33
+00:01:49,343 --> 00:01:51,512
+se escolhermos
+sendo mais inteligentes.
+
+34
+00:01:51,535 --> 00:01:53,313
+Nós vamos estudar
+um pouco mais
+
+35
+00:01:53,347 --> 00:01:56,183
+sobre a eficiência de tipos diferentes
+de estruturas de dados.
+
+36
+00:01:56,202 --> 00:01:59,119
+Espero que agora
+você perceba a importância
+
+37
+00:01:59,152 --> 00:02:02,056
+de pensar na eficiência
+antes de criar o código.

@@ -1,0 +1,119 @@
+1
+00:00:00,501 --> 00:00:05,334
+Como já temos as ferramentas,
+podemos estudar os algoritmos básicos.
+
+2
+00:00:05,367 --> 00:00:08,601
+Digamos que você tenha um array
+em ordem numérica
+
+3
+00:00:08,634 --> 00:00:12,601
+e queira ver se o número
+que você tem existe nele.
+
+4
+00:00:12,634 --> 00:00:16,167
+Se você começar pelo início
+e verificar cada número,
+
+5
+00:00:16,200 --> 00:00:19,801
+o tempo poderia ser O(n)
+se o número for muito grande.
+
+6
+00:00:19,834 --> 00:00:22,234
+O mesmo ocorre
+no outro extremo.
+
+7
+00:00:22,267 --> 00:00:27,434
+O número poderia ser bem pequeno,
+o que levaria tempo linear, no mínimo.
+
+8
+00:00:27,467 --> 00:00:30,934
+Porém, há um truque legal
+que se aproveita do fato
+
+9
+00:00:30,968 --> 00:00:33,067
+de que o array é ordenado.
+
+10
+00:00:33,100 --> 00:00:37,501
+Em vez de começar pelo fim,
+vamos começar pelo meio do array.
+
+11
+00:00:37,534 --> 00:00:42,067
+Você pode se perguntar: o número
+é maior ou menor que o do meio?
+
+12
+00:00:42,100 --> 00:00:43,901
+Já que meu número é maior,
+
+13
+00:00:43,934 --> 00:00:47,601
+sei que tem que estar
+na 2ª metade do array.
+
+14
+00:00:47,634 --> 00:00:50,834
+Agora nem preciso procurar
+na 1ª metade do array.
+
+15
+00:00:50,868 --> 00:00:56,901
+O melhor dessa estratégia é que você
+pode presumir o mesmo na 2ª metade.
+
+16
+00:00:56,934 --> 00:01:00,200
+Verifique o elemento do meio
+e siga a partir daí.
+
+17
+00:01:00,234 --> 00:01:03,167
+Meu número é maior
+que o meio deste array,
+
+18
+00:01:03,200 --> 00:01:06,167
+então só tenho que checar
+o último elemento.
+
+19
+00:01:06,200 --> 00:01:07,499
+Estamos no fim.
+
+20
+00:01:07,532 --> 00:01:10,901
+Checamos o 19 e o 29,
+números lado a lado,
+
+21
+00:01:10,934 --> 00:01:13,133
+mas não vimos o 25.
+
+22
+00:01:13,167 --> 00:01:17,334
+Assim, podemos concluir
+que o 25 não existe neste array.
+
+23
+00:01:17,367 --> 00:01:19,868
+Adivinha?
+Você aprendeu um algoritmo!
+
+24
+00:01:19,901 --> 00:01:25,033
+Eles são descrições de alto nível
+para truques que resolvem problemas.
+
+25
+00:01:25,067 --> 00:01:28,467
+Este se chama busca binária.

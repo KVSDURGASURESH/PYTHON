@@ -1,0 +1,152 @@
+1
+00:00:00,033 --> 00:00:03,300
+Certo, vou utilizar termos novos,
+prepare-se.
+
+2
+00:00:03,334 --> 00:00:06,467
+Pode-se descrever uma árvore
+em termos de níveis
+
+3
+00:00:06,501 --> 00:00:10,267
+ou quantas conexões são necessárias
+para chegar à raiz +1.
+
+4
+00:00:10,300 --> 00:00:14,801
+A raiz é nível 1, e os nós
+diretamente conectados a ela, nível 2.
+
+5
+00:00:14,834 --> 00:00:19,601
+Os nós e árvores são descritos
+como pais e filhos.
+
+6
+00:00:19,634 --> 00:00:23,267
+Neste sistema, um nó
+num nível mais baixo é um pai,
+
+7
+00:00:23,300 --> 00:00:26,868
+e o nó conectado a ele
+num nível mais alto é o filho.
+
+8
+00:00:27,534 --> 00:00:30,901
+Um nó no meio
+pode ser pai e filho,
+
+9
+00:00:30,934 --> 00:00:33,200
+depende
+da comparação sendo feita.
+
+10
+00:00:33,234 --> 00:00:35,834
+Esta não é
+uma árvore genealógica real,
+
+11
+00:00:35,868 --> 00:00:38,267
+onde os filhos
+só têm dois pais.
+
+12
+00:00:38,300 --> 00:00:41,402
+Aqui, os filhos
+só podem ter um pai.
+
+13
+00:00:41,435 --> 00:00:44,133
+Se um pai tem vários filhos,
+
+14
+00:00:44,167 --> 00:00:47,399
+eles são considerados irmãos
+entre si.
+
+15
+00:00:47,702 --> 00:00:51,033
+Você pode falar de ascendência
+de modo semelhante.
+
+16
+00:00:51,067 --> 00:00:54,100
+Um nó num nível mais baixo
+é o ancestral
+
+17
+00:00:54,133 --> 00:00:57,434
+de um nó num nível mais alto,
+que é o descendente.
+
+18
+00:00:57,467 --> 00:00:59,801
+Os nós no final
+que não têm filhos
+
+19
+00:00:59,834 --> 00:01:03,334
+são chamados de folhas
+ou nós externos.
+
+20
+00:01:03,367 --> 00:01:06,300
+Um nó pai é chamado
+de nó interno.
+
+21
+00:01:06,334 --> 00:01:08,300
+As conexões são as arestas,
+
+22
+00:01:08,334 --> 00:01:11,801
+e um grupo de conexões juntas
+chama-se caminho.
+
+23
+00:01:11,834 --> 00:01:14,467
+A altura do nó é o número
+de arestas
+
+24
+00:01:14,501 --> 00:01:17,901
+entre ele e a folha
+mais distante na árvore.
+
+25
+00:01:17,934 --> 00:01:22,300
+Uma folha tem altura 0,
+mas seu pai tem altura 1.
+
+26
+00:01:22,334 --> 00:01:26,267
+A altura total de uma árvore
+é só a altura do nó raiz.
+
+27
+00:01:26,300 --> 00:01:30,567
+Já a profundidade de um nó
+é o número de arestas até a raiz.
+
+28
+00:01:30,601 --> 00:01:33,767
+A altura e a profundidade
+movem-se inversamente.
+
+29
+00:01:33,801 --> 00:01:37,701
+Se um nó estiver perto da folha,
+então estará longe da raiz.
+
+30
+00:01:37,734 --> 00:01:39,901
+Ufa!
+Que bom que terminamos.
+
+31
+00:01:39,934 --> 00:01:42,767
+É hora de aprender mais
+sobre as árvores.

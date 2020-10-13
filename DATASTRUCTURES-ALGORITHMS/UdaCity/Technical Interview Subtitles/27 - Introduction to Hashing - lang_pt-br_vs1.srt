@@ -1,0 +1,115 @@
+1
+00:00:00,538 --> 00:00:02,068
+Oi. Estou de volta.
+
+2
+00:00:02,102 --> 00:00:06,135
+Só queria frisar a importância
+do que está prestes a aprender.
+
+3
+00:00:06,168 --> 00:00:08,568
+Uma estrutura
+que usa uma função hash
+
+4
+00:00:08,602 --> 00:00:11,702
+permite verificações
+em tempo constante.
+
+5
+00:00:11,736 --> 00:00:13,469
+Processe isso um pouco.
+
+6
+00:00:13,502 --> 00:00:17,836
+Com tudo o que você já aprendeu,
+precisa pesquisar em tempo linear.
+
+7
+00:00:17,868 --> 00:00:19,635
+Numa lista ou num conjunto,
+
+8
+00:00:19,669 --> 00:00:23,335
+você deve pesquisar cada elemento
+para achar o que quer.
+
+9
+00:00:23,369 --> 00:00:27,802
+Em pilhas e filas, você busca rapidamente
+elementos antigos ou recentes.
+
+10
+00:00:27,836 --> 00:00:29,129
+Em filas de prioridade,
+
+11
+00:00:29,162 --> 00:00:32,165
+você acha rapidamente
+o de maior prioridade.
+
+12
+00:00:32,202 --> 00:00:36,669
+Mas, se você quiser outro elemento,
+precisa fazer uma busca linear.
+
+13
+00:00:36,702 --> 00:00:38,702
+Fazer buscas
+de tempo constante
+
+14
+00:00:38,736 --> 00:00:43,068
+tornará mais rápido quase todos
+os algoritmos que você escrever.
+
+15
+00:00:43,102 --> 00:00:45,435
+Todos aqui se animaram
+com o fato
+
+16
+00:00:45,469 --> 00:00:48,469
+de que você iria aprender
+algo crucial hoje.
+
+17
+00:00:48,502 --> 00:00:51,135
+Todos queriam estar aqui
+para explicar.
+
+18
+00:00:51,168 --> 00:00:54,068
+Mas não podiam largar
+o trabalho deles,
+
+19
+00:00:54,102 --> 00:00:58,935
+então mandaram um representante,
+o que estava mais empolgado.
+
+20
+00:00:58,968 --> 00:01:00,968
+Vamos ver
+quem eles mandaram.
+
+21
+00:01:03,402 --> 00:01:08,202
+O Starbucks disse que esse conceito
+aparece sempre em entrevistas.
+
+22
+00:01:08,235 --> 00:01:12,502
+Você pode quase sempre otimizar
+ou aprimorar uma resposta com ele,
+
+23
+00:01:12,535 --> 00:01:16,369
+ou apenas usar uma função hash
+em uma questão complexa.
+
+24
+00:01:16,402 --> 00:01:19,602
+Além disso,
+ele viu um esquilo esta manhã.

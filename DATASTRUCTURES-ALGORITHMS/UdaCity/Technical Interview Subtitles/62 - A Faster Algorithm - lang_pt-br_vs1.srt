@@ -1,0 +1,213 @@
+1
+00:00:00,000 --> 00:00:03,267
+Vamos falar
+de uma abordagem mais inteligente.
+
+2
+00:00:03,300 --> 00:00:06,801
+Nosso 1º objetivo não tem que ser
+maximizar o valor
+
+3
+00:00:06,834 --> 00:00:09,400
+para o maior peso possível.
+
+4
+00:00:09,434 --> 00:00:13,868
+E se tentássemos maximizar o valor
+para os menores pesos possíveis
+
+5
+00:00:13,901 --> 00:00:18,000
+e ficássemos adicionando-os
+até atingir o peso máximo?
+
+6
+00:00:18,033 --> 00:00:19,801
+Vamos ver um exemplo.
+
+7
+00:00:19,834 --> 00:00:21,767
+Começaremos
+criando um array,
+
+8
+00:00:21,801 --> 00:00:24,701
+que armazenará
+o maior valor possível
+
+9
+00:00:24,734 --> 00:00:27,534
+para cada peso
+até atingir o peso limite.
+
+10
+00:00:27,567 --> 00:00:31,234
+Vamos supor que os pesos
+são números inteiros positivos,
+
+11
+00:00:31,267 --> 00:00:35,133
+então os índices no array
+representam esses pesos.
+
+12
+00:00:35,167 --> 00:00:38,167
+Por ora,
+vamos inicializar tudo com 0.
+
+13
+00:00:38,200 --> 00:00:43,667
+Estes são os objetos que queremos
+pôr numa mochila com o peso limite 6.
+
+14
+00:00:43,701 --> 00:00:46,300
+Vamos remover o objeto
+com peso 2.
+
+15
+00:00:46,968 --> 00:00:51,634
+Podemos atualizar o valor no índice 2
+com o valor do objeto,
+
+16
+00:00:52,234 --> 00:00:56,267
+aí vamos atualizar tudo depois dele
+com o mesmo valor.
+
+17
+00:00:56,300 --> 00:01:01,667
+Mesmo a mochila aguentando 6,
+até agora só vimos um objeto,
+
+18
+00:01:01,701 --> 00:01:05,634
+então precisamos basear o melhor valor
+em um objeto.
+
+19
+00:01:05,667 --> 00:01:07,567
+Vejamos o próximo objeto.
+
+20
+00:01:07,601 --> 00:01:11,000
+De novo, não podemos mudar nada
+até o índice 5.
+
+21
+00:01:11,033 --> 00:01:14,567
+O valor deste objeto é maior
+que o máximo
+
+22
+00:01:14,601 --> 00:01:16,968
+e ocupa o peso todo.
+
+23
+00:01:17,000 --> 00:01:21,167
+Então substituímos o valor máximo
+para os pesos 5 e 6.
+
+24
+00:01:21,200 --> 00:01:25,934
+Para o último objeto,
+a 1ª coisa a mudar é o índice 4.
+
+25
+00:01:26,634 --> 00:01:30,467
+Este valor é menor que aquele,
+então não faremos nada.
+
+26
+00:01:30,501 --> 00:01:31,901
+Vamos olhar o índice 5
+
+27
+00:01:31,934 --> 00:01:36,334
+e compará-lo com nosso valor
+mais o valor no índice 1.
+
+28
+00:01:36,367 --> 00:01:40,200
+Como o valor antigo é maior,
+deixaremos como está.
+
+29
+00:01:40,234 --> 00:01:45,734
+No índice 6, vamos somar o valor
+do nosso objeto com o do índice 2,
+
+30
+00:01:46,300 --> 00:01:50,400
+o que dará um valor maior,
+então o substituímos.
+
+31
+00:01:50,434 --> 00:01:52,234
+E resolvemos o problema.
+
+32
+00:01:52,267 --> 00:01:55,834
+Isso pode parecer desnecessário
+com um exemplo pequeno,
+
+33
+00:01:55,868 --> 00:01:59,801
+mas imagine quanto tempo pouparíamos
+com vários objetos.
+
+34
+00:01:59,834 --> 00:02:05,167
+Aqui, tiramos proveito da tabela
+para armazenar valores pré-computados.
+
+35
+00:02:05,200 --> 00:02:09,567
+Então só precisamos fazer o trabalho
+uma vez para obter os números.
+
+36
+00:02:09,601 --> 00:02:13,834
+Em cada objeto, checamos se dava
+para aumentar o valor máximo
+
+37
+00:02:13,868 --> 00:02:17,467
+de cada peso possível
+até chegar ao peso máximo.
+
+38
+00:02:18,133 --> 00:02:21,567
+Assim,
+o tempo de execução é n vezes W,
+
+39
+00:02:21,601 --> 00:02:26,467
+onde W é o peso limite da mochila
+e n é o número de elementos.
+
+40
+00:02:27,133 --> 00:02:30,601
+Esta é uma solução
+de tempo pseudopolinomial.
+
+41
+00:02:30,634 --> 00:02:35,767
+Um tempo polinomial verdadeiro
+não teria outra variável além de n.
+
+42
+00:02:35,801 --> 00:02:39,767
+Repito: algoritmos de tempo polinomial
+são muito mais rápidos
+
+43
+00:02:39,801 --> 00:02:43,100
+que os de tempo exponencial
+para números grandes.
+
+44
+00:02:43,133 --> 00:02:46,200
+Então a solução aqui
+costuma ser mais rápida.

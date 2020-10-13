@@ -1,0 +1,128 @@
+1
+00:00:00,000 --> 00:00:04,400
+A BFS ou busca em largura
+é, na verdade, bem semelhante.
+
+2
+00:00:04,434 --> 00:00:07,868
+Você ainda visita cada aresta
+e marca cada nó.
+
+3
+00:00:07,901 --> 00:00:11,067
+Porém, aqui você busca
+todas as arestas de um nó
+
+4
+00:00:11,100 --> 00:00:13,834
+antes de continuar
+a percorrer o grafo.
+
+5
+00:00:13,868 --> 00:00:17,734
+Novamente, começamos pelo 1º nó
+e o marcamos como "visto",
+
+6
+00:00:17,767 --> 00:00:19,968
+aí visitamos
+um nó adjacente.
+
+7
+00:00:20,000 --> 00:00:23,834
+Quando marcarmos o nó,
+poderemos adicioná-lo a uma fila.
+
+8
+00:00:23,868 --> 00:00:28,734
+Lembre-se da diferença entre filas
+e pilhas, que usamos para a DFS.
+
+9
+00:00:28,767 --> 00:00:31,934
+Para filas, removemos
+o 1º elemento colocado.
+
+10
+00:00:31,968 --> 00:00:36,567
+Mas, para pilhas, removemos
+o elemento mais recente.
+
+11
+00:00:36,601 --> 00:00:40,400
+Voltamos para o 1º nó
+e visitamos tudo adjacente a ele,
+
+12
+00:00:40,434 --> 00:00:44,000
+marcando cada um como "visto"
+e adicionando-os à fila.
+
+13
+00:00:44,033 --> 00:00:48,133
+Quando não houver mais arestas,
+poderemos "desenfileirar" um nó
+
+14
+00:00:48,167 --> 00:00:51,367
+e usá-lo como o próximo
+ponto de partida.
+
+15
+00:00:51,400 --> 00:00:53,834
+Analisamos cada nó adjacente
+a ele,
+
+16
+00:00:53,868 --> 00:00:58,200
+adicionando-os à fila
+até esgotarmos nossas opções.
+
+17
+00:00:58,234 --> 00:01:00,767
+Quando "desenfileiramos",
+
+18
+00:01:00,801 --> 00:01:04,501
+pegamos um nó adjacente
+ao nosso nó de início.
+
+19
+00:01:04,534 --> 00:01:09,601
+Uma BFS meio que cria uma árvore
+a partir de um grafo.
+
+20
+00:01:09,634 --> 00:01:12,634
+O nó de partida
+torna-se a raiz.
+
+21
+00:01:12,667 --> 00:01:16,567
+O grupo de nós adjacentes
+é o nível seguinte na árvore.
+
+22
+00:01:16,601 --> 00:01:20,033
+Temos que continuar
+adicionando nós nível a nível.
+
+23
+00:01:20,067 --> 00:01:24,234
+Terminamos um nível por completo
+antes de passar para o próximo.
+
+24
+00:01:24,267 --> 00:01:27,100
+E logo terminamos
+a nossa BFS.
+
+25
+00:01:27,133 --> 00:01:31,834
+A eficiência ainda é o número
+de arestas mais o número de vértices.
+
+26
+00:01:31,868 --> 00:01:36,067
+Novamente, visitamos cada aresta
+e vértice durante o percurso.

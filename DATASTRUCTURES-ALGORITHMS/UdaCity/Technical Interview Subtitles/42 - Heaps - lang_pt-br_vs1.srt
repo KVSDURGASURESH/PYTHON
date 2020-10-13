@@ -1,0 +1,196 @@
+1
+00:00:00,000 --> 00:00:05,501
+Um heap é outro tipo de árvore
+com suas próprias regras adicionais.
+
+2
+00:00:05,534 --> 00:00:10,000
+Em um heap, os elementos ficam
+em ordem crescente ou decrescente,
+
+3
+00:00:10,033 --> 00:00:15,234
+de forma que a raiz é o valor máximo
+ou mínimo da árvore.
+
+4
+00:00:15,267 --> 00:00:17,334
+Há dois tipos de heaps.
+
+5
+00:00:17,367 --> 00:00:21,501
+Os heaps máximo e mínimo,
+para as duas situações.
+
+6
+00:00:22,067 --> 00:00:26,767
+Num heap máximo, o valor do pai
+é sempre mais alto que o filho,
+
+7
+00:00:26,801 --> 00:00:29,534
+então a raiz acaba
+sendo o maior elemento.
+
+8
+00:00:29,567 --> 00:00:31,901
+O oposto se aplica
+a heaps mínimos:
+
+9
+00:00:31,934 --> 00:00:34,634
+um pai tem um valor menor
+que o do filho,
+
+10
+00:00:34,667 --> 00:00:36,834
+então a raiz
+é o elemento mínimo.
+
+11
+00:00:36,868 --> 00:00:39,534
+Heaps não precisam ser
+árvores binárias,
+
+12
+00:00:39,567 --> 00:00:42,234
+então os pais podem ter
+vários filhos.
+
+13
+00:00:42,267 --> 00:00:46,267
+Operações como as de busca,
+inserção e exclusão podem variar
+
+14
+00:00:46,300 --> 00:00:48,701
+dependendo do tipo de heap.
+
+15
+00:00:48,734 --> 00:00:52,000
+Aqui, irei me concentrar
+num heap binário máximo.
+
+16
+00:00:52,033 --> 00:00:54,834
+Então vamos manter a regra
+dos dois filhos,
+
+17
+00:00:54,868 --> 00:00:57,033
+e a raiz
+será o elemento máximo.
+
+18
+00:00:57,067 --> 00:01:00,934
+Além disso, um heap binário
+deve ser uma árvore completa,
+
+19
+00:01:00,968 --> 00:01:04,601
+todos os níveis, fora o último,
+têm que estar cheios.
+
+20
+00:01:04,634 --> 00:01:06,701
+Se o último
+não estiver cheio,
+
+21
+00:01:06,734 --> 00:01:09,534
+adicionamos valores
+daqui para cá.
+
+22
+00:01:09,567 --> 00:01:13,467
+A folha da direita ficará vazia
+até a fila ser preenchida.
+
+23
+00:01:13,501 --> 00:01:16,801
+Neste heap, uma função
+para obter o valor máximo,
+
+24
+00:01:16,834 --> 00:01:20,567
+também chamada de peek,
+ocorre em tempo constante.
+
+25
+00:01:20,601 --> 00:01:23,200
+Certo,
+vamos ver como é a busca.
+
+26
+00:01:23,234 --> 00:01:26,701
+Começamos indo para a esquerda
+ou para a direita?
+
+27
+00:01:26,734 --> 00:01:31,567
+Em uma BST, descobrimos a direção
+através de comparações.
+
+28
+00:01:31,601 --> 00:01:34,300
+Aqui não há garantias
+de ambos os lados.
+
+29
+00:01:34,334 --> 00:01:37,601
+Assim, a busca é uma operação
+de tempo linear,
+
+30
+00:01:37,634 --> 00:01:39,767
+já que não temos macetes
+
+31
+00:01:39,801 --> 00:01:42,434
+e vamos ter
+que buscar a árvore toda.
+
+32
+00:01:42,467 --> 00:01:48,234
+Podemos usar as propriedades
+do heap máximo numa busca.
+
+33
+00:01:48,734 --> 00:01:51,234
+Por exemplo,
+podemos encerrar a busca
+
+34
+00:01:51,267 --> 00:01:54,667
+se o elemento que procuramos
+for maior que a raiz.
+
+35
+00:01:54,701 --> 00:01:58,734
+Em geral, se o valor do nó for maior
+do que o nosso elemento,
+
+36
+00:01:58,767 --> 00:02:03,300
+não precisamos checar as subárvores,
+já que aquele será o valor maior.
+
+37
+00:02:03,334 --> 00:02:06,133
+O pior caso fica igual,
+mas, no caso médio,
+
+38
+00:02:06,167 --> 00:02:09,133
+não precisamos buscar
+cada elemento.
+
+39
+00:02:09,167 --> 00:02:11,901
+O caso médio
+fica n sobre 2,
+
+40
+00:02:11,934 --> 00:02:14,767
+mas, aproximando,
+ainda é tempo linear.

@@ -1,0 +1,49 @@
+1
+00:00:00,033 --> 00:00:02,935
+Se há uma coisa
+para aprender deste curso,
+
+2
+00:00:02,968 --> 00:00:07,434
+é o fato de que estruturas de dados
+têm nomes pouco criativos.
+
+3
+00:00:07,467 --> 00:00:12,667
+Árvores são estruturas de dados
+que, bem, se parecem com árvores.
+
+4
+00:00:12,701 --> 00:00:15,601
+A árvore começa
+de um lugar chamado raiz,
+
+5
+00:00:15,634 --> 00:00:18,501
+e você adiciona dados a ela,
+os galhos.
+
+6
+00:00:19,100 --> 00:00:22,067
+Uma árvore grande se espalha
+com diversos galhos
+
+7
+00:00:22,100 --> 00:00:24,901
+e em várias direções,
+como uma árvore real.
+
+8
+00:00:24,934 --> 00:00:29,033
+Há vários outros termos arbóreos
+relacionados a essas estruturas.
+
+9
+00:00:29,067 --> 00:00:34,400
+Elas têm folhas, uma coleção
+de árvores chama-se floresta, etc.
+
+10
+00:00:34,901 --> 00:00:39,100
+Tente não rir
+enquanto analisamos as árvores.

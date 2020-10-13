@@ -1,0 +1,147 @@
+1
+00:00:00,000 --> 00:00:05,801
+Nos casos 4 e 5, o pai do seu nó
+é vermelho e o irmão, preto.
+
+2
+00:00:06,334 --> 00:00:09,634
+Em ambos,
+você terá que fazer uma rotação.
+
+3
+00:00:09,667 --> 00:00:12,734
+Nela,
+você move um grupo de nós
+
+4
+00:00:12,767 --> 00:00:17,834
+de uma forma que mude a estrutura
+da árvore, mas não a ordem dos nós.
+
+5
+00:00:17,868 --> 00:00:20,534
+Lembre-se
+de que esta ainda é uma BST,
+
+6
+00:00:20,567 --> 00:00:24,167
+então temos que manter
+a ordem rigorosa dos elementos.
+
+7
+00:00:24,200 --> 00:00:28,434
+No caso 4, nosso nó vermelho
+e seu pai vermelho
+
+8
+00:00:28,467 --> 00:00:32,033
+não estão do mesmo lado
+que seus pais.
+
+9
+00:00:32,067 --> 00:00:36,100
+Nosso nó é um filho da direita,
+e seu pai, da esquerda.
+
+10
+00:00:36,601 --> 00:00:39,300
+Aqui faremos uma rotação
+à esquerda,
+
+11
+00:00:39,334 --> 00:00:43,801
+para os nós irem para a esquerda
+enquanto mantêm sua ordem.
+
+12
+00:00:44,467 --> 00:00:49,133
+A esta altura,
+nossa árvore está como a do caso 5,
+
+13
+00:00:49,167 --> 00:00:51,901
+onde o nó vermelho
+e seu pai vermelho
+
+14
+00:00:51,934 --> 00:00:54,434
+estão do mesmo lado
+que seus pais.
+
+15
+00:00:54,968 --> 00:00:57,100
+Neste caso,
+o lado esquerdo.
+
+16
+00:00:57,634 --> 00:01:00,267
+Aqui,
+faremos uma rotação à direita,
+
+17
+00:01:00,300 --> 00:01:04,033
+mas, desta vez,
+com o avô e seus dois filhos.
+
+18
+00:01:04,700 --> 00:01:08,033
+Também precisamos trocar as cores
+destes dois nós.
+
+19
+00:01:09,167 --> 00:01:10,567
+Reordenamos os nós
+
+20
+00:01:10,601 --> 00:01:14,234
+sem mudar o número de nós pretos
+em nenhum caminho.
+
+21
+00:01:14,267 --> 00:01:18,434
+Esses são todos os casos
+que podem surgir durante a inserção.
+
+22
+00:01:18,467 --> 00:01:21,534
+Só precisamos reorganizar
+de forma inteligente
+
+23
+00:01:21,567 --> 00:01:25,767
+para satisfazer as propriedades
+das rubro-negras e das BSTs.
+
+24
+00:01:25,801 --> 00:01:27,267
+Fazendo as rotações,
+
+25
+00:01:27,300 --> 00:01:31,901
+impedimos que uma subárvore
+ficasse maior que as outras.
+
+26
+00:01:31,934 --> 00:01:34,434
+A inserção,
+como a busca e a exclusão,
+
+27
+00:01:34,467 --> 00:01:37,934
+é O(log n) no caso médio
+e no pior caso.
+
+28
+00:01:38,701 --> 00:01:44,234
+As BSTs foram O(n) no pior caso
+porque podiam ser desbalanceadas.
+
+29
+00:01:44,267 --> 00:01:46,634
+Como nos mantemos
+balanceados aqui,
+
+30
+00:01:46,667 --> 00:01:49,200
+o tempo de execução
+não será grande.

@@ -1,0 +1,258 @@
+1
+00:00:00,033 --> 00:00:02,167
+Em linguagens de programação
+de alto nível,
+
+2
+00:00:02,200 --> 00:00:05,601
+não é comum distinguir
+listas encadeadas de arranjos.
+
+3
+00:00:05,634 --> 00:00:08,901
+O que há é uma lista
+com as propriedades de ambos.
+
+4
+00:00:08,934 --> 00:00:13,634
+Porém, perguntas sobre eles
+são muito comuns em entrevistas,
+
+5
+00:00:13,667 --> 00:00:15,682
+então é importante
+saber a diferença.
+
+6
+00:00:15,716 --> 00:00:18,901
+A principal distinção
+é que cada elemento
+
+7
+00:00:18,934 --> 00:00:20,934
+guarda
+informações diferentes.
+
+8
+00:00:20,968 --> 00:00:24,634
+Em ambos, um único elemento
+armazenará um valor.
+
+9
+00:00:24,667 --> 00:00:26,601
+Ou a informação em si.
+
+10
+00:00:26,634 --> 00:00:29,701
+Em um arranjo ou uma lista
+encadeada de números,
+
+11
+00:00:29,734 --> 00:00:31,667
+o valor
+será um único número.
+
+12
+00:00:31,701 --> 00:00:35,667
+Em um arranjo ou em uma lista encadeada
+de valores do tipo string,
+
+13
+00:00:35,701 --> 00:00:37,834
+cada valor terá uma string.
+
+14
+00:00:37,868 --> 00:00:40,267
+Por ora,
+usaremos apenas os números.
+
+15
+00:00:40,300 --> 00:00:44,069
+Em ambos os casos, armazenamos
+mais um tipo de informação.
+
+16
+00:00:44,102 --> 00:00:45,968
+Mas esse tipo é diferente.
+
+17
+00:00:46,002 --> 00:00:49,369
+Em um arranjo, armazenamos
+um número, o índice.
+
+18
+00:00:49,402 --> 00:00:51,968
+Achamos o próximo elemento
+pesquisando
+
+19
+00:00:52,002 --> 00:00:54,803
+pelo elemento no índice 1,
+neste caso.
+
+20
+00:00:54,835 --> 00:00:55,935
+Vamos limpar isso
+
+21
+00:00:55,968 --> 00:00:59,102
+e nos concentrar
+na lista encadeada, por ora.
+
+22
+00:00:59,135 --> 00:01:03,502
+Nela, armazenamos uma referência
+para o próximo elemento na lista.
+
+23
+00:01:03,536 --> 00:01:07,703
+Em muitas linguagens,
+designar o próximo elemento
+
+24
+00:01:07,736 --> 00:01:10,102
+é uma propriedade
+do elemento atual.
+
+25
+00:01:10,135 --> 00:01:12,202
+Em relação ao hardware,
+
+26
+00:01:12,235 --> 00:01:16,402
+seu elemento possui um espaço
+dedicado a ele na memória.
+
+27
+00:01:16,436 --> 00:01:19,502
+Estes números representam
+os locais de memória.
+
+28
+00:01:19,536 --> 00:01:24,235
+Aqui, o componente "seguinte"
+armazena o endereço de memória
+
+29
+00:01:24,269 --> 00:01:27,102
+do elemento seguinte,
+e este elemento
+
+30
+00:01:27,135 --> 00:01:30,069
+armazena "nulo"
+porque não aponta para nada.
+
+31
+00:01:30,102 --> 00:01:35,202
+O bom do sistema é a facilidade
+de inserir e deletar elementos.
+
+32
+00:01:35,235 --> 00:01:38,035
+A adição de um elemento
+parece com isso.
+
+33
+00:01:38,069 --> 00:01:40,336
+Só mudamos
+a referência "seguinte"
+
+34
+00:01:40,369 --> 00:01:43,235
+para que aponte
+para o novo objeto. Pronto!
+
+35
+00:01:43,269 --> 00:01:45,736
+Porém, lembre-se
+de um truque rápido:
+
+36
+00:01:45,769 --> 00:01:50,336
+ao deletar a referência
+e pôr um novo objeto no lugar,
+
+37
+00:01:50,369 --> 00:01:53,002
+você perderá a referência
+para este.
+
+38
+00:01:53,035 --> 00:01:56,002
+Sempre designe um ponteiro
+para este elemento
+
+39
+00:01:56,035 --> 00:01:58,703
+antes de designar um
+para este aqui,
+
+40
+00:01:58,736 --> 00:02:01,902
+para que você não perca
+a referência para este.
+
+41
+00:02:01,935 --> 00:02:03,736
+Agora tudo parece ótimo.
+
+42
+00:02:03,769 --> 00:02:07,135
+Aqui, a inserção
+leva tempo constante,
+
+43
+00:02:07,169 --> 00:02:09,301
+já que só mexemos
+nos ponteiros
+
+44
+00:02:09,336 --> 00:02:12,935
+e não fizemos iterações
+de cada elemento na lista.
+
+45
+00:02:12,968 --> 00:02:15,569
+A remoção de um elemento
+é semelhante,
+
+46
+00:02:15,602 --> 00:02:17,935
+então nem vou
+analisar isso agora.
+
+47
+00:02:17,968 --> 00:02:20,769
+Também existe
+a lista duplamente encadeada,
+
+48
+00:02:20,803 --> 00:02:24,835
+com ponteiros para o elemento
+seguinte e o anterior.
+
+49
+00:02:24,868 --> 00:02:27,669
+As regras são semelhantes
+para esta lista,
+
+50
+00:02:27,703 --> 00:02:31,569
+mas agora você pode atravessar
+a lista em ambas as direções.
+
+51
+00:02:31,602 --> 00:02:34,235
+Atenção
+para não perder referências
+
+52
+00:02:34,269 --> 00:02:36,336
+na adição e remoção
+de elementos,
+
+53
+00:02:36,369 --> 00:02:39,901
+embora seja mais fácil
+do que fazer isso em um arranjo.

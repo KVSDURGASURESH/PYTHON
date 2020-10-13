@@ -1,0 +1,148 @@
+1
+00:00:00,033 --> 00:00:04,601
+Há um tipo mais específico de árvore,
+a árvore binária de busca.
+
+2
+00:00:04,634 --> 00:00:10,667
+Uma árvore binária de busca ou BST
+é, sem dúvidas, uma árvore binária.
+
+3
+00:00:10,701 --> 00:00:14,067
+Ou seja, cada nó pai tem,
+no máximo, dois filhos.
+
+4
+00:00:14,100 --> 00:00:16,734
+Assim como um arranjo
+é um tipo de lista,
+
+5
+00:00:16,767 --> 00:00:19,801
+uma BST é apenas um tipo
+de árvore binária.
+
+6
+00:00:19,834 --> 00:00:21,367
+Há uma regra específica
+
+7
+00:00:21,400 --> 00:00:25,400
+para como os valores de cada nó
+são organizados.
+
+8
+00:00:25,434 --> 00:00:30,300
+As BSTs são ordenadas:
+todo valor à esquerda de um nó
+
+9
+00:00:30,334 --> 00:00:34,901
+é menor que ele,
+e todo valor à direita, maior.
+
+10
+00:00:34,934 --> 00:00:37,167
+Como as BSTs
+têm essa estrutura,
+
+11
+00:00:37,200 --> 00:00:41,434
+fazemos operações de busca,
+inserção e exclusão rapidamente.
+
+12
+00:00:41,467 --> 00:00:45,300
+Por exemplo, queremos achar o 7.
+Começaríamos na raiz.
+
+13
+00:00:45,334 --> 00:00:49,000
+Veríamos que 7 é maior que 5,
+então iríamos à direita.
+
+14
+00:00:49,033 --> 00:00:52,701
+Como o próximo elemento é 8,
+iríamos à esquerda.
+
+15
+00:00:52,734 --> 00:00:55,267
+E, em poucas etapas,
+o encontramos.
+
+16
+00:00:55,300 --> 00:00:58,133
+Não precisamos buscar
+cada elemento
+
+17
+00:00:58,167 --> 00:01:01,133
+para descobrir
+onde estava o que eu queria.
+
+18
+00:01:01,167 --> 00:01:04,400
+Só tivemos que olhar
+para um valor a cada nível
+
+19
+00:01:04,434 --> 00:01:08,100
+e, então, tomamos decisões
+com base em comparações.
+
+20
+00:01:08,133 --> 00:01:12,667
+O tempo de execução de uma busca
+numa BST é a altura da árvore,
+
+21
+00:01:12,701 --> 00:01:16,200
+que provamos ser log(n)
+quando estudamos inserções.
+
+22
+00:01:16,234 --> 00:01:20,000
+A inserção em uma árvore binária
+é quase o mesmo processo.
+
+23
+00:01:20,033 --> 00:01:24,400
+Você começa no topo e toma
+decisões rápidas a cada etapa
+
+24
+00:01:24,434 --> 00:01:27,133
+comparando
+com o que quer adicionar.
+
+25
+00:01:27,167 --> 00:01:30,267
+Você acabará achando um lugar livre
+na árvore.
+
+26
+00:01:30,300 --> 00:01:33,968
+Desde que você tenha comparado
+seu elemento corretamente,
+
+27
+00:01:34,000 --> 00:01:38,868
+você pode pôr seu novo elemento lá
+sem violar as propriedades das BSTs.
+
+28
+00:01:39,436 --> 00:01:42,832
+A exclusão também
+é um pouco mais complicada aqui.
+
+29
+00:01:43,102 --> 00:01:48,067
+Porém, tanto quanto
+para árvores binárias genéricas,
+
+30
+00:01:48,100 --> 00:01:51,835
+então aquelas soluções
+ainda se aplicam.

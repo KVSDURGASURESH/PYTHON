@@ -1,0 +1,207 @@
+1
+00:00:00,000 --> 00:00:04,367
+Há alguns tipos notáveis
+de caminhos e grafos.
+
+2
+00:00:04,400 --> 00:00:07,334
+Aqui, um caminho é uma rota
+que você segue
+
+3
+00:00:07,367 --> 00:00:08,901
+em um percurso ou busca.
+
+4
+00:00:08,934 --> 00:00:12,234
+Você poderia criar um caminho
+que passa
+
+5
+00:00:12,267 --> 00:00:15,467
+por cada aresta de um grafo
+pelo menos uma vez.
+
+6
+00:00:15,501 --> 00:00:18,601
+Esse caminho é chamado
+de caminho euleriano.
+
+7
+00:00:18,634 --> 00:00:23,767
+Sim, pronuncia-se "oileriano",
+uma homenagem ao matemático Euler.
+
+8
+00:00:23,801 --> 00:00:27,234
+Em um caminho euleriano básico,
+você parte de um nó,
+
+9
+00:00:27,267 --> 00:00:31,467
+percorre todas as arestas
+e pode chegar num nó diferente.
+
+10
+00:00:31,968 --> 00:00:36,300
+Em um ciclo euleriano, você deve
+percorrer cada aresta uma vez só
+
+11
+00:00:36,334 --> 00:00:39,334
+e terminar no mesmo nó
+de que você partiu.
+
+12
+00:00:40,067 --> 00:00:44,701
+Nem todo grafo é capaz
+de ter um caminho euleriano.
+
+13
+00:00:44,734 --> 00:00:47,200
+Aqui, não importa
+de onde você parta,
+
+14
+00:00:47,234 --> 00:00:50,100
+você ficará preso
+em um desses nós externos
+
+15
+00:00:50,133 --> 00:00:55,133
+e não poderá alcançar outros
+sem percorrer uma aresta já vista.
+
+16
+00:00:55,734 --> 00:00:57,300
+Tem um macete legal aqui.
+
+17
+00:00:57,334 --> 00:01:01,734
+Nosso amigo Euler dizia que grafos
+só podem ter ciclos eulerianos
+
+18
+00:01:01,767 --> 00:01:04,801
+se todos os vértices
+tiverem um grau par
+
+19
+00:01:04,834 --> 00:01:07,901
+ou um número par de arestas
+conectadas a eles.
+
+20
+00:01:07,934 --> 00:01:11,534
+Caminhos eulerianos
+são um pouco menos rigorosos.
+
+21
+00:01:11,567 --> 00:01:15,601
+O seu grafo pode ter dois nós
+com um grau ímpar
+
+22
+00:01:15,634 --> 00:01:19,400
+desde que eles sejam o começo
+e o fim do caminho.
+
+23
+00:01:19,434 --> 00:01:23,667
+Vamos ver um algoritmo rápido
+para encontrar ciclos eulerianos.
+
+24
+00:01:23,701 --> 00:01:29,067
+Você pode começar de qualquer vértice
+e seguir as arestas até retornar a ele.
+
+25
+00:01:29,100 --> 00:01:31,434
+Se não encontrar
+todas as arestas,
+
+26
+00:01:31,467 --> 00:01:33,667
+você pode partir
+de uma não vista
+
+27
+00:01:33,701 --> 00:01:36,434
+conectada
+a um nó já visitado.
+
+28
+00:01:36,467 --> 00:01:40,634
+Novamente, você cria um caminho
+a partir das arestas não vistas.
+
+29
+00:01:40,667 --> 00:01:45,367
+Você pode continuar este processo
+até ter visto cada aresta uma vez.
+
+30
+00:01:45,968 --> 00:01:49,100
+Aí você pode simplesmente
+somar os caminhos,
+
+31
+00:01:49,133 --> 00:01:52,467
+combinando-os nos nós
+que tiverem em comum.
+
+32
+00:01:52,501 --> 00:01:55,033
+Este algoritmo
+é muito eficiente.
+
+33
+00:01:55,067 --> 00:02:00,133
+Ele demora O do número de arestas,
+já que visita cada aresta uma vez,
+
+34
+00:02:00,167 --> 00:02:03,234
+que é o melhor
+que podíamos esperar.
+
+35
+00:02:03,267 --> 00:02:06,501
+Um caminho hamiltoniano
+é um outro tipo de caminho
+
+36
+00:02:06,534 --> 00:02:09,667
+que deve passar
+por cada vértice uma vez.
+
+37
+00:02:09,701 --> 00:02:14,701
+Do mesmo modo, um ciclo hamiltoniano
+começará e terminará no mesmo vértice.
+
+38
+00:02:14,734 --> 00:02:18,234
+Tentar decidir se um grafo
+tem um caminho hamiltoniano
+
+39
+00:02:18,267 --> 00:02:20,701
+é uma questão famosa
+em Computação
+
+40
+00:02:20,734 --> 00:02:23,801
+chamada de "problemas
+do caminho hamiltoniano".
+
+41
+00:02:23,834 --> 00:02:26,667
+Não temos as ferramentas
+para falar disso,
+
+42
+00:02:26,701 --> 00:02:31,267
+mas falaremos de problemas
+tão famosos quanto em breve.

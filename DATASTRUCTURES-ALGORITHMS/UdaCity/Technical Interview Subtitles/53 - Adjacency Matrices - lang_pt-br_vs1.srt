@@ -1,0 +1,144 @@
+1
+00:00:00,567 --> 00:00:04,334
+Por fim, uma matriz de adjacência
+pode ser usada.
+
+2
+00:00:04,367 --> 00:00:08,300
+Na Computação, uma matriz
+é basicamente um array 2D,
+
+3
+00:00:08,334 --> 00:00:11,868
+mas as listas dentro dela
+são todas do mesmo tamanho.
+
+4
+00:00:11,901 --> 00:00:15,467
+Uma matriz também pode
+ser chamada de array retangular.
+
+5
+00:00:15,501 --> 00:00:18,601
+Olhando,
+ela parece um retângulo.
+
+6
+00:00:18,634 --> 00:00:23,868
+A matriz de adjacência é parecida
+com a lista de adjacência.
+
+7
+00:00:23,901 --> 00:00:28,634
+Os índices do array externo
+ainda representam nós com aqueles IDs.
+
+8
+00:00:28,667 --> 00:00:33,067
+E a lista de dentro ainda representa
+quais nós são adjacentes.
+
+9
+00:00:33,100 --> 00:00:38,300
+Mas essas listas internas representam
+a informação de maneira diferente.
+
+10
+00:00:38,334 --> 00:00:42,801
+Antes, a lista continha apenas
+as IDs dos nós adjacentes.
+
+11
+00:00:42,834 --> 00:00:47,300
+Agora, a lista interior tem uma vaga
+para cada nó no array,
+
+12
+00:00:47,334 --> 00:00:50,901
+onde as IDs dos nós são associadas
+a índices de arrays.
+
+13
+00:00:50,934 --> 00:00:53,901
+Se houver uma aresta
+entre esses 2 nós,
+
+14
+00:00:53,934 --> 00:00:56,300
+colocamos o número 1
+no array.
+
+15
+00:00:56,334 --> 00:00:59,834
+Se não houver arestas,
+colocamos um 0.
+
+16
+00:00:59,868 --> 00:01:03,267
+Veja que a diagonal
+ou o lugar em cada linha
+
+17
+00:01:03,300 --> 00:01:07,868
+onde o número da fileira
+é igual ao da coluna é sempre 0.
+
+18
+00:01:07,901 --> 00:01:10,801
+Esse valor só seria 1
+se houvesse uma aresta
+
+19
+00:01:10,834 --> 00:01:13,567
+que partisse
+e terminasse no mesmo nó.
+
+20
+00:01:13,601 --> 00:01:16,601
+Mas não temos nenhuma assim
+no nosso grafo.
+
+21
+00:01:16,634 --> 00:01:21,400
+Veja também que uma única aresta
+aparece duas vezes na matriz.
+
+22
+00:01:21,434 --> 00:01:24,300
+Por exemplo,
+esta aresta aparece
+
+23
+00:01:24,334 --> 00:01:26,934
+quando a fileira é 0
+e a coluna é 1,
+
+24
+00:01:26,968 --> 00:01:30,934
+e também quando a fileira é 1
+e a coluna é 0.
+
+25
+00:01:30,968 --> 00:01:33,734
+O método de representação usado
+dependerá
+
+26
+00:01:33,767 --> 00:01:36,033
+do que você achar
+mais adequado
+
+27
+00:01:36,067 --> 00:01:39,434
+e de quais operações
+você executará mais vezes.
+
+28
+00:01:39,467 --> 00:01:44,234
+Para analisar o grau do nó
+ou seu número de arestas conectadas,
+
+29
+00:01:44,267 --> 00:01:47,501
+a lista de adjacência
+deverá ser a mais rápida.

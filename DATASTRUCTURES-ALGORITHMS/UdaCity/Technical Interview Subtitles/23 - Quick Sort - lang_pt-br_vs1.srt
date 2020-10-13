@@ -1,0 +1,287 @@
+1
+00:00:00,000 --> 00:00:02,434
+A ordenação rápida
+costuma ser
+
+2
+00:00:02,467 --> 00:00:05,534
+um dos algoritmos de ordenação
+mais eficientes.
+
+3
+00:00:05,567 --> 00:00:10,234
+Para fazê-la,
+escolha um valor aleatório no arranjo.
+
+4
+00:00:10,267 --> 00:00:13,434
+Passe todos os valores maiores
+para cima dele
+
+5
+00:00:13,467 --> 00:00:15,968
+e os menores, para baixo.
+
+6
+00:00:16,000 --> 00:00:19,734
+O valor que você escolhe no início
+chama-se pivô.
+
+7
+00:00:19,767 --> 00:00:21,334
+Continue recursivamente,
+
+8
+00:00:21,367 --> 00:00:25,167
+escolhendo um pivô nas partes
+de cima e de baixo do arranjo
+
+9
+00:00:25,200 --> 00:00:29,434
+e ordenando-os da mesma forma
+até que o arranjo esteja ordenado.
+
+10
+00:00:29,467 --> 00:00:31,868
+Vamos ver isso em ação.
+
+11
+00:00:31,901 --> 00:00:34,467
+Primeiro,
+temos que selecionar um pivô.
+
+12
+00:00:34,501 --> 00:00:39,167
+É comum escolher o último elemento
+como pivô. Então faremos isso.
+
+13
+00:00:40,267 --> 00:00:42,868
+Nosso 1º elemento é maior
+que o pivô.
+
+14
+00:00:42,901 --> 00:00:45,667
+Então precisamos colocá-lo
+atrás do pivô.
+
+15
+00:00:45,701 --> 00:00:47,801
+Mas é uma ordenação
+in-place.
+
+16
+00:00:47,834 --> 00:00:52,267
+Então precisamos mover o elemento
+à frente do pivô para dar lugar.
+
+17
+00:00:52,300 --> 00:00:55,634
+Nesta etapa, vamos mover o 8
+para o último bloco,
+
+18
+00:00:55,667 --> 00:01:00,234
+o 2 para o penúltimo bloco
+e o 10 para o 1º bloco.
+
+19
+00:01:00,834 --> 00:01:02,801
+Isso não parece
+intuitivo.
+
+20
+00:01:02,834 --> 00:01:06,868
+O normal seria mover o 10
+para trás, não para frente.
+
+21
+00:01:06,901 --> 00:01:10,467
+Mas espere, vamos ver logo
+por que isso funciona.
+
+22
+00:01:11,367 --> 00:01:14,968
+Fizemos nossa troca
+e podemos fazer outra comparação.
+
+23
+00:01:15,000 --> 00:01:17,067
+Agora vamos analisar o 10.
+
+24
+00:01:17,100 --> 00:01:21,200
+Como 10 é maior que 2,
+vamos, de novo, movê-lo para trás,
+
+25
+00:01:21,234 --> 00:01:25,100
+mover o 2 para frente
+e o que está na frente dele também.
+
+26
+00:01:25,133 --> 00:01:26,968
+Ótimo, menos uma troca.
+
+27
+00:01:27,767 --> 00:01:30,567
+Por fim, temos o 0
+na frente do arranjo,
+
+28
+00:01:30,601 --> 00:01:33,100
+que é menor
+que nosso pivô 2.
+
+29
+00:01:33,133 --> 00:01:36,300
+Isso é ótimo, mas agora vamos
+para o 2º elemento
+
+30
+00:01:36,334 --> 00:01:38,534
+e faremos o mesmo processo.
+
+31
+00:01:38,567 --> 00:01:42,634
+Como 3 é maior que 2,
+precisamos mudar tudo de novo.
+
+32
+00:01:43,234 --> 00:01:45,968
+Maravilha,
+a aparência está bem melhor.
+
+33
+00:01:46,567 --> 00:01:50,834
+Como 7 ainda é maior que 2,
+precisamos fazer outra comparação.
+
+34
+00:01:51,367 --> 00:01:53,934
+Aqui está a troca
+que precisamos fazer.
+
+35
+00:01:53,968 --> 00:01:56,734
+E é assim
+que nosso arranjo está agora.
+
+36
+00:01:56,767 --> 00:01:59,968
+Isso é muito bom.
+O 2 está no lugar certo.
+
+37
+00:02:00,000 --> 00:02:03,300
+Checamos os anteriores
+e sabemos que são menores.
+
+38
+00:02:03,334 --> 00:02:07,200
+E colocamos elementos depois dele
+que são maiores.
+
+39
+00:02:07,234 --> 00:02:09,967
+Como sabemos
+que tudo abaixo de 2
+
+40
+00:02:10,000 --> 00:02:14,634
+é menor que 2
+e tudo acima de 2 é maior,
+
+41
+00:02:14,667 --> 00:02:17,734
+sabemos que 2 está
+no lugar exato.
+
+42
+00:02:17,767 --> 00:02:21,667
+Vou colori-lo para sabermos
+que não precisamos movê-lo mais.
+
+43
+00:02:21,701 --> 00:02:23,868
+Agora,
+fazemos o mesmo processo
+
+44
+00:02:23,901 --> 00:02:27,834
+para tudo que é menor
+ou maior que o pivô.
+
+45
+00:02:27,868 --> 00:02:30,601
+Vamos começar
+com a parte menor primeiro.
+
+46
+00:02:30,601 --> 00:02:33,801
+Selecionamos o pivô
+e comparamos com tudo antes.
+
+47
+00:02:33,834 --> 00:02:37,701
+Como 0 é menos que 1,
+não temos que fazer nada.
+
+48
+00:02:37,734 --> 00:02:42,868
+Com apenas uma comparação,
+vimos que ambos estão no lugar certo.
+
+49
+00:02:42,901 --> 00:02:46,801
+Agora, na 2ª metade do arranjo,
+selecionamos um pivô.
+
+50
+00:02:46,834 --> 00:02:51,234
+Como 7 e 3 são menores que ele,
+não precisamos movê-los.
+
+51
+00:02:51,267 --> 00:02:55,467
+Porém, 8 é maior que o pivô,
+então temos que fazer uma troca.
+
+52
+00:02:55,501 --> 00:02:57,167
+Completando a troca,
+
+53
+00:02:57,200 --> 00:03:01,667
+vemos que 8 e 10 estão
+nas suas posições finais.
+
+54
+00:03:01,701 --> 00:03:04,300
+Tudo menor que 8
+já estava abaixo dele,
+
+55
+00:03:04,334 --> 00:03:06,634
+então não precisamos
+movê-lo.
+
+56
+00:03:06,667 --> 00:03:11,100
+Agora temos apenas dois elementos
+que talvez precisem ser ordenados.
+
+57
+00:03:11,133 --> 00:03:15,667
+De novo, só precisamos escolher 3
+como pivô e comparar.
+
+58
+00:03:15,701 --> 00:03:17,934
+Esses dois precisam
+ser invertidos.
+
+59
+00:03:17,968 --> 00:03:21,567
+Faça isso depressa,
+aí todo o arranjo estará pronto.

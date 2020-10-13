@@ -1,0 +1,78 @@
+1
+00:00:00,000 --> 00:00:02,934
+É legal olhar
+para árvores binárias cheias,
+
+2
+00:00:02,968 --> 00:00:06,801
+mas não há regras que dizem
+que as BSTs devem ser assim.
+
+3
+00:00:06,834 --> 00:00:11,467
+Esta é uma BST legítima,
+mas parece muito diferente.
+
+4
+00:00:11,501 --> 00:00:14,300
+Há dois ou menos filhos
+para cada pai,
+
+5
+00:00:14,334 --> 00:00:17,501
+e tudo à direita é maior
+que seu pai.
+
+6
+00:00:17,534 --> 00:00:20,400
+É uma árvore binária
+desbalanceada,
+
+7
+00:00:20,434 --> 00:00:23,968
+já que a distribuição de nó
+pende para o lado direito.
+
+8
+00:00:24,000 --> 00:00:27,067
+Uma estrutura assim
+poderia começar pela raiz,
+
+9
+00:00:27,100 --> 00:00:30,267
+mas também
+por uma das subárvores.
+
+10
+00:00:30,300 --> 00:00:34,567
+Pode-se considerar este o pior caso
+para as BSTs.
+
+11
+00:00:34,601 --> 00:00:36,133
+Quando a árvore é assim,
+
+12
+00:00:36,167 --> 00:00:39,167
+as operações de busca,
+inserção e exclusão
+
+13
+00:00:39,200 --> 00:00:41,567
+levam tempo linear,
+no pior caso.
+
+14
+00:00:41,601 --> 00:00:46,734
+Aqui o pior caso seria buscar
+cada elemento, da raiz à folha.
+
+15
+00:00:46,767 --> 00:00:50,934
+Assim, o caso médio
+para essas operações é O(log n),
+
+16
+00:00:50,968 --> 00:00:54,267
+e o pior caso
+para todas elas é O(n).

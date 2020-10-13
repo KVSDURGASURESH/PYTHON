@@ -1,0 +1,67 @@
+1
+00:00:00,000 --> 00:00:01,934
+Vamos falar de mapas.
+
+2
+00:00:02,934 --> 00:00:06,334
+Não era bem deste tipo de mapa
+que queria falar,
+
+3
+00:00:06,367 --> 00:00:08,300
+mas vai servir,
+por enquanto.
+
+4
+00:00:08,334 --> 00:00:12,567
+Sua característica marcante
+é sua estrutura chave-valor.
+
+5
+00:00:13,234 --> 00:00:15,634
+Você pode achar algo
+por sua chave
+
+6
+00:00:15,667 --> 00:00:18,267
+e obter o que está armazenado
+no valor.
+
+7
+00:00:18,868 --> 00:00:22,968
+É bem semelhante
+à nossa definição normal de mapa.
+
+8
+00:00:23,000 --> 00:00:28,100
+Podemos pesquisar algo pelo nome
+e ir onde está para obter o valor.
+
+9
+00:00:28,767 --> 00:00:32,299
+Por exemplo, digamos
+que eu queira achar o Winston.
+
+10
+00:00:32,334 --> 00:00:37,033
+Posso procurar por sua chave
+ou nome para descobrir onde ele está
+
+11
+00:00:37,067 --> 00:00:39,033
+e pegá-lo bem aqui.
+
+12
+00:00:39,067 --> 00:00:42,868
+Mapas também são chamados
+de dicionários pela mesma razão.
+
+13
+00:00:42,901 --> 00:00:46,567
+Se a palavra for a chave
+e a definição, o valor,
+
+14
+00:00:46,601 --> 00:00:48,767
+é praticamente
+a mesma coisa.

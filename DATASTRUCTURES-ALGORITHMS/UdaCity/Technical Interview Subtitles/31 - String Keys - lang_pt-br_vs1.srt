@@ -1,0 +1,182 @@
+1
+00:00:00,033 --> 00:00:04,601
+O bom deste sistema é poder usá-lo
+com chaves string também.
+
+2
+00:00:04,634 --> 00:00:09,400
+Só é preciso criar uma função hash
+que converta letras em números.
+
+3
+00:00:09,434 --> 00:00:13,934
+Letras individuais podem ser facilmente
+convertidas em valores ASCII
+
+4
+00:00:13,968 --> 00:00:18,000
+e muitas linguagens já têm
+funções embutidas que fazem isso.
+
+5
+00:00:18,033 --> 00:00:21,267
+Podemos combinar os valores ASCII
+com uma fórmula
+
+6
+00:00:21,300 --> 00:00:23,934
+para obter um hash único
+para cada letra.
+
+7
+00:00:23,968 --> 00:00:26,868
+Então como será
+nossa função hash?
+
+8
+00:00:26,901 --> 00:00:29,167
+Novamente, há trocas aqui.
+
+9
+00:00:29,200 --> 00:00:31,567
+Cada palavra
+terá seu próprio balde?
+
+10
+00:00:31,601 --> 00:00:36,234
+Você aceita colisões,
+mas quer uma função hash simples?
+
+11
+00:00:36,267 --> 00:00:41,067
+Se tiver 30 ou menos palavras,
+você deve poder usar o valor ASCII
+
+12
+00:00:41,100 --> 00:00:44,834
+para a 1ª letra de uma string
+como um valor hash.
+
+13
+00:00:44,868 --> 00:00:48,534
+A função padrão hashcode
+para chaves string em Java
+
+14
+00:00:48,567 --> 00:00:52,434
+prefere uma tabela hash grande
+a ter colisões.
+
+15
+00:00:52,467 --> 00:00:55,234
+A fórmula
+é aproximadamente assim.
+
+16
+00:00:55,267 --> 00:00:58,801
+Por exemplo,
+vamos usá-la na palavra "udacity",
+
+17
+00:00:58,834 --> 00:01:02,834
+e vamos começar
+com as duas 1ªs letras da string. UD.
+
+18
+00:01:02,868 --> 00:01:06,100
+Podemos pôr estes valores ASCII
+na equação
+
+19
+00:01:06,133 --> 00:01:09,467
+para obter um valor hash único
+para nossa string.
+
+20
+00:01:09,869 --> 00:01:11,634
+Por que isso funciona?
+
+21
+00:01:11,667 --> 00:01:14,968
+Multiplicando o valor ASCII
+de cada letra
+
+22
+00:01:15,000 --> 00:01:18,067
+pela potência de um número,
+como 31,
+
+23
+00:01:18,100 --> 00:01:22,033
+garantimos que cada representação
+numeral ou valor hash
+
+24
+00:01:22,067 --> 00:01:24,067
+será único
+para aquela string.
+
+25
+00:01:24,100 --> 00:01:27,367
+Uma função hash assim seria ótima
+para um dicionário,
+
+26
+00:01:27,400 --> 00:01:30,234
+onde haveria baldes únicos
+para cada string.
+
+27
+00:01:30,267 --> 00:01:35,901
+Porém, strings com só 3 ou 4 letras
+já têm valores hash enormes.
+
+28
+00:01:36,534 --> 00:01:39,167
+A troca
+é muito importante aqui.
+
+29
+00:01:39,200 --> 00:01:44,334
+Desde que você tenha espaço,
+um valor hash único pode ser útil.
+
+30
+00:01:44,367 --> 00:01:47,567
+Por fim, por que o número 31
+foi usado aqui?
+
+31
+00:01:47,601 --> 00:01:50,534
+As funções hash mais antigas
+se aproveitaram
+
+32
+00:01:50,567 --> 00:01:53,067
+de algumas propriedades
+do número 31,
+
+33
+00:01:53,100 --> 00:01:57,667
+e pesquisas mostraram que é útil
+para o hashing de strings.
+
+34
+00:01:58,501 --> 00:02:02,801
+Porém, agora funções hash
+mais complexas foram descobertas.
+
+35
+00:02:02,834 --> 00:02:08,100
+Então o 31 é mais uma convenção
+que o melhor valor para cada caso.
+
+36
+00:02:08,133 --> 00:02:12,701
+Lembre-se de que criar uma solução
+para suas chaves é o mais importante.
+
+37
+00:02:12,734 --> 00:02:15,801
+Não fique preso
+a todas essas convenções.

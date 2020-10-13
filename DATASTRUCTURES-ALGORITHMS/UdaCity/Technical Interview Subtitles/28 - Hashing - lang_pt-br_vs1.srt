@@ -1,0 +1,197 @@
+1
+00:00:00,033 --> 00:00:03,468
+Como essas funções hash mágicas
+funcionam?
+
+2
+00:00:03,502 --> 00:00:07,268
+O objetivo de uma função hash
+é transformar um valor
+
+3
+00:00:07,301 --> 00:00:10,268
+em outro que seja armazenado
+e recuperado facilmente.
+
+4
+00:00:10,301 --> 00:00:14,468
+Você lhe dá um valor,
+ele o converte baseado numa fórmula
+
+5
+00:00:14,502 --> 00:00:19,201
+e devolve uma versão codificada
+que costuma ser o índice em um arranjo.
+
+6
+00:00:19,235 --> 00:00:22,835
+Vamos analisar um exemplo
+para deixar o processo claro.
+
+7
+00:00:22,869 --> 00:00:25,268
+Você irá realizar
+um grande evento.
+
+8
+00:00:25,301 --> 00:00:28,901
+Talvez seja para quem gosta
+de um certo tipo de música.
+
+9
+00:00:28,934 --> 00:00:32,235
+Todos devem comprar ingressos
+antecipadamente.
+
+10
+00:00:32,268 --> 00:00:35,201
+Os ingressos foram numerados
+aleatoriamente,
+
+11
+00:00:35,235 --> 00:00:39,039
+e os números estão em códigos de barra
+no próprio ingresso,
+
+12
+00:00:39,072 --> 00:00:41,542
+que são entregues logo
+que chegam ao evento.
+
+13
+00:00:41,568 --> 00:00:44,168
+Você precisa buscar
+os números depressa
+
+14
+00:00:44,201 --> 00:00:46,802
+quando as pessoas chegarem
+ao evento.
+
+15
+00:00:46,835 --> 00:00:50,435
+Armazenar o número
+em uma dessas incríveis funções hash
+
+16
+00:00:50,468 --> 00:00:52,135
+parece ótimo para você.
+
+17
+00:00:52,168 --> 00:00:56,068
+Você tem todos os números,
+só precisa criar uma função hash
+
+18
+00:00:56,101 --> 00:01:00,769
+para convertê-los em valores hash
+que sejam armazenados facilmente.
+
+19
+00:01:00,802 --> 00:01:02,934
+Um padrão comum
+em funções hash
+
+20
+00:01:02,968 --> 00:01:06,268
+é pegar os últimos dígitos
+de um número grande,
+
+21
+00:01:06,301 --> 00:01:08,735
+dividi-los
+por um número consistente
+
+22
+00:01:08,769 --> 00:01:10,869
+e usar o resto da divisão
+
+23
+00:01:10,901 --> 00:01:14,735
+para achar um lugar
+para armazenar o número em um arranjo.
+
+24
+00:01:15,070 --> 00:01:19,765
+Neste caso, o resto
+tornou-se o índice de um arranjo.
+
+25
+00:01:19,803 --> 00:01:22,135
+Por que essa estratégia
+funciona?
+
+26
+00:01:22,168 --> 00:01:26,602
+Se os números dos ingressos
+fossem de 0 a 100,
+
+27
+00:01:26,635 --> 00:01:31,235
+poderíamos armazená-los em um arranjo
+e buscá-los na hora pelo índice.
+
+28
+00:01:31,268 --> 00:01:34,901
+Quando eles são grandes
+e aleatórios, como os do início,
+
+29
+00:01:34,934 --> 00:01:40,068
+precisamos convertê-los
+em índices de arranjos depressa.
+
+30
+00:01:40,101 --> 00:01:43,034
+As buscas em tempo constante
+funcionam assim.
+
+31
+00:01:43,068 --> 00:01:45,468
+Você dá seu número
+a uma função hash,
+
+32
+00:01:45,502 --> 00:01:49,568
+que devolve um código hash
+que se torna o índice de um arranjo.
+
+33
+00:01:49,602 --> 00:01:54,101
+Você pode ir até o arranjo e obter
+o valor original em tempo constante,
+
+34
+00:01:54,135 --> 00:01:58,268
+já que uma busca de arranjo com índice
+ocorre em tempo constante.
+
+35
+00:01:59,034 --> 00:02:02,535
+Por que usar os últimos dígitos
+de um número grande?
+
+36
+00:02:02,568 --> 00:02:06,502
+Na maioria dos casos,
+eles são os mais aleatórios.
+
+37
+00:02:06,535 --> 00:02:09,467
+Se os números ficarão
+em ordem numérica,
+
+38
+00:02:09,502 --> 00:02:12,266
+os primeiros dígitos
+não serão aleatórios.
+
+39
+00:02:12,735 --> 00:02:17,268
+Provavelmente começarão
+com 1, 2, 3, etc.,
+
+40
+00:02:17,301 --> 00:02:20,799
+em vez de números posteriores,
+como 7, 8 ou 9.

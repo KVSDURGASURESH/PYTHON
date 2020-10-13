@@ -1,0 +1,166 @@
+1
+00:00:00,000 --> 00:00:02,367
+Os grafos
+têm propriedades extras
+
+2
+00:00:02,400 --> 00:00:05,934
+que os tornam úteis
+para modelar vários dados.
+
+3
+00:00:05,968 --> 00:00:09,934
+As arestas podem ter direção,
+quando as relações entre os nós
+
+4
+00:00:09,968 --> 00:00:12,868
+só se aplica
+em uma direção.
+
+5
+00:00:12,901 --> 00:00:15,801
+"Grafo orientado"
+é como o grafo se chama
+
+6
+00:00:15,834 --> 00:00:18,734
+quando as arestas
+têm um senso de direção.
+
+7
+00:00:18,767 --> 00:00:22,467
+Por exemplo, se um grafo
+representar planos de viagem,
+
+8
+00:00:22,501 --> 00:00:27,734
+uma aresta orientada pode mostrar
+a cidade de partida e de chegada.
+
+9
+00:00:27,767 --> 00:00:30,067
+Normalmente,
+um nó estará no início,
+
+10
+00:00:30,100 --> 00:00:34,501
+e o outro, no fim da relação
+ou da ação em curso.
+
+11
+00:00:35,033 --> 00:00:38,901
+Pode-se descrever a aresta
+de um grafo como o 1º nó ("SF"),
+
+12
+00:00:38,934 --> 00:00:41,634
+um verbo ("viaje"),
+a palavra "para"
+
+13
+00:00:41,667 --> 00:00:43,400
+e o outro nó ("Tóquio").
+
+14
+00:00:43,434 --> 00:00:48,567
+Aqui lê-se:
+"De SF, viaje para Tóquio".
+
+15
+00:00:48,601 --> 00:00:52,167
+Se você viajar
+pelas mesmas duas cidades
+
+16
+00:00:52,200 --> 00:00:54,601
+em sentidos opostos,
+ida e volta,
+
+17
+00:00:54,634 --> 00:00:58,367
+você poderá ter duas arestas
+entre os mesmos dois nós
+
+18
+00:00:58,400 --> 00:01:01,367
+representando as direções
+em que você viajou.
+
+19
+00:01:01,400 --> 00:01:05,300
+Um grafo não orientado
+tem arestas sem senso de direção.
+
+20
+00:01:05,334 --> 00:01:08,400
+Por exemplo, se você tiver
+um grafo de pessoas,
+
+21
+00:01:08,434 --> 00:01:11,868
+e houver arestas entre pessoas
+que já se conheceram,
+
+22
+00:01:11,901 --> 00:01:14,801
+arestas orientadas podem
+ser desnecessárias.
+
+23
+00:01:14,834 --> 00:01:19,367
+Já mencionei que grafos podem
+ter ciclos, mas árvores não.
+
+24
+00:01:19,400 --> 00:01:22,634
+Um ciclo acontece
+quando você parte de um nó
+
+25
+00:01:22,667 --> 00:01:25,868
+e segue as arestas
+até voltar para o mesmo nó.
+
+26
+00:01:25,901 --> 00:01:30,467
+Ciclos e grafos podem ser perigosos
+na descrição de algoritmos.
+
+27
+00:01:30,501 --> 00:01:34,000
+Você pode escrever códigos
+para viajar pelo seu grafo,
+
+28
+00:01:34,033 --> 00:01:35,501
+mas, se tiver um ciclo,
+
+29
+00:01:35,534 --> 00:01:39,167
+você pode ficar passando
+pela mesma sequência sem parar,
+
+30
+00:01:39,200 --> 00:01:40,667
+em um laço infinito.
+
+31
+00:01:41,234 --> 00:01:45,801
+Você deve ter certeza
+de que seu grafo é acíclico,
+
+32
+00:01:45,834 --> 00:01:48,501
+ou seja,
+que não tem ciclos.
+
+33
+00:01:48,534 --> 00:01:53,734
+Um tipo muito comum é o DAG
+ou grafo acíclico orientado.
+
+34
+00:01:53,767 --> 00:01:58,467
+É o que parece:
+um grafo orientado sem ciclos.

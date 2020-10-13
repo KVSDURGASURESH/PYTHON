@@ -1,0 +1,251 @@
+1
+00:00:00,000 --> 00:00:04,701
+Certo. Vendo nossas entradas possíveis,
+estou pensando que,
+
+2
+00:00:04,734 --> 00:00:08,734
+se tivéssemos nulo
+ou uma matriz vazia como entrada,
+
+3
+00:00:08,767 --> 00:00:10,000
+retornaríamos 0.
+
+4
+00:00:10,033 --> 00:00:13,367
+Porque, com certeza,
+não haveria ilhas nesse caso.
+
+5
+00:00:13,968 --> 00:00:16,968
+Mas também poderíamos ter isso
+como entrada.
+
+6
+00:00:17,000 --> 00:00:21,634
+Estou pensando que deveríamos começar
+com o 1º elemento, que é 1.
+
+7
+00:00:21,667 --> 00:00:25,601
+Usarei uma variável contadora de ilhas,
+a inicializarei
+
+8
+00:00:25,634 --> 00:00:29,400
+e a incrementarei com 1.
+E aí passarei para o 0.
+
+9
+00:00:29,434 --> 00:00:34,567
+Ele não faz parte de nenhuma ilha,
+então passo para o próximo elemento.
+
+10
+00:00:36,100 --> 00:00:39,434
+Na verdade,
+ele faz parte da mesma ilha.
+
+11
+00:00:39,467 --> 00:00:44,834
+Então tenho que monitorar
+quais uns fazem parte da mesma ilha.
+
+12
+00:00:47,033 --> 00:00:52,133
+Talvez eu pudesse olhar
+para os elementos de cima e de baixo
+
+13
+00:00:52,167 --> 00:00:54,734
+e checar se fazem parte
+da mesma ilha.
+
+14
+00:00:54,767 --> 00:00:57,133
+E aí monitorar isso
+de alguma forma.
+
+15
+00:00:57,167 --> 00:00:58,934
+É, essa é a 3ª abordagem,
+
+16
+00:00:58,968 --> 00:01:03,100
+mas, se você olhar
+para o 1º elemento, por exemplo,
+
+17
+00:01:03,133 --> 00:01:06,300
+há um outro 1 abaixo dele,
+mas nada acima dele.
+
+18
+00:01:06,334 --> 00:01:07,968
+Então o que você faria?
+
+19
+00:01:08,000 --> 00:01:12,901
+Verdade, já que não há 1 em cima,
+acho que teríamos um erro de execução.
+
+20
+00:01:12,934 --> 00:01:16,834
+Então antes tenho que checar
+se há um elemento ali
+
+21
+00:01:16,868 --> 00:01:20,267
+antes de checar
+se ele é 1 ou 0.
+
+22
+00:01:22,167 --> 00:01:25,067
+Vou precisar monitorar isso
+de alguma forma.
+
+23
+00:01:25,100 --> 00:01:27,634
+Pode ser um tipo
+de estrutura de dados.
+
+24
+00:01:27,667 --> 00:01:32,634
+É, a abordagem, o problema ou seu método
+fazem você lembrar de alguma coisa?
+
+25
+00:01:32,667 --> 00:01:36,067
+Já que a matriz pode
+ser representada como um grafo,
+
+26
+00:01:36,100 --> 00:01:38,868
+pode ser um problema
+de busca em largura.
+
+27
+00:01:38,901 --> 00:01:40,968
+Então,
+ao encontrar o 1º um,
+
+28
+00:01:41,000 --> 00:01:45,133
+eu poderia ver os elementos em volta,
+adicioná-los a uma fila,
+
+29
+00:01:45,167 --> 00:01:49,801
+checar se são números 1, e, se forem,
+transformá-los em outro número
+
+30
+00:01:49,834 --> 00:01:52,968
+para marcá-los como "vistos".
+Aí eu continuaria.
+
+31
+00:01:53,000 --> 00:01:55,601
+-É, isso parece ótimo.
+-Beleza.
+
+32
+00:01:55,634 --> 00:01:58,567
+Parece que os casos de teste dele
+foram úteis
+
+33
+00:01:58,601 --> 00:02:01,734
+-no brainstorming da solução.
+-Com certeza.
+
+34
+00:02:02,634 --> 00:02:07,334
+Ele pôde usar os casos de teste
+para desenvolver uma solução.
+
+35
+00:02:07,367 --> 00:02:11,634
+Também percebi que ele se comunicou bem
+com a entrevistadora.
+
+36
+00:02:11,667 --> 00:02:15,701
+Ele aceitou as dicas dela
+para guiá-lo até a solução correta.
+
+37
+00:02:15,734 --> 00:02:18,601
+Um grande equívoco
+dos futuros entrevistados
+
+38
+00:02:18,634 --> 00:02:21,367
+é achar que o entrevistador
+é um inimigo.
+
+39
+00:02:21,400 --> 00:02:24,100
+Mas o entrevistador está lá
+para ajudar.
+
+40
+00:02:24,133 --> 00:02:28,767
+Aceitar a opinião dele demonstra
+sua capacidade de trabalhar em equipe.
+
+41
+00:02:28,801 --> 00:02:31,400
+Além de ajudar
+a resolver o problema.
+
+42
+00:02:31,434 --> 00:02:34,334
+Às vezes,
+um entrevistado fica tão nervoso
+
+43
+00:02:34,367 --> 00:02:37,767
+que ignora totalmente
+as sugestões do entrevistador.
+
+44
+00:02:37,801 --> 00:02:40,334
+Eles podem achar isso
+desagradável.
+
+45
+00:02:40,367 --> 00:02:45,133
+E se o entrevistado continuasse empacado
+depois de ver os casos?
+
+46
+00:02:45,167 --> 00:02:49,267
+Bem, o entrevistado falou
+que o problema o fazia lembrar
+
+47
+00:02:49,300 --> 00:02:51,501
+do algoritmo
+de busca em largura.
+
+48
+00:02:51,534 --> 00:02:54,501
+Quando você empacar
+numa parte do problema,
+
+49
+00:02:54,534 --> 00:02:57,801
+basta um brainstorming
+de algoritmos e estruturas.
+
+50
+00:02:57,834 --> 00:03:02,100
+O entrevistado viu que um grafo
+pode ser representado como matriz,
+
+51
+00:03:02,133 --> 00:03:05,667
+e que um algoritmo de busca em largura
+seria adequado.

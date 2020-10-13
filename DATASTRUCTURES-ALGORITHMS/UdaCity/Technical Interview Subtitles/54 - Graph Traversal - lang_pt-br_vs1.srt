@@ -1,0 +1,59 @@
+1
+00:00:00,000 --> 00:00:05,000
+Como você já viu, grafos são ótimos
+para modelar conexões entre elementos.
+
+2
+00:00:05,033 --> 00:00:08,300
+Isso já é bom,
+mas grafos são muito poderosos
+
+3
+00:00:08,334 --> 00:00:12,334
+porque são fáceis de percorrer
+com base em conexões.
+
+4
+00:00:12,367 --> 00:00:16,100
+Percorrer grafos é bem parecido
+com percorrer árvores.
+
+5
+00:00:16,133 --> 00:00:20,667
+Uma árvore é um tipo específico
+de grafo, então faz sentido.
+
+6
+00:00:21,234 --> 00:00:24,234
+Temos dois métodos básicos
+de percurso.
+
+7
+00:00:24,267 --> 00:00:29,067
+A busca em profundidade,
+em que seguimos um caminho até o fim,
+
+8
+00:00:29,100 --> 00:00:33,200
+e a busca em largura,
+em que vemos todos os nós adjacentes
+
+9
+00:00:33,234 --> 00:00:35,868
+antes de ir
+para o próximo nível.
+
+10
+00:00:35,901 --> 00:00:38,801
+Essas técnicas de percurso
+costumam aparecer
+
+11
+00:00:38,834 --> 00:00:41,601
+em algoritmos de grafos
+mais avançados.
+
+12
+00:00:41,634 --> 00:00:44,601
+Então as entenda bem
+antes de seguir adiante.

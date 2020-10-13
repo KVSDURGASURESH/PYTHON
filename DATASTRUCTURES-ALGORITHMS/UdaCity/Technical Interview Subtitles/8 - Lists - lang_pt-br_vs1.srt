@@ -1,0 +1,112 @@
+1
+00:00:00,210 --> 00:00:02,835
+Uma lista possui todas
+as características de uma coleção.
+
+2
+00:00:02,877 --> 00:00:06,711
+É um grupo de coisas
+que possui ordem.
+
+3
+00:00:06,753 --> 00:00:10,794
+Uma lista de compras, que não é algo
+que programadores fazem com frequência,
+
+4
+00:00:10,834 --> 00:00:14,294
+possui várias características
+das listas que usamos.
+
+5
+00:00:14,336 --> 00:00:17,502
+Há algumas coisas
+que não são iguais a objetos,
+
+6
+00:00:17,544 --> 00:00:20,461
+mas ainda estão
+relacionados a tudo na lista.
+
+7
+00:00:20,502 --> 00:00:22,252
+A ordem não muda
+muita coisa.
+
+8
+00:00:22,294 --> 00:00:24,691
+É apenas a ordem
+em que as coisas acabaram lá em casa
+
+9
+00:00:24,725 --> 00:00:26,793
+e não possui tamanho fixo.
+
+10
+00:00:26,834 --> 00:00:31,669
+Eu posso adicionar itens até o final
+ou adicionar e remover itens do meio
+
+11
+00:00:31,711 --> 00:00:34,127
+que não vai mudar nada.
+
+12
+00:00:34,169 --> 00:00:38,419
+Novamente, a implementação
+ao adicionar elementos
+
+13
+00:00:38,461 --> 00:00:41,794
+irá mudar de acordo com a linguagem
+e o tipo de estrutura de dados.
+
+14
+00:00:41,834 --> 00:00:46,336
+Como são apenas exemplos teóricos,
+não se prendam aos detalhes.
+
+15
+00:00:46,377 --> 00:00:49,502
+Nesta lição, vamos estudar
+vários tipos de listas.
+
+16
+00:00:49,544 --> 00:00:52,834
+Quando a linguagem de programação muda,
+o tratamento também muda.
+
+17
+00:00:52,834 --> 00:00:54,621
+Às vezes,
+uma lista é incorporada
+
+18
+00:00:54,655 --> 00:00:57,057
+como um atributo principal
+da linguagem de programação,
+
+19
+00:00:57,085 --> 00:00:59,834
+mas a aparência dela
+pode mudar muito.
+
+20
+00:00:59,834 --> 00:01:03,330
+Os vídeos vão falar
+sobre os conceitos teóricos
+
+21
+00:01:03,363 --> 00:01:04,798
+que podem ser aplicados
+a qualquer linguagem
+
+22
+00:01:04,834 --> 00:01:06,800
+enquanto os textos
+vão explicar
+
+23
+00:01:06,834 --> 00:01:09,403
+as implementações específicas
+da linguagem.

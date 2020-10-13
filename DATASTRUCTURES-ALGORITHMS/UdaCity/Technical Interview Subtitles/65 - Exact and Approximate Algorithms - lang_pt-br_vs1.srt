@@ -1,0 +1,232 @@
+1
+00:00:00,000 --> 00:00:03,934
+O TSP faz parte
+de uma classe especial de problemas
+
+2
+00:00:03,968 --> 00:00:05,501
+chamada NP-Difícil.
+
+3
+00:00:05,534 --> 00:00:08,934
+Problemas NP-Difícil
+não têm um algoritmo conhecido
+
+4
+00:00:08,968 --> 00:00:12,100
+que possa resolvê-los
+em tempo polinomial.
+
+5
+00:00:12,133 --> 00:00:17,200
+Como mencionei na discussão do TSP,
+algoritmos de tempo polinomial
+
+6
+00:00:17,234 --> 00:00:22,300
+têm um tempo de execução em que n
+tem um expoente constante, como n²,
+
+7
+00:00:22,334 --> 00:00:26,267
+e queremos algoritmos
+de tempo polinomial,
+
+8
+00:00:26,300 --> 00:00:29,200
+caso contrário,
+serão lentos demais.
+
+9
+00:00:29,234 --> 00:00:32,934
+O TSP também é
+um problema NP-Difícil.
+
+10
+00:00:33,567 --> 00:00:37,467
+A solução que vimos estava
+em tempo pseudopolinomial,
+
+11
+00:00:37,501 --> 00:00:41,100
+já que nenhuma solução
+de tempo polinomial é conhecida.
+
+12
+00:00:41,133 --> 00:00:43,367
+Como o problema
+é muito difícil,
+
+13
+00:00:43,400 --> 00:00:47,400
+há duas classes de algoritmos
+consideradas soluções.
+
+14
+00:00:47,434 --> 00:00:51,868
+A 1ª é a dos algoritmos exatos,
+que não ocorrem em tempo polinomial,
+
+15
+00:00:51,901 --> 00:00:54,000
+mas chegam
+à resposta correta.
+
+16
+00:00:54,634 --> 00:00:57,534
+A 2ª é a dos algoritmos
+de aproximação,
+
+17
+00:00:57,567 --> 00:01:00,968
+que nem sempre chegam
+à solução exata,
+
+18
+00:01:01,000 --> 00:01:04,233
+mas costumam achar
+uma solução quase ideal.
+
+19
+00:01:04,266 --> 00:01:07,200
+Eles executam
+em um tempo mais razoável,
+
+20
+00:01:07,234 --> 00:01:09,834
+e muitos são até
+de tempo polinomial.
+
+21
+00:01:10,400 --> 00:01:12,868
+A solução "força bruta"
+para o TSP
+
+22
+00:01:12,901 --> 00:01:16,300
+tem a mesma filosofia da solução
+para o da mochila,
+
+23
+00:01:16,334 --> 00:01:20,801
+que é encontrar todas as combinações
+possíveis e escolher a melhor,
+
+24
+00:01:20,834 --> 00:01:23,901
+mas isso leva um tempo
+consideravelmente maior.
+
+25
+00:01:23,934 --> 00:01:25,667
+Ela está em tempo fatorial,
+
+26
+00:01:25,701 --> 00:01:30,334
+então é n vezes cada número inteiro
+entre ele e 1.
+
+27
+00:01:30,834 --> 00:01:34,501
+Também há soluções de prog. dinâmica
+para o TSP.
+
+28
+00:01:35,133 --> 00:01:38,334
+A mais famosa
+é o algoritmo de Held-Karp.
+
+29
+00:01:38,367 --> 00:01:42,267
+Porém, até mesmo as soluções
+de prog. dinâmica são lentas.
+
+30
+00:01:42,300 --> 00:01:46,400
+O tempo de execução desta
+está em tempo exponencial.
+
+31
+00:01:47,167 --> 00:01:52,000
+Mesmo os algoritmos de aproximação
+não descobrindo o caminho exato,
+
+32
+00:01:52,033 --> 00:01:55,300
+há muita investigação ativa neles
+para o TSP.
+
+33
+00:01:55,801 --> 00:01:59,901
+Um dos mais famosos,
+o algoritmo de Christofides,
+
+34
+00:01:59,934 --> 00:02:05,000
+transforma um grafo numa árvore
+onde o nó de partida é a raiz,
+
+35
+00:02:05,033 --> 00:02:09,334
+criando-a e percorrendo-a
+de um jeito especialmente inteligente.
+
+36
+00:02:09,366 --> 00:02:12,501
+O algoritmo garante
+que o caminho que ele produz
+
+37
+00:02:12,534 --> 00:02:16,267
+será, no máximo,
+50% maior que a rota mais curta.
+
+38
+00:02:17,033 --> 00:02:21,901
+Houve pequenas melhoras
+nesses 1ºs casos específicos de TSP,
+
+39
+00:02:21,934 --> 00:02:25,501
+mas, em geral,
+ele é considerado o melhor que existe.
+
+40
+00:02:25,534 --> 00:02:30,334
+O TSP é um estudo de caso interessante
+para este tipo de problema difícil,
+
+41
+00:02:30,367 --> 00:02:35,400
+especialmente por ter muitas aplicações
+e ser amplamente estudado.
+
+42
+00:02:35,434 --> 00:02:39,167
+Embora não perguntem diretamente
+sobre ele em entrevistas,
+
+43
+00:02:39,200 --> 00:02:43,567
+é bom saber que problemas assim existem
+e que é possível se deparar
+
+44
+00:02:43,601 --> 00:02:46,934
+com um problema sem solução eficaz
+numa entrevista.
+
+45
+00:02:46,968 --> 00:02:52,534
+Não se preocupe com o que a NP-Difícil
+ou as classes semelhantes significam,
+
+46
+00:02:52,567 --> 00:02:55,200
+mas lembre-se
+de que até mesmo os gênios
+
+47
+00:02:55,234 --> 00:02:58,334
+não podem resolver tudo
+de forma eficiente.

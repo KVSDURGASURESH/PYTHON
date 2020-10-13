@@ -1,0 +1,133 @@
+1
+00:00:00,033 --> 00:00:03,135
+É hora de falar
+de outra estrutura de dados.
+
+2
+00:00:03,168 --> 00:00:07,901
+Antes de penetrarmos nos mapas,
+quero apresentar um novo conceito.
+
+3
+00:00:07,935 --> 00:00:12,302
+Um conjunto é outro conceito
+abrangente e abstrato.
+
+4
+00:00:12,335 --> 00:00:14,568
+Podemos compará-lo
+com uma lista.
+
+5
+00:00:14,602 --> 00:00:19,102
+Também é uma coleção de coisas,
+mas com uma grande diferença.
+
+6
+00:00:19,135 --> 00:00:22,102
+Os elementos de uma lista
+seguem uma ordem.
+
+7
+00:00:22,135 --> 00:00:23,790
+Os de um conjunto não seguem
+uma ordem,
+
+8
+00:00:23,824 --> 00:00:26,493
+mas compensação,
+não se repetem.
+
+9
+00:00:26,535 --> 00:00:29,068
+Imagine que um conjunto
+é uma bolsa.
+
+10
+00:00:29,102 --> 00:00:31,602
+Você pode pôr a mão
+e tirar algo dela,
+
+11
+00:00:31,635 --> 00:00:34,968
+mas nunca saberá a ordem
+em que os elementos virão.
+
+12
+00:00:35,001 --> 00:00:37,769
+Mapas são estruturas
+baseadas em conjunto,
+
+13
+00:00:37,802 --> 00:00:40,968
+como arranjos são estruturas
+baseadas em lista.
+
+14
+00:00:41,001 --> 00:00:43,435
+As chaves de um mapa
+são um conjunto.
+
+15
+00:00:43,469 --> 00:00:48,235
+Sei que são muitos nomes novos,
+mas vamos ver o que isso significa.
+
+16
+00:00:48,268 --> 00:00:53,369
+As chaves de um mapa, como as palavras
+de um dicionário, têm que ser únicas.
+
+17
+00:00:53,402 --> 00:00:57,369
+Pode haver várias definições
+para uma mesma palavra no valor,
+
+18
+00:00:57,402 --> 00:01:00,569
+mas, se a palavra se repetisse
+no dicionário,
+
+19
+00:01:00,602 --> 00:01:04,334
+você escolheria aleatoriamente
+uma definição na sua busca.
+
+20
+00:01:04,369 --> 00:01:07,836
+Assim, cada chave
+só existe uma vez num mapa.
+
+21
+00:01:07,868 --> 00:01:12,569
+Um grupo de chaves únicas sem ordem
+é chamado de conjunto.
+
+22
+00:01:12,602 --> 00:01:16,268
+Então para que servem os mapas,
+além de serem "dicionários"?
+
+23
+00:01:16,302 --> 00:01:19,802
+Um mapa serve para muitas coisas
+que têm nomes únicos.
+
+24
+00:01:19,836 --> 00:01:22,569
+Por exemplo,
+você tem várias informações
+
+25
+00:01:22,602 --> 00:01:24,335
+sobre os cursos da Udacity.
+
+26
+00:01:24,369 --> 00:01:27,068
+Armazene as IDs dos cursos
+como chaves
+
+27
+00:01:27,102 --> 00:01:31,564
+e use-as para pesquisar
+mais informações como valores.

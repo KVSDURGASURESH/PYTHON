@@ -1,0 +1,199 @@
+1
+00:00:00,000 --> 00:00:05,767
+O problema da mochila mostra a beleza
+da técnica da programação dinâmica.
+
+2
+00:00:05,801 --> 00:00:10,400
+Com ela, pode-se fazer
+um problema complicado como este
+
+3
+00:00:10,434 --> 00:00:14,601
+executar muito mais depressa
+ao ser desmembrado em subproblemas.
+
+4
+00:00:14,634 --> 00:00:19,000
+Aqui, o subproblema foi
+achar a resposta para um peso menor.
+
+5
+00:00:19,033 --> 00:00:22,868
+Você começa resolvendo
+algo parecido com um caso base,
+
+6
+00:00:22,901 --> 00:00:24,667
+um subproblema tão pequeno
+
+7
+00:00:24,701 --> 00:00:28,968
+que a resposta é muito simples
+ou trivial para ser computada.
+
+8
+00:00:29,000 --> 00:00:30,934
+Começamos com um objeto.
+
+9
+00:00:30,968 --> 00:00:33,267
+Com apenas uma coisa
+para analisar,
+
+10
+00:00:33,300 --> 00:00:36,968
+achar o valor máximo possível
+para os pesos foi simples.
+
+11
+00:00:37,000 --> 00:00:40,467
+Outra característica
+de uma solução de prog. dinâmica
+
+12
+00:00:40,501 --> 00:00:45,167
+é a tabela de pesquisa que armazena
+soluções para os subproblemas.
+
+13
+00:00:45,200 --> 00:00:49,801
+Armazenamos aqui os valores máximos
+para limites de peso diferentes.
+
+14
+00:00:49,834 --> 00:00:53,968
+Soluções de prog. dinâmica
+tiram proveito dessas duas coisas -
+
+15
+00:00:54,000 --> 00:00:56,634
+resolver o problema
+para um caso trivial
+
+16
+00:00:56,667 --> 00:00:59,367
+e armazenar a solução
+numa tabela assim -
+
+17
+00:00:59,400 --> 00:01:03,367
+usando-as para adicionar lentamente
+complexidade ao problema.
+
+18
+00:01:03,400 --> 00:01:07,634
+Outra característica
+é uma equação usada
+
+19
+00:01:07,667 --> 00:01:10,601
+a cada etapa
+que você adiciona complexidade.
+
+20
+00:01:11,601 --> 00:01:14,734
+Para nós,
+a equação é algo assim.
+
+21
+00:01:15,501 --> 00:01:20,667
+A equação costuma combinar valores
+previamente computados na tabela.
+
+22
+00:01:21,200 --> 00:01:25,434
+Às vezes entre si e às vezes
+com um novo valor introduzido,
+
+23
+00:01:25,467 --> 00:01:28,801
+como o valor do objeto
+que você estiver analisando.
+
+24
+00:01:28,834 --> 00:01:33,334
+Já usamos os valores armazenados
+na tabela quando adicionamos novos,
+
+25
+00:01:33,367 --> 00:01:36,234
+uma técnica
+chamada "memoização".
+
+26
+00:01:36,267 --> 00:01:39,968
+No fim, não tivemos
+que recomputá-los todas as vezes.
+
+27
+00:01:40,567 --> 00:01:43,567
+Este é o poder oculto
+da programação dinâmica.
+
+28
+00:01:43,601 --> 00:01:47,167
+Você computa e salva soluções
+para problemas menores.
+
+29
+00:01:47,200 --> 00:01:51,734
+Assim não precisa calculá-las de novo
+para problemas mais complexos.
+
+30
+00:01:51,767 --> 00:01:53,667
+Parece uma ideia simples,
+
+31
+00:01:53,701 --> 00:01:58,334
+mas pode ter um efeito poderoso
+sobre a eficiência se bem executada.
+
+32
+00:01:58,367 --> 00:02:02,334
+Uma das habilidades mais úteis
+em entrevistas técnicas
+
+33
+00:02:02,367 --> 00:02:06,934
+é a de localizar um problema
+com uma solução de prog. dinâmica.
+
+34
+00:02:06,968 --> 00:02:09,467
+No início,
+não foi natural para mim,
+
+35
+00:02:09,501 --> 00:02:14,400
+mas, após tentar resolver sozinha
+vários problemas de prog. dinâmica,
+
+36
+00:02:14,434 --> 00:02:16,534
+comecei a pegar o jeito.
+
+37
+00:02:16,567 --> 00:02:19,534
+Deve-se ter cuidado
+com problemas complicados
+
+38
+00:02:19,567 --> 00:02:24,033
+que parecem exigir que você tente
+cada combinação para solucioná-los.
+
+39
+00:02:24,067 --> 00:02:28,634
+Pergunte-se: posso desmembrar
+este problema em subproblemas?
+
+40
+00:02:28,667 --> 00:02:30,234
+Se a resposta for "sim",
+
+41
+00:02:30,267 --> 00:02:34,067
+então seu problema
+tem uma solução de prog. dinâmica.
