@@ -1,0 +1,163 @@
+DevOps
+
+- [ ] LINUX FUNDAMENTALS [ 0 % ]
+
+    - [ ] Linux Kernel Basics
+    - [ ] Linux commands
+
+    - [ ] Example Questions
+        - [ ] What is the sequence of steps that occur when a Linux computer is powered up?
+        - [ ] What happens when you type google.com into your browser that causes a web page to return to you? What if the web page doesn’t appear — how do you debug the problem?
+        - [ ] How do you check if your filesystems are running out of space? How do you print a list of the largest files? How do you delete all .mov files larger than 1 GB?
+
+    - [ ] Activities
+        - [ ] Work through The Linux Command Line book
+        - [ ] Work through the OverTheWire wargames. These are fun scavenger hunts through Linux systems that are well-designed to teach you the fundamental concepts. At least get through the Bandit levels. Don’t be afraid to Google solutions if you get stuck. I highly suggest you document your progress in GitHub as you go.
+        - [ ] Learn vim by simply using the vimtutor command. It’s just the best editor ever and don’t let anyone convince you otherwise.
+        - [ ] Consider paying for acloudguru or Linux Academy courses to get certifications in Linux fundamentals (Linux+, RedHat, etc.). It’s true that a pound of certifications is less valuable than an ounce of experience, but when you are low on experience, certifications can help fill in gaps in your knowledge and prove that you have a basic understanding.
+
+
+- [ ] DATA STRUCTURES & ALGORITHMS & PROGRAMMING LANGUAGE [ 0 % ]
+
+        - [ ] LANGUAGE : PYTHON [ 0 % ]
+            - [ ] Programming with Python | Python for Beginners [1 of 44]
+            - https://www.youtube.com/watch?v=jFCNu1-Xdsw&list=PLlrxD0HtieHhS8VzuMCfQD4uJ9yne1mE6
+            - [ ] Introducing More Python for Beginners | More Python for Beginners [1 of 20]
+            - https://www.youtube.com/watch?v=xYDnHi0u6_c&list=PLlrxD0HtieHiXd-nEby-TMCoUNwhbLUnj
+            - [ ] Programming with Python | Others
+            - https://www.youtube.com/watch?v=vgGXDLuzJSk&list=PLahhVEj9XNTcmfuerFXDELthRaG2I2F8F
+            - [ ] Introduction to Even More Python for Beginners - Data Tools [1 of 31] - [ Not for now ]
+            - https://www.youtube.com/watch?v=D8OaGUYkHTE&list=PLlrxD0HtieHhHnCUVtR8UHS7eLl33zfJ-
+
+            - [ ] Python Lamdas
+            - https://www.youtube.com/watch?v=Ob9rY6PQMfI
+            - https://www.youtube.com/watch?v=cKlnR-CB3tk   [ Map , Filter , Reduce ]
+            - [ ] Python Comprehensions
+            - https://www.youtube.com/watch?v=3dt4OGnU5sM
+            - [ ] REFERENCES
+            - [ ] Python Cheat Sheet: The best Python cheat sheet, although it is on the terse side
+            - [ ] Hitchhiker’s Guide to Python: The best Python documentation.
+            - [ ] My scripts GitHub repo has lots of examples of thoroughly documented code, although it’s really unorganized!
+
+
+        - [ ] DATA STRUCTURES & ALGORITHMS [ 10 % ]
+            - [ ] https://classroom.udacity.com/courses/ud513
+                - [ ] Lesson 6 - Graphs : https://classroom.udacity.com/courses/ud513/lessons/7114284829/concepts/71226151140923
+                - [ ] Lesson 7 - Case Studies in Algorithms - https://classroom.udacity.com/courses/ud513/lessons/7114284829/concepts/71226151140923
+                - [ ] Lesson 8 - Technical Interview Questions - https://classroom.udacity.com/courses/ud513/lessons/7707710408/concepts/77114606610923
+                - [x] Lesson 5 - Trees : https://classroom.udacity.com/courses/ud513/lessons/7122604912/concepts/71181250250923
+                - [x] Lesson 4 - Maps & Hashing : https://classroom.udacity.com/courses/ud513/lessons/7118294395/concepts/71212349810923
+                - [x] Lesson 3 - Searching & Sorting : https://classroom.udacity.com/courses/ud513/lessons/7123524086/concepts/71173440860923
+                - [x] Lesson 2 - List Based Collections : https://classroom.udacity.com/courses/ud513/lessons/7117335401/concepts/71142647970923
+                - [x] Lesson 1 - Introduction & Efficiency  : https://classroom.udacity.com/courses/ud513/lessons/7174469398/concepts/71212749920923
+
+            - [ ] Leet Code
+            - [ ] Technical Interview Practice : https://codesignal.com/developers/interview-practice/
+            - [ ] Research Dynamic Programming, Directed Acyclic Graphs, Topological Sort.
+            - [ ] SQL & NOSQL Databases
+            - [ ] Python Cheat sheet - https://learnxinyminutes.com/docs/python/
+
+            - [ ] Questions
+                - [ ] Remove all duplicates from a list.
+                - [ ] Find the missing IP in a file containing all possible IPs except one.
+                - [ ] Sort all nodes of a binary tree.
+
+- [ ] SYSTEM DESIGN [ 0 % ]
+
+    - [ ] Grokking the System Design Interview - https://www.educative.io/courses/grokking-the-system-design-interview
+    - [ ] Design a microblogging message-based social network like Twitter. How would you ensure high availability across different regions?
+    - [ ] Chip away at the System Design Primer. One fun thing to do is to pick a topic and ask a friend to pick another topic, then spend 2 hours researching your topic before coming back together for an hour or two to share. Take turns playing the roles of interviewer and interviewee.
+    - [ ] Read the Google SRE Book. This is a must-read book for modern DevOps.
+    - [ ] DESIGN PATTERNS - https://sourcemaking.com/design_patterns
+
+
+- [ ] SCRIPTING [ 0 % ]
+    - [ ] PARSING
+        - [ ] Example Questions
+            - [ ] Given an Apache web server log, how many requests are made per day? Which IPs are the most frequent visitors? Which pages and images are the most requested?
+        - [ ] Work through the exercises in Insight’s parsing workshop materials. Focus on awk. The chapter materials are good, but the exercises are the most important part to do.
+        - [ ] References
+            - [ ] LearnXinYminutes: Another great example-driven reference — this time for awk.
+            - [ ] Regexr: The best regular expression reference.
+
+
+- [ ] DEVOPS TOOLS [ 0 % ]
+
+Docker, Terraform, and Kubernetes are essential DevOps tools, and you can’t go wrong learning them thoroughly. You should also know at least one CI/CD tool, such as Jenkins. It’s highly recommended that you learn these tools on at least one of the big three clouds: AWS, GCP, or Azure.
+
+    - [ ] Example Question:
+        - [ ] Deploy a Docker application onto a new AWS EC2 instance using Terraform.
+
+    - [ ] ACTIVITIES
+
+        - [ ] DOCKER
+            - [ ] Work through the Docker for Beginners lab
+            - [ ] Work through the Play With Docker Classroom
+
+        - [ ] KUBERNETES
+            - [ ] You need to learn Kubernetes. In order to learn Kubernetes, you need to learn about containerization and Docker.
+            - [ ] Kubernetes (concept: container orchestration)
+            - [ ] Read through Kubernetes concepts
+            - [ ] Work through the Kubernetes Basics tutorial
+            - [ ] For a deeper dive, work through the Katacoda course
+            - [ ] KUBERNETES [ IBM CLOUD ] - https://www.youtube.com/playlist?list=PLOspHqNVtKABAVX4azqPIu6UfsPzSu2YN
+                - [ ] KUBERNETES EXPLAINED
+                - https://www.youtube.com/watch?v=aSrqRSk43lY&list=PLOspHqNVtKABAVX4azqPIu6UfsPzSu2YN&index=2
+                - [ ] HELM
+                - https://www.youtube.com/watch?v=fy8SHvNZGeE&list=PLOspHqNVtKABAVX4azqPIu6UfsPzSu2YN&index=13
+                - [ ] KUBERNETES OPERATORS
+                - https://www.youtube.com/watch?v=i9V4oCa5f9I&list=PLOspHqNVtKABAVX4azqPIu6UfsPzSu2YN&index=9
+
+        - [ ] CI-CD ( JENKINS / TEAMCITY )
+
+            - [ ] Work through an introductory Jenkins tutorial or two to learn more about CI/CD (concept: deployment pipeline as code). I honestly don’t know that much about Jenkins, so I don’t know better resources for this.
+
+        - [ ] INFRA PROVISION TOOLS ( TERRAFORM )
+            - [ ] Use Vagrant to declaratively define a VM, and then use VirtualBox or Packer to export that VM as an OVA file (concepts: immutable infrastructure, configuration as code).
+            - [ ] Terraform (concept: infrastructure as code)
+            - [ ] Read Terragrunt’s Comprehensive Guide to Terraform
+            - [ ] Work through the Terraform Tutorial
+
+        - [ ] CONFIGURATION MANAGEMENT TOOLS ( ANSIBLE )
+            - [ ] Ansible (concept: configuration as code)
+            - [ ] Watch the intro video
+            - [ ] For some hands-on labs, I think Linux Academy might be the best bet (not free)
+
+        - [ ] MONITORING & LOGGING
+            - [ ] Do the Honeycomb Quickstart to give a flavor of monitoring/tracing tools (concept: full-stack tracing)
+
+        - [ ] SERVICE DISCOVERY ( SERVICE MESH )
+            - [ ] Work through the Consul tutorial (concept: service discovery).
+            - [ ] Play with Linkerd (concept: service mesh)
+
+        - [ ] SECRETS
+            - [ ] Work through the Vault tutorial (concept: enterprise-scale secrets management)
+
+        - [ ] QUEUING / CACHING & STREAMING
+            - [ ] Apache Kafka (concept: fault-tolerant, high throughput event streaming)
+            - [ ] REDIS (HA) - SENTINEL
+            - [ ] Shameless plug for Apache Kafka — find the free Confluent Training course on the site to get a nice set of videos about Kafka fundamentals
+            - [ ] Check out the operations training repo to get your own local docker-compose Kafka cluster up and start playing with Kafka
+
+    - [ ] References
+        - [ ] Ansible: The User Guide.
+        - [ ] Want to do something specific in Kubernetes? Check the Tasks section of the docs. There are many task-specific guides.
+        - [ ] Docker’s Samples page has good examples of fully built applications as well as some good hands-on tutorials. I like the Django+Postgres sample.
+
+- [ ] NETWORKING & SECURITY [ 0 % ]
+- [ ] CLOUD (OCI , AWS ) [ 0 % ]
+
+- [ ] Other High-Value Items [ 0 % ]  
+	Activities
+        - [ ] Listen regularly to the Software Engineering Daily podcast. This is by far the best way to keep a finger on the pulse of the DevOps world. I suggest getting the app so that you can easily search through old episodes for in-depth talks about the technologies and concepts you are studying. In the DevOps Tools section, I gave keywords for the concepts behind each tool. You can use these keywords to search SEdaily for relevant podcasts.
+        - [ ] Read about Kanban boards and use them to enhance your focus and productivity. GitHub has a simple kanban board you can use to keep yourself productive. I also personally like bullet journaling and the Pomodoro Method.
+        - [ ] Dig deep into the technical details of some of your favorite tools. Start with the documentation. Pair up and share your takeaways from the technical deep-dives.
+        - [ ] Consider paying for Linux Academy or acloudguru courses to get AWS, GCP, or Azure certifications.
+
+	References
+        - [ ] Digital Ocean has great tutorials. When I Google, I tend to try “<research topic> site:digitalocean.com” first. This is especially helpful when you are first learning to install something manually.
+
+
+
+
+
