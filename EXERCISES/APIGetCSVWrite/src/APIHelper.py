@@ -50,10 +50,3 @@ class APIHelper:
         log.info("Finished writing to file : {}".format(file_path))
         file_w.close()
 
-# url = "https://swapi.dev/api/people/"
-# o_file_name = 'output_001.csv'
-#
-# obj = APIHelper(url)
-#
-# api_o = obj.star_wars_characters()
-# obj.append_to_file(o_file_name)
