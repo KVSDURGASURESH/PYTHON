@@ -35,7 +35,6 @@ class APIHelper:
             for column_val in api_response.json()['results']:
                 output.append([x for x in map(lambda x: column_val[x], self.columns)])
             return output
-
         else:
             return api_response.reason
 
