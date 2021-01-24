@@ -1,25 +1,20 @@
 import requests
 import csv
 import logging as log
+import json
 import inspect
 
-from APIGetCSVWrite.constants import LOGS_DIR
+from APIGetCSVWrite.constants import LOGS_DIR, OUTPUTS_DIR
 log.basicConfig(filename=LOGS_DIR + 'API.log', level=log.INFO, datefmt='%Y-%m-%d %H:%M:%S')
 
-
+#
 # def log_args(func):
 #
 #     """This decorator dumps out the arguments passed to a function before calling it"""
-#     argnames = func.fund_code.co_varnames[:func.func_code.co_argcount]
-#     fname = func.func_name
 #
-#     def echo_func(*args, **kwargs):
-#         print(
-#             fname, "(", ', '.join(
-#                 '%s=%r' % entry
-#                 for entry in zip(argnames, args[:len(argnames)]) + [("args", list(args[len(argnames):]))] + [
-#                     ("kwargs", kwargs)]) + ")")
-#     return echo_func
+#     def echo_func_args():
+#         inspect.getfullargspec(func)
+#         return echo_func_args
 
 
 class APIHelper:
@@ -35,15 +30,15 @@ class APIHelper:
             for column_val in api_response.json()['results']:
                 output.append([x for x in map(lambda x: column_val[x], self.columns)])
             return output
-
         else:
             return api_response.reason
 
     # @log_args
     def append_to_file(self, file_path):
-        # file_path = os.path.join('outputs/' + file_path)
-        with open(file_path, "w") as file_w:
+
+        with open(OUTPUTS_DIR + file_path, "w") as file_w:
             csv_file = csv.writer(file_w, delimiter=',')
+            # write the header for the csv file - only once
             csv_file.writerow([x.title() for x in self.columns])
             for row in self.star_wars_characters():
                 csv_file.writerow(row)
